@@ -240,9 +240,7 @@ python run_pipeline_final.py
 python -m streamlit run app/app.py
 ```
 
-## 30-second interview explanation
 
-> I built GridWatch as an operations decision-support system rather than a reporting dashboard. I modeled asset behavior longitudinally, prevented future-data leakage, evaluated rare-event predictions on a chronological holdout, calibrated probabilities, converted reliability signals into an auditable maintenance-priority framework, optimized technician assignments under skill and labor constraints, and stress-tested how staffing capacity changes residual operational risk. I also added automated data-quality controls and model documentation so the analytical outputs are reproducible and reviewable.
 
 ## Technical documentation
 
