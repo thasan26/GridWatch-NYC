@@ -1,0 +1,15 @@
+{
+  "pipeline_status": "PASS",
+  "test_suite": "12 passed",
+  "data_quality_status": "PASS",
+  "data_quality_checks": "15/15",
+  "selected_model": "hist_gradient_boosting",
+  "holdout_pr_auc": 0.1876470421418854,
+  "holdout_roc_auc": 0.7115469082710534,
+  "holdout_precision": 0.1453900709219858,
+  "holdout_recall": 0.5720930232558139,
+  "operating_threshold": 0.07217442981704893,
+  "optimizer_status": "Optimal",
+  "unresolved_priority_reduction_pct": 17.90476145605517,
+  "important_disclosure": "All operational data are synthetic; metrics demonstrate methodology, not real MTA predictive accuracy."
+}

@@ -1,0 +1,2487 @@
+incident_id,asset_id,incident_date,severity,downtime_hours,incident_type
+INC-000001,AST-00001,2026-08-26,Low,0.5,Physical damage
+INC-000002,AST-00001,2025-12-15,Critical,7.9,Inspection finding
+INC-000003,AST-00001,2026-08-19,High,4.6,Physical damage
+INC-000004,AST-00001,2024-04-15,Medium,4.0,Physical damage
+INC-000005,AST-00002,2025-11-05,Low,2.3,Protection trip
+INC-000006,AST-00003,2024-11-04,Low,1.7,Inspection finding
+INC-000007,AST-00004,2025-03-02,Medium,2.7,Physical damage
+INC-000008,AST-00004,2024-10-13,Low,2.0,Physical damage
+INC-000009,AST-00005,2024-12-20,Low,0.6,Protection trip
+INC-000010,AST-00005,2026-04-24,High,5.0,Inspection finding
+INC-000011,AST-00005,2024-11-30,Medium,7.9,Overheating
+INC-000012,AST-00005,2025-09-19,Critical,20.7,Inspection finding
+INC-000013,AST-00005,2024-06-01,Medium,5.4,Protection trip
+INC-000014,AST-00005,2025-01-20,Low,0.9,Overheating
+INC-000015,AST-00008,2024-04-07,High,6.4,Electrical fault
+INC-000016,AST-00008,2026-04-15,Low,0.7,Overheating
+INC-000017,AST-00008,2024-12-03,High,6.0,Protection trip
+INC-000018,AST-00009,2024-04-29,Low,1.5,Inspection finding
+INC-000019,AST-00009,2025-11-19,Low,0.4,Physical damage
+INC-000020,AST-00009,2026-06-05,Low,0.4,Electrical fault
+INC-000021,AST-00009,2026-02-20,Medium,1.2,Electrical fault
+INC-000022,AST-00009,2026-05-12,High,3.0,Inspection finding
+INC-000023,AST-00010,2025-09-23,Low,0.6,Electrical fault
+INC-000024,AST-00010,2024-02-10,High,9.8,Physical damage
+INC-000025,AST-00011,2024-11-06,Low,1.2,Electrical fault
+INC-000026,AST-00011,2026-01-13,Medium,5.4,Physical damage
+INC-000027,AST-00012,2025-11-26,Medium,1.3,Inspection finding
+INC-000028,AST-00012,2025-04-02,Medium,0.6,Physical damage
+INC-000029,AST-00014,2026-02-21,Medium,1.8,Physical damage
+INC-000030,AST-00014,2025-08-05,Medium,1.2,Electrical fault
+INC-000031,AST-00015,2026-08-27,Low,1.8,Protection trip
+INC-000032,AST-00016,2025-07-11,Medium,1.8,Inspection finding
+INC-000033,AST-00016,2026-02-27,Medium,2.8,Overheating
+INC-000034,AST-00016,2025-10-09,Medium,0.5,Protection trip
+INC-000035,AST-00016,2026-03-05,Low,3.3,Protection trip
+INC-000036,AST-00017,2024-02-04,Medium,4.5,Physical damage
+INC-000037,AST-00017,2024-08-31,High,1.3,Electrical fault
+INC-000038,AST-00017,2025-07-15,Low,1.4,Overheating
+INC-000039,AST-00019,2024-10-31,Medium,5.2,Inspection finding
+INC-000040,AST-00019,2024-09-19,Medium,1.9,Overheating
+INC-000041,AST-00020,2026-06-17,Medium,2.6,Overheating
+INC-000042,AST-00020,2025-11-26,Low,0.4,Physical damage
+INC-000043,AST-00020,2024-06-21,Low,2.7,Overheating
+INC-000044,AST-00020,2025-02-17,Medium,2.5,Physical damage
+INC-000045,AST-00020,2024-10-01,Medium,6.1,Physical damage
+INC-000046,AST-00021,2025-03-25,Medium,1.3,Electrical fault
+INC-000047,AST-00021,2025-04-11,Low,1.8,Inspection finding
+INC-000048,AST-00021,2024-08-20,High,1.4,Protection trip
+INC-000049,AST-00022,2025-04-09,Low,0.9,Physical damage
+INC-000050,AST-00022,2024-10-01,Low,0.6,Electrical fault
+INC-000051,AST-00023,2025-11-06,Low,2.2,Inspection finding
+INC-000052,AST-00023,2024-10-25,High,1.0,Inspection finding
+INC-000053,AST-00024,2026-08-18,Medium,0.8,Electrical fault
+INC-000054,AST-00024,2025-07-15,High,1.4,Protection trip
+INC-000055,AST-00025,2024-04-11,Low,1.9,Electrical fault
+INC-000056,AST-00025,2024-12-07,Medium,0.6,Electrical fault
+INC-000057,AST-00026,2026-05-22,Medium,2.6,Physical damage
+INC-000058,AST-00026,2024-02-23,Medium,0.4,Inspection finding
+INC-000059,AST-00027,2026-08-25,Low,0.6,Electrical fault
+INC-000060,AST-00027,2024-09-11,Medium,4.8,Overheating
+INC-000061,AST-00027,2024-08-07,High,6.7,Electrical fault
+INC-000062,AST-00028,2024-09-03,Low,3.7,Protection trip
+INC-000063,AST-00028,2024-09-01,Medium,3.2,Electrical fault
+INC-000064,AST-00028,2025-11-03,Critical,0.5,Physical damage
+INC-000065,AST-00028,2024-03-25,Medium,3.0,Physical damage
+INC-000066,AST-00028,2025-09-09,Medium,0.5,Protection trip
+INC-000067,AST-00029,2026-06-04,Low,0.9,Protection trip
+INC-000068,AST-00029,2025-07-12,High,10.8,Protection trip
+INC-000069,AST-00029,2025-01-24,High,4.3,Physical damage
+INC-000070,AST-00031,2026-08-30,Critical,8.3,Protection trip
+INC-000071,AST-00031,2025-07-07,Low,2.0,Physical damage
+INC-000072,AST-00032,2024-05-30,High,3.0,Overheating
+INC-000073,AST-00033,2025-11-16,Medium,2.4,Physical damage
+INC-000074,AST-00035,2025-07-26,Low,1.8,Physical damage
+INC-000075,AST-00035,2024-09-11,High,3.6,Physical damage
+INC-000076,AST-00036,2025-03-05,Low,1.7,Protection trip
+INC-000077,AST-00036,2024-12-16,Low,0.8,Electrical fault
+INC-000078,AST-00037,2026-05-30,Medium,2.0,Inspection finding
+INC-000079,AST-00037,2024-10-30,High,4.6,Protection trip
+INC-000080,AST-00037,2026-06-13,Medium,2.3,Electrical fault
+INC-000081,AST-00037,2025-10-19,Low,2.3,Protection trip
+INC-000082,AST-00037,2026-03-16,Low,3.3,Inspection finding
+INC-000083,AST-00038,2024-03-10,Critical,1.9,Inspection finding
+INC-000084,AST-00039,2025-04-30,Low,0.9,Electrical fault
+INC-000085,AST-00039,2026-04-07,Low,3.8,Protection trip
+INC-000086,AST-00039,2024-03-20,High,8.1,Overheating
+INC-000087,AST-00039,2026-06-25,Low,0.9,Inspection finding
+INC-000088,AST-00039,2024-12-04,Low,0.8,Protection trip
+INC-000089,AST-00039,2026-08-03,High,3.4,Electrical fault
+INC-000090,AST-00039,2025-09-18,Critical,1.8,Overheating
+INC-000091,AST-00041,2024-10-31,High,4.2,Physical damage
+INC-000092,AST-00042,2026-07-05,Low,0.5,Overheating
+INC-000093,AST-00043,2025-09-03,High,4.2,Electrical fault
+INC-000094,AST-00043,2025-10-26,Medium,4.3,Physical damage
+INC-000095,AST-00045,2024-06-28,Low,1.3,Protection trip
+INC-000096,AST-00045,2026-03-26,Low,0.8,Electrical fault
+INC-000097,AST-00045,2024-03-10,Medium,2.7,Overheating
+INC-000098,AST-00046,2026-01-27,High,10.4,Physical damage
+INC-000099,AST-00047,2024-06-23,Low,0.4,Overheating
+INC-000100,AST-00048,2026-04-10,Medium,2.4,Overheating
+INC-000101,AST-00048,2025-06-05,Low,2.4,Electrical fault
+INC-000102,AST-00048,2024-03-11,Low,1.9,Electrical fault
+INC-000103,AST-00048,2024-09-01,Medium,3.5,Overheating
+INC-000104,AST-00049,2025-03-30,Medium,1.4,Protection trip
+INC-000105,AST-00049,2026-01-11,High,6.8,Overheating
+INC-000106,AST-00049,2026-03-25,Low,1.4,Overheating
+INC-000107,AST-00049,2024-11-11,Low,2.2,Electrical fault
+INC-000108,AST-00050,2024-05-10,Medium,0.5,Inspection finding
+INC-000109,AST-00050,2026-05-16,Low,1.9,Overheating
+INC-000110,AST-00050,2025-03-29,High,1.3,Overheating
+INC-000111,AST-00050,2026-03-26,Low,4.8,Inspection finding
+INC-000112,AST-00050,2025-01-17,High,5.6,Inspection finding
+INC-000113,AST-00051,2024-05-21,Medium,1.5,Overheating
+INC-000114,AST-00052,2025-04-13,Low,3.4,Inspection finding
+INC-000115,AST-00052,2024-05-03,Medium,2.2,Electrical fault
+INC-000116,AST-00052,2026-04-01,Medium,2.8,Protection trip
+INC-000117,AST-00052,2024-03-15,High,2.4,Overheating
+INC-000118,AST-00053,2025-12-03,Medium,2.6,Physical damage
+INC-000119,AST-00053,2025-10-05,Medium,0.6,Inspection finding
+INC-000120,AST-00054,2025-06-26,Low,0.4,Electrical fault
+INC-000121,AST-00054,2025-11-22,Critical,22.8,Inspection finding
+INC-000122,AST-00055,2024-08-25,High,3.7,Physical damage
+INC-000123,AST-00055,2025-02-20,Medium,0.6,Physical damage
+INC-000124,AST-00056,2025-12-20,High,8.1,Electrical fault
+INC-000125,AST-00056,2025-12-23,Low,1.2,Inspection finding
+INC-000126,AST-00056,2024-01-28,Low,1.4,Protection trip
+INC-000127,AST-00057,2026-08-24,Low,3.3,Physical damage
+INC-000128,AST-00057,2024-11-06,Low,0.7,Physical damage
+INC-000129,AST-00058,2025-06-28,Low,0.7,Electrical fault
+INC-000130,AST-00058,2024-01-08,Low,1.4,Physical damage
+INC-000131,AST-00058,2025-05-20,Low,3.2,Overheating
+INC-000132,AST-00058,2024-04-20,High,5.9,Physical damage
+INC-000133,AST-00058,2026-06-06,Low,1.6,Inspection finding
+INC-000134,AST-00058,2026-06-01,Medium,1.6,Electrical fault
+INC-000135,AST-00059,2024-07-15,Low,0.7,Electrical fault
+INC-000136,AST-00060,2026-01-10,Low,0.5,Overheating
+INC-000137,AST-00060,2024-01-23,Low,1.0,Electrical fault
+INC-000138,AST-00061,2025-12-26,High,6.8,Overheating
+INC-000139,AST-00061,2024-06-10,Low,3.7,Physical damage
+INC-000140,AST-00061,2026-02-01,Medium,1.3,Physical damage
+INC-000141,AST-00061,2026-01-11,Low,0.8,Inspection finding
+INC-000142,AST-00062,2025-08-24,Medium,3.7,Inspection finding
+INC-000143,AST-00064,2026-01-02,High,8.5,Protection trip
+INC-000144,AST-00064,2024-01-19,Medium,2.5,Overheating
+INC-000145,AST-00064,2024-03-27,Low,1.5,Protection trip
+INC-000146,AST-00064,2026-01-24,High,12.4,Inspection finding
+INC-000147,AST-00064,2025-05-30,Medium,0.7,Protection trip
+INC-000148,AST-00065,2024-04-15,Medium,2.6,Physical damage
+INC-000149,AST-00066,2025-02-17,Medium,5.6,Protection trip
+INC-000150,AST-00066,2025-02-28,Medium,2.9,Physical damage
+INC-000151,AST-00066,2025-04-10,Low,3.0,Inspection finding
+INC-000152,AST-00067,2025-12-18,Low,1.3,Inspection finding
+INC-000153,AST-00067,2025-07-20,Medium,1.9,Inspection finding
+INC-000154,AST-00067,2024-02-17,Low,0.4,Inspection finding
+INC-000155,AST-00067,2024-03-18,Medium,3.2,Electrical fault
+INC-000156,AST-00068,2024-06-10,High,9.8,Physical damage
+INC-000157,AST-00069,2025-10-06,Medium,2.1,Inspection finding
+INC-000158,AST-00069,2025-07-24,Low,0.8,Electrical fault
+INC-000159,AST-00072,2026-07-10,Low,1.0,Electrical fault
+INC-000160,AST-00072,2026-06-22,Low,2.0,Electrical fault
+INC-000161,AST-00072,2026-08-28,Medium,1.0,Physical damage
+INC-000162,AST-00073,2026-07-04,Low,2.4,Overheating
+INC-000163,AST-00074,2024-03-24,Medium,5.1,Physical damage
+INC-000164,AST-00075,2025-03-30,High,10.1,Electrical fault
+INC-000165,AST-00075,2025-10-31,Low,3.5,Protection trip
+INC-000166,AST-00075,2025-06-08,Low,3.7,Physical damage
+INC-000167,AST-00075,2025-08-23,High,4.7,Overheating
+INC-000168,AST-00076,2026-02-23,Low,1.4,Protection trip
+INC-000169,AST-00077,2026-06-09,Medium,3.4,Protection trip
+INC-000170,AST-00077,2026-06-22,Low,1.6,Electrical fault
+INC-000171,AST-00077,2025-03-26,High,4.6,Protection trip
+INC-000172,AST-00080,2024-07-21,Low,4.0,Electrical fault
+INC-000173,AST-00080,2024-08-07,Low,1.1,Overheating
+INC-000174,AST-00081,2024-01-20,High,5.3,Protection trip
+INC-000175,AST-00081,2024-05-12,Medium,5.2,Protection trip
+INC-000176,AST-00081,2024-09-19,High,7.0,Overheating
+INC-000177,AST-00081,2026-04-18,High,2.9,Protection trip
+INC-000178,AST-00083,2024-02-11,Medium,1.4,Physical damage
+INC-000179,AST-00083,2026-07-13,Medium,2.5,Physical damage
+INC-000180,AST-00084,2026-03-21,Low,0.4,Overheating
+INC-000181,AST-00084,2026-08-30,Low,1.7,Inspection finding
+INC-000182,AST-00085,2024-06-17,High,1.5,Overheating
+INC-000183,AST-00086,2024-05-14,High,3.5,Inspection finding
+INC-000184,AST-00087,2026-02-17,Low,1.1,Inspection finding
+INC-000185,AST-00087,2024-04-06,Low,1.4,Physical damage
+INC-000186,AST-00087,2025-01-16,Low,2.3,Physical damage
+INC-000187,AST-00087,2026-04-18,Critical,9.6,Inspection finding
+INC-000188,AST-00088,2025-08-19,Low,1.3,Physical damage
+INC-000189,AST-00088,2025-02-08,Low,2.4,Inspection finding
+INC-000190,AST-00089,2025-03-05,Critical,9.1,Electrical fault
+INC-000191,AST-00090,2024-10-23,Medium,1.7,Overheating
+INC-000192,AST-00090,2025-04-27,Medium,1.0,Protection trip
+INC-000193,AST-00091,2024-09-15,Low,0.5,Overheating
+INC-000194,AST-00092,2025-10-15,Medium,2.9,Electrical fault
+INC-000195,AST-00093,2024-09-16,Low,2.3,Overheating
+INC-000196,AST-00093,2024-01-03,High,6.5,Overheating
+INC-000197,AST-00093,2026-04-30,Critical,7.6,Inspection finding
+INC-000198,AST-00096,2026-08-22,High,13.5,Inspection finding
+INC-000199,AST-00096,2024-03-24,High,3.8,Inspection finding
+INC-000200,AST-00096,2024-03-22,Low,0.8,Protection trip
+INC-000201,AST-00097,2026-07-29,Low,2.7,Overheating
+INC-000202,AST-00097,2024-11-03,Medium,4.7,Inspection finding
+INC-000203,AST-00097,2024-09-30,Medium,2.4,Overheating
+INC-000204,AST-00097,2026-07-17,Low,1.7,Physical damage
+INC-000205,AST-00098,2026-04-07,Medium,3.8,Protection trip
+INC-000206,AST-00098,2025-12-12,Medium,1.1,Electrical fault
+INC-000207,AST-00099,2024-03-09,Critical,13.5,Physical damage
+INC-000208,AST-00099,2025-06-05,Low,1.2,Inspection finding
+INC-000209,AST-00099,2026-04-26,Medium,1.1,Inspection finding
+INC-000210,AST-00099,2026-05-28,Low,0.7,Inspection finding
+INC-000211,AST-00100,2025-03-14,Medium,1.8,Overheating
+INC-000212,AST-00101,2026-07-29,Low,0.8,Electrical fault
+INC-000213,AST-00101,2024-09-09,Medium,1.4,Protection trip
+INC-000214,AST-00101,2025-08-04,Medium,1.5,Protection trip
+INC-000215,AST-00102,2025-12-02,High,4.4,Protection trip
+INC-000216,AST-00102,2024-06-16,Low,1.3,Protection trip
+INC-000217,AST-00102,2024-04-24,Medium,2.9,Inspection finding
+INC-000218,AST-00103,2026-01-26,Medium,2.9,Protection trip
+INC-000219,AST-00103,2024-09-28,Medium,1.4,Inspection finding
+INC-000220,AST-00105,2025-02-27,Medium,4.1,Protection trip
+INC-000221,AST-00105,2024-02-20,Low,0.7,Physical damage
+INC-000222,AST-00105,2025-03-06,Medium,2.5,Overheating
+INC-000223,AST-00105,2026-03-07,Medium,2.0,Physical damage
+INC-000224,AST-00105,2025-02-15,Low,1.8,Physical damage
+INC-000225,AST-00105,2025-07-07,Medium,2.6,Protection trip
+INC-000226,AST-00105,2025-05-11,Medium,8.0,Physical damage
+INC-000227,AST-00105,2025-09-08,Medium,2.6,Electrical fault
+INC-000228,AST-00105,2025-05-03,Medium,3.1,Overheating
+INC-000229,AST-00106,2024-12-15,High,6.0,Overheating
+INC-000230,AST-00106,2026-06-08,Medium,3.0,Electrical fault
+INC-000231,AST-00106,2026-05-22,Low,0.8,Electrical fault
+INC-000232,AST-00106,2025-06-02,Low,0.7,Overheating
+INC-000233,AST-00107,2026-08-28,High,3.8,Inspection finding
+INC-000234,AST-00107,2025-02-03,Low,1.9,Inspection finding
+INC-000235,AST-00107,2024-03-01,Low,0.7,Inspection finding
+INC-000236,AST-00107,2024-06-10,High,1.5,Physical damage
+INC-000237,AST-00108,2025-08-14,Low,1.1,Electrical fault
+INC-000238,AST-00109,2025-04-30,High,3.5,Inspection finding
+INC-000239,AST-00111,2026-05-18,Medium,1.5,Electrical fault
+INC-000240,AST-00111,2025-10-23,Low,0.4,Protection trip
+INC-000241,AST-00111,2026-06-15,Low,3.3,Electrical fault
+INC-000242,AST-00112,2025-03-30,Medium,1.5,Electrical fault
+INC-000243,AST-00112,2024-12-04,Low,1.5,Protection trip
+INC-000244,AST-00113,2024-10-03,High,22.9,Physical damage
+INC-000245,AST-00113,2025-01-27,High,5.7,Electrical fault
+INC-000246,AST-00113,2026-04-23,Low,1.2,Protection trip
+INC-000247,AST-00113,2025-12-24,High,2.6,Inspection finding
+INC-000248,AST-00114,2024-12-05,Medium,5.0,Protection trip
+INC-000249,AST-00114,2024-08-20,Medium,8.8,Electrical fault
+INC-000250,AST-00114,2025-04-27,Medium,0.7,Inspection finding
+INC-000251,AST-00114,2024-12-15,Low,1.3,Inspection finding
+INC-000252,AST-00114,2026-05-30,Critical,1.5,Electrical fault
+INC-000253,AST-00115,2024-09-24,Low,0.7,Protection trip
+INC-000254,AST-00115,2024-03-25,Medium,2.5,Electrical fault
+INC-000255,AST-00115,2026-03-16,Low,0.7,Electrical fault
+INC-000256,AST-00115,2025-03-21,High,8.1,Overheating
+INC-000257,AST-00115,2024-10-27,Medium,2.2,Inspection finding
+INC-000258,AST-00115,2025-08-10,Low,0.4,Electrical fault
+INC-000259,AST-00117,2025-04-04,Low,3.6,Physical damage
+INC-000260,AST-00117,2025-12-28,Critical,9.3,Physical damage
+INC-000261,AST-00117,2026-08-17,Medium,2.0,Electrical fault
+INC-000262,AST-00117,2026-04-09,High,1.5,Electrical fault
+INC-000263,AST-00118,2025-07-27,Medium,3.6,Electrical fault
+INC-000264,AST-00118,2025-12-30,High,6.5,Overheating
+INC-000265,AST-00118,2024-08-08,Medium,2.9,Inspection finding
+INC-000266,AST-00118,2024-07-20,High,3.0,Electrical fault
+INC-000267,AST-00119,2024-01-27,Medium,2.6,Physical damage
+INC-000268,AST-00119,2024-03-17,Low,1.4,Inspection finding
+INC-000269,AST-00119,2026-05-15,Medium,2.1,Inspection finding
+INC-000270,AST-00119,2025-09-16,Medium,7.0,Physical damage
+INC-000271,AST-00119,2025-03-27,Low,0.6,Overheating
+INC-000272,AST-00120,2025-09-12,High,0.8,Overheating
+INC-000273,AST-00120,2024-05-05,Low,0.9,Electrical fault
+INC-000274,AST-00120,2024-06-07,Low,0.4,Protection trip
+INC-000275,AST-00120,2024-05-07,High,0.9,Overheating
+INC-000276,AST-00120,2024-06-20,Medium,3.2,Overheating
+INC-000277,AST-00120,2024-08-27,High,3.7,Overheating
+INC-000278,AST-00121,2026-02-04,Low,0.4,Inspection finding
+INC-000279,AST-00121,2025-12-02,Low,0.4,Overheating
+INC-000280,AST-00122,2025-09-02,High,7.1,Inspection finding
+INC-000281,AST-00122,2024-09-21,Low,1.4,Physical damage
+INC-000282,AST-00122,2024-06-05,Medium,9.2,Protection trip
+INC-000283,AST-00122,2024-05-03,Low,3.1,Inspection finding
+INC-000284,AST-00123,2024-06-22,Low,1.4,Physical damage
+INC-000285,AST-00123,2026-07-16,Medium,1.1,Electrical fault
+INC-000286,AST-00123,2024-08-16,High,12.2,Physical damage
+INC-000287,AST-00123,2024-10-30,Critical,5.2,Inspection finding
+INC-000288,AST-00123,2025-08-27,Medium,4.3,Overheating
+INC-000289,AST-00123,2024-05-18,Low,2.6,Overheating
+INC-000290,AST-00123,2024-02-20,Low,1.2,Overheating
+INC-000291,AST-00125,2025-06-01,High,0.9,Physical damage
+INC-000292,AST-00125,2024-07-08,Low,3.2,Protection trip
+INC-000293,AST-00125,2025-01-27,Medium,3.2,Electrical fault
+INC-000294,AST-00125,2026-04-22,High,3.8,Physical damage
+INC-000295,AST-00126,2024-12-11,Low,2.1,Electrical fault
+INC-000296,AST-00126,2026-04-02,Low,1.6,Overheating
+INC-000297,AST-00127,2025-08-06,High,2.8,Inspection finding
+INC-000298,AST-00128,2025-04-21,Low,1.4,Physical damage
+INC-000299,AST-00128,2024-04-15,High,2.1,Physical damage
+INC-000300,AST-00128,2026-06-08,Low,1.7,Electrical fault
+INC-000301,AST-00130,2025-12-06,Low,0.8,Electrical fault
+INC-000302,AST-00131,2024-11-17,Low,0.8,Electrical fault
+INC-000303,AST-00131,2024-09-17,Medium,2.4,Overheating
+INC-000304,AST-00131,2024-07-04,Critical,4.1,Physical damage
+INC-000305,AST-00131,2024-12-17,Medium,2.0,Inspection finding
+INC-000306,AST-00131,2025-08-13,Medium,1.0,Protection trip
+INC-000307,AST-00132,2025-05-09,Medium,1.4,Inspection finding
+INC-000308,AST-00132,2025-07-15,Low,1.4,Physical damage
+INC-000309,AST-00132,2025-10-06,Medium,1.3,Physical damage
+INC-000310,AST-00133,2024-08-12,Low,1.4,Overheating
+INC-000311,AST-00133,2025-09-30,High,16.8,Protection trip
+INC-000312,AST-00133,2025-03-31,Medium,3.4,Electrical fault
+INC-000313,AST-00133,2025-01-07,Medium,3.5,Protection trip
+INC-000314,AST-00133,2024-04-29,Medium,1.9,Physical damage
+INC-000315,AST-00134,2024-01-31,Medium,3.5,Electrical fault
+INC-000316,AST-00135,2024-08-11,Low,1.1,Electrical fault
+INC-000317,AST-00135,2025-01-24,Critical,5.9,Overheating
+INC-000318,AST-00135,2026-03-02,Low,8.0,Inspection finding
+INC-000319,AST-00135,2025-02-08,Low,0.9,Inspection finding
+INC-000320,AST-00135,2025-07-18,High,1.3,Protection trip
+INC-000321,AST-00136,2025-07-22,Medium,3.2,Protection trip
+INC-000322,AST-00136,2025-03-22,Low,2.5,Inspection finding
+INC-000323,AST-00136,2024-05-11,Medium,2.0,Electrical fault
+INC-000324,AST-00136,2024-03-31,High,7.0,Protection trip
+INC-000325,AST-00136,2024-01-03,Low,1.7,Electrical fault
+INC-000326,AST-00136,2025-07-20,High,6.9,Electrical fault
+INC-000327,AST-00136,2024-05-02,Critical,1.7,Protection trip
+INC-000328,AST-00137,2026-03-28,Low,2.1,Electrical fault
+INC-000329,AST-00138,2024-08-01,Medium,2.6,Protection trip
+INC-000330,AST-00138,2025-03-21,Low,1.2,Inspection finding
+INC-000331,AST-00139,2024-07-22,High,6.2,Inspection finding
+INC-000332,AST-00139,2024-05-15,Medium,2.2,Overheating
+INC-000333,AST-00139,2026-03-31,Medium,1.2,Protection trip
+INC-000334,AST-00139,2025-07-04,Low,4.0,Electrical fault
+INC-000335,AST-00139,2025-07-19,Medium,3.3,Physical damage
+INC-000336,AST-00139,2025-07-13,Medium,4.1,Protection trip
+INC-000337,AST-00139,2025-02-20,High,14.2,Inspection finding
+INC-000338,AST-00139,2024-04-02,High,8.2,Overheating
+INC-000339,AST-00140,2024-02-19,Low,1.4,Overheating
+INC-000340,AST-00141,2026-07-19,High,7.8,Overheating
+INC-000341,AST-00142,2025-08-30,Low,0.5,Physical damage
+INC-000342,AST-00142,2026-01-03,Low,1.7,Electrical fault
+INC-000343,AST-00142,2026-03-04,Medium,1.8,Protection trip
+INC-000344,AST-00142,2025-06-22,Medium,1.9,Inspection finding
+INC-000345,AST-00142,2024-08-12,High,9.9,Physical damage
+INC-000346,AST-00143,2025-10-24,High,9.2,Electrical fault
+INC-000347,AST-00143,2024-10-11,Medium,1.9,Physical damage
+INC-000348,AST-00143,2024-04-07,Low,1.0,Physical damage
+INC-000349,AST-00143,2024-01-16,Low,1.4,Overheating
+INC-000350,AST-00143,2026-05-13,Medium,1.4,Protection trip
+INC-000351,AST-00143,2025-12-10,Medium,4.0,Protection trip
+INC-000352,AST-00144,2024-04-26,Critical,18.5,Overheating
+INC-000353,AST-00144,2024-12-30,High,4.6,Inspection finding
+INC-000354,AST-00144,2024-05-10,Medium,2.6,Overheating
+INC-000355,AST-00144,2026-05-15,High,10.1,Electrical fault
+INC-000356,AST-00146,2025-05-07,Medium,4.0,Protection trip
+INC-000357,AST-00146,2024-10-11,Medium,3.7,Electrical fault
+INC-000358,AST-00146,2024-11-18,High,7.9,Overheating
+INC-000359,AST-00146,2024-11-07,High,5.1,Protection trip
+INC-000360,AST-00146,2025-07-29,High,3.1,Physical damage
+INC-000361,AST-00146,2026-06-05,Medium,3.5,Inspection finding
+INC-000362,AST-00146,2024-01-05,Low,1.8,Physical damage
+INC-000363,AST-00147,2025-02-12,Critical,13.5,Protection trip
+INC-000364,AST-00147,2025-12-16,Low,0.4,Protection trip
+INC-000365,AST-00147,2026-06-26,Medium,2.6,Overheating
+INC-000366,AST-00148,2024-12-05,Medium,3.8,Overheating
+INC-000367,AST-00148,2024-06-21,High,4.1,Protection trip
+INC-000368,AST-00148,2024-05-24,Medium,0.4,Protection trip
+INC-000369,AST-00148,2025-11-11,High,2.7,Electrical fault
+INC-000370,AST-00149,2025-03-11,Medium,3.9,Protection trip
+INC-000371,AST-00149,2024-05-05,High,4.5,Overheating
+INC-000372,AST-00150,2024-01-16,Medium,3.8,Overheating
+INC-000373,AST-00150,2026-02-10,High,3.1,Electrical fault
+INC-000374,AST-00150,2024-03-29,Medium,2.2,Electrical fault
+INC-000375,AST-00150,2026-07-25,Medium,6.8,Overheating
+INC-000376,AST-00150,2024-09-22,Medium,0.7,Electrical fault
+INC-000377,AST-00151,2024-01-27,Low,3.5,Protection trip
+INC-000378,AST-00151,2024-12-16,High,12.2,Electrical fault
+INC-000379,AST-00151,2025-11-14,Medium,1.8,Electrical fault
+INC-000380,AST-00151,2026-04-24,Low,0.8,Inspection finding
+INC-000381,AST-00152,2024-11-11,High,2.9,Protection trip
+INC-000382,AST-00152,2024-11-19,Medium,3.3,Electrical fault
+INC-000383,AST-00152,2026-04-27,High,5.8,Overheating
+INC-000384,AST-00153,2025-02-01,Low,0.5,Physical damage
+INC-000385,AST-00153,2025-08-16,Medium,2.7,Overheating
+INC-000386,AST-00156,2025-02-19,Low,3.2,Protection trip
+INC-000387,AST-00156,2025-01-05,Low,1.5,Inspection finding
+INC-000388,AST-00156,2025-03-11,Medium,1.7,Physical damage
+INC-000389,AST-00156,2025-07-10,Low,0.5,Physical damage
+INC-000390,AST-00156,2024-07-11,Critical,14.5,Protection trip
+INC-000391,AST-00156,2024-01-05,Low,1.5,Inspection finding
+INC-000392,AST-00157,2025-07-27,Critical,7.7,Inspection finding
+INC-000393,AST-00157,2024-07-07,Medium,1.0,Overheating
+INC-000394,AST-00157,2026-06-15,Low,2.0,Inspection finding
+INC-000395,AST-00157,2026-04-25,Medium,6.7,Inspection finding
+INC-000396,AST-00158,2024-03-04,Low,0.5,Electrical fault
+INC-000397,AST-00158,2025-07-30,Medium,3.5,Electrical fault
+INC-000398,AST-00159,2025-04-09,High,3.9,Inspection finding
+INC-000399,AST-00159,2025-01-18,High,13.7,Physical damage
+INC-000400,AST-00159,2024-12-10,Low,0.8,Overheating
+INC-000401,AST-00159,2026-01-09,Low,2.9,Inspection finding
+INC-000402,AST-00159,2025-06-19,Low,1.6,Inspection finding
+INC-000403,AST-00160,2024-07-17,High,5.8,Protection trip
+INC-000404,AST-00161,2025-09-27,Low,0.7,Electrical fault
+INC-000405,AST-00161,2026-08-27,Medium,1.7,Electrical fault
+INC-000406,AST-00161,2025-07-25,Low,2.0,Physical damage
+INC-000407,AST-00161,2025-12-09,Medium,0.8,Protection trip
+INC-000408,AST-00161,2024-09-13,Medium,1.1,Protection trip
+INC-000409,AST-00161,2026-08-20,Medium,2.2,Overheating
+INC-000410,AST-00163,2024-03-04,Critical,9.5,Electrical fault
+INC-000411,AST-00163,2026-03-11,Medium,2.7,Protection trip
+INC-000412,AST-00164,2025-02-02,High,0.4,Inspection finding
+INC-000413,AST-00164,2025-09-30,Medium,1.1,Inspection finding
+INC-000414,AST-00165,2026-07-25,Medium,1.8,Electrical fault
+INC-000415,AST-00165,2025-02-22,Low,4.6,Inspection finding
+INC-000416,AST-00165,2026-06-02,Low,0.4,Overheating
+INC-000417,AST-00165,2024-06-17,Low,2.6,Inspection finding
+INC-000418,AST-00165,2026-02-23,Low,0.7,Protection trip
+INC-000419,AST-00166,2024-06-24,High,3.4,Physical damage
+INC-000420,AST-00166,2026-08-03,High,11.7,Protection trip
+INC-000421,AST-00166,2024-06-01,Medium,1.4,Inspection finding
+INC-000422,AST-00166,2025-11-07,High,1.1,Inspection finding
+INC-000423,AST-00168,2026-02-13,Low,1.5,Protection trip
+INC-000424,AST-00168,2024-10-20,Critical,6.7,Inspection finding
+INC-000425,AST-00168,2024-01-07,High,5.4,Inspection finding
+INC-000426,AST-00169,2025-05-28,Medium,4.9,Inspection finding
+INC-000427,AST-00169,2026-06-04,Medium,0.7,Inspection finding
+INC-000428,AST-00169,2026-07-04,High,10.6,Inspection finding
+INC-000429,AST-00169,2025-02-11,Low,2.8,Overheating
+INC-000430,AST-00169,2025-01-12,Medium,2.8,Electrical fault
+INC-000431,AST-00170,2025-08-13,Medium,5.6,Overheating
+INC-000432,AST-00170,2026-01-10,Low,2.5,Inspection finding
+INC-000433,AST-00170,2025-11-16,Medium,5.1,Physical damage
+INC-000434,AST-00170,2025-02-11,Critical,2.9,Electrical fault
+INC-000435,AST-00170,2024-10-19,Medium,1.8,Electrical fault
+INC-000436,AST-00170,2024-02-08,High,6.5,Protection trip
+INC-000437,AST-00170,2024-08-29,Critical,5.5,Physical damage
+INC-000438,AST-00170,2024-06-04,Low,3.1,Electrical fault
+INC-000439,AST-00171,2024-09-21,Critical,5.4,Electrical fault
+INC-000440,AST-00172,2025-06-18,Low,1.0,Overheating
+INC-000441,AST-00173,2025-02-26,Low,1.6,Inspection finding
+INC-000442,AST-00173,2026-02-15,High,4.3,Protection trip
+INC-000443,AST-00174,2025-07-14,High,2.9,Electrical fault
+INC-000444,AST-00174,2024-08-25,Medium,5.8,Overheating
+INC-000445,AST-00174,2025-04-20,Medium,4.2,Inspection finding
+INC-000446,AST-00174,2024-09-28,Medium,0.4,Electrical fault
+INC-000447,AST-00175,2025-06-03,Critical,9.3,Inspection finding
+INC-000448,AST-00176,2025-08-18,High,5.2,Electrical fault
+INC-000449,AST-00176,2024-01-09,Low,1.0,Overheating
+INC-000450,AST-00176,2025-05-12,Medium,2.3,Electrical fault
+INC-000451,AST-00177,2024-12-06,Low,0.6,Electrical fault
+INC-000452,AST-00178,2025-12-18,Medium,6.7,Inspection finding
+INC-000453,AST-00178,2024-03-27,Critical,5.7,Inspection finding
+INC-000454,AST-00178,2025-12-08,Low,1.6,Protection trip
+INC-000455,AST-00179,2025-09-12,Low,0.4,Electrical fault
+INC-000456,AST-00179,2025-11-24,Low,2.5,Inspection finding
+INC-000457,AST-00179,2026-02-23,Low,3.8,Inspection finding
+INC-000458,AST-00179,2024-08-08,High,11.3,Overheating
+INC-000459,AST-00181,2025-04-14,Medium,3.3,Physical damage
+INC-000460,AST-00182,2024-02-07,Critical,13.4,Electrical fault
+INC-000461,AST-00182,2024-11-18,Medium,3.1,Protection trip
+INC-000462,AST-00182,2026-07-26,Medium,1.0,Overheating
+INC-000463,AST-00183,2026-01-11,Medium,0.9,Protection trip
+INC-000464,AST-00183,2025-08-20,Low,0.7,Electrical fault
+INC-000465,AST-00183,2024-12-22,Medium,1.2,Inspection finding
+INC-000466,AST-00183,2024-02-23,Low,1.5,Electrical fault
+INC-000467,AST-00183,2024-04-16,Low,1.1,Inspection finding
+INC-000468,AST-00184,2024-09-06,Medium,1.2,Inspection finding
+INC-000469,AST-00184,2025-02-03,High,10.8,Physical damage
+INC-000470,AST-00184,2024-11-15,High,2.6,Inspection finding
+INC-000471,AST-00184,2025-05-20,Medium,2.5,Inspection finding
+INC-000472,AST-00184,2026-01-22,Low,0.4,Overheating
+INC-000473,AST-00184,2024-10-30,High,5.1,Physical damage
+INC-000474,AST-00185,2024-12-15,Medium,1.4,Protection trip
+INC-000475,AST-00187,2024-05-18,Medium,0.6,Inspection finding
+INC-000476,AST-00187,2024-04-11,Low,1.6,Protection trip
+INC-000477,AST-00187,2026-05-14,Low,0.8,Inspection finding
+INC-000478,AST-00188,2025-05-09,Low,1.3,Inspection finding
+INC-000479,AST-00189,2026-06-26,Critical,5.4,Electrical fault
+INC-000480,AST-00191,2024-03-17,Medium,1.9,Electrical fault
+INC-000481,AST-00191,2024-09-09,High,1.9,Overheating
+INC-000482,AST-00191,2026-05-10,Low,1.1,Electrical fault
+INC-000483,AST-00192,2024-05-21,High,1.4,Inspection finding
+INC-000484,AST-00192,2024-11-16,High,2.1,Electrical fault
+INC-000485,AST-00192,2026-08-23,Medium,0.4,Protection trip
+INC-000486,AST-00192,2024-07-02,Low,2.5,Overheating
+INC-000487,AST-00193,2024-04-23,Low,0.7,Electrical fault
+INC-000488,AST-00193,2024-01-16,Low,2.3,Overheating
+INC-000489,AST-00193,2024-09-12,High,7.6,Protection trip
+INC-000490,AST-00194,2025-04-26,Low,1.3,Inspection finding
+INC-000491,AST-00194,2024-12-25,Medium,1.9,Physical damage
+INC-000492,AST-00195,2024-12-27,Low,1.0,Electrical fault
+INC-000493,AST-00195,2024-09-12,High,1.3,Overheating
+INC-000494,AST-00195,2026-07-12,Low,1.4,Protection trip
+INC-000495,AST-00196,2024-03-03,Low,2.9,Physical damage
+INC-000496,AST-00196,2025-03-08,Low,0.4,Protection trip
+INC-000497,AST-00196,2025-11-14,Low,1.1,Overheating
+INC-000498,AST-00196,2024-05-09,Medium,2.4,Overheating
+INC-000499,AST-00197,2025-12-07,Low,1.1,Physical damage
+INC-000500,AST-00197,2024-11-29,High,0.8,Inspection finding
+INC-000501,AST-00197,2024-12-04,Critical,8.0,Physical damage
+INC-000502,AST-00198,2025-06-06,Medium,1.9,Overheating
+INC-000503,AST-00199,2026-05-20,Medium,1.3,Inspection finding
+INC-000504,AST-00199,2026-07-31,Medium,4.8,Protection trip
+INC-000505,AST-00199,2026-06-28,Medium,1.7,Electrical fault
+INC-000506,AST-00201,2024-10-13,Medium,3.4,Physical damage
+INC-000507,AST-00201,2024-10-09,High,0.4,Protection trip
+INC-000508,AST-00201,2025-10-16,Low,0.6,Physical damage
+INC-000509,AST-00201,2025-09-06,Low,4.3,Electrical fault
+INC-000510,AST-00201,2025-01-13,Low,2.5,Protection trip
+INC-000511,AST-00201,2026-01-30,High,7.1,Electrical fault
+INC-000512,AST-00201,2024-07-23,Medium,2.2,Inspection finding
+INC-000513,AST-00202,2024-11-08,Low,0.4,Electrical fault
+INC-000514,AST-00203,2025-01-11,Medium,1.3,Overheating
+INC-000515,AST-00203,2026-03-30,High,8.2,Electrical fault
+INC-000516,AST-00204,2026-01-23,Medium,1.3,Protection trip
+INC-000517,AST-00204,2025-06-17,Low,3.8,Inspection finding
+INC-000518,AST-00204,2025-01-16,Medium,2.8,Protection trip
+INC-000519,AST-00205,2026-08-21,Low,0.6,Physical damage
+INC-000520,AST-00205,2024-03-12,Low,3.2,Overheating
+INC-000521,AST-00205,2025-10-31,Critical,4.1,Protection trip
+INC-000522,AST-00205,2024-03-04,Low,1.1,Inspection finding
+INC-000523,AST-00205,2026-07-28,Low,1.0,Protection trip
+INC-000524,AST-00205,2025-07-23,Medium,2.4,Electrical fault
+INC-000525,AST-00205,2026-02-20,High,3.9,Overheating
+INC-000526,AST-00206,2026-01-13,Low,1.9,Physical damage
+INC-000527,AST-00206,2026-05-23,Low,0.5,Electrical fault
+INC-000528,AST-00206,2024-05-24,High,2.1,Physical damage
+INC-000529,AST-00207,2024-10-04,Low,1.3,Overheating
+INC-000530,AST-00207,2024-11-15,Low,1.5,Inspection finding
+INC-000531,AST-00208,2024-02-04,Low,1.6,Physical damage
+INC-000532,AST-00208,2024-11-29,High,3.0,Protection trip
+INC-000533,AST-00208,2026-06-12,Medium,2.9,Physical damage
+INC-000534,AST-00209,2025-12-08,Medium,5.2,Overheating
+INC-000535,AST-00210,2026-06-06,High,5.3,Overheating
+INC-000536,AST-00211,2024-05-19,Low,0.5,Electrical fault
+INC-000537,AST-00211,2024-04-21,Medium,2.8,Electrical fault
+INC-000538,AST-00211,2025-08-10,Low,0.7,Overheating
+INC-000539,AST-00211,2025-06-08,High,3.9,Physical damage
+INC-000540,AST-00212,2024-10-11,Low,3.0,Protection trip
+INC-000541,AST-00212,2024-08-19,High,11.8,Electrical fault
+INC-000542,AST-00212,2024-09-16,High,3.3,Physical damage
+INC-000543,AST-00212,2025-04-16,Medium,2.5,Protection trip
+INC-000544,AST-00213,2025-02-26,Medium,4.8,Inspection finding
+INC-000545,AST-00214,2025-09-23,Medium,3.3,Overheating
+INC-000546,AST-00214,2026-05-19,High,1.5,Electrical fault
+INC-000547,AST-00214,2026-07-10,Critical,7.9,Inspection finding
+INC-000548,AST-00214,2024-01-23,Low,2.4,Inspection finding
+INC-000549,AST-00215,2026-08-25,High,3.3,Inspection finding
+INC-000550,AST-00216,2024-11-11,Low,1.6,Protection trip
+INC-000551,AST-00216,2024-09-16,High,8.6,Overheating
+INC-000552,AST-00216,2026-07-03,Low,5.8,Protection trip
+INC-000553,AST-00216,2026-07-17,Medium,2.0,Physical damage
+INC-000554,AST-00217,2025-07-05,Medium,3.6,Electrical fault
+INC-000555,AST-00217,2025-06-30,Medium,4.4,Electrical fault
+INC-000556,AST-00217,2026-04-09,Low,1.5,Electrical fault
+INC-000557,AST-00218,2025-03-09,Medium,2.7,Electrical fault
+INC-000558,AST-00218,2026-03-23,Medium,4.5,Electrical fault
+INC-000559,AST-00218,2025-01-23,Low,0.4,Protection trip
+INC-000560,AST-00219,2025-08-02,High,3.4,Inspection finding
+INC-000561,AST-00219,2025-12-04,Medium,1.2,Overheating
+INC-000562,AST-00219,2026-06-16,Low,1.4,Protection trip
+INC-000563,AST-00220,2026-07-03,High,11.0,Inspection finding
+INC-000564,AST-00220,2025-08-22,Medium,0.4,Overheating
+INC-000565,AST-00220,2024-10-17,Critical,8.5,Electrical fault
+INC-000566,AST-00220,2025-03-30,Medium,1.4,Physical damage
+INC-000567,AST-00220,2025-09-22,Low,1.5,Physical damage
+INC-000568,AST-00220,2026-01-28,Medium,0.9,Protection trip
+INC-000569,AST-00221,2025-04-03,High,6.0,Inspection finding
+INC-000570,AST-00221,2025-08-18,Low,0.9,Electrical fault
+INC-000571,AST-00223,2026-08-16,Low,3.3,Inspection finding
+INC-000572,AST-00223,2024-04-18,High,6.5,Protection trip
+INC-000573,AST-00223,2025-10-11,High,0.4,Protection trip
+INC-000574,AST-00224,2026-02-26,High,9.4,Inspection finding
+INC-000575,AST-00224,2025-07-03,Low,1.5,Inspection finding
+INC-000576,AST-00225,2025-08-08,Medium,3.9,Overheating
+INC-000577,AST-00225,2024-11-13,Medium,0.7,Inspection finding
+INC-000578,AST-00225,2024-11-30,Medium,1.0,Physical damage
+INC-000579,AST-00225,2024-10-07,Medium,2.7,Protection trip
+INC-000580,AST-00225,2026-06-15,Medium,6.7,Physical damage
+INC-000581,AST-00226,2024-02-01,Medium,3.4,Protection trip
+INC-000582,AST-00226,2025-07-19,Medium,1.0,Physical damage
+INC-000583,AST-00226,2026-04-21,Medium,1.9,Inspection finding
+INC-000584,AST-00226,2026-06-14,Low,0.9,Protection trip
+INC-000585,AST-00226,2024-01-14,Medium,3.9,Protection trip
+INC-000586,AST-00227,2026-02-12,Medium,1.7,Physical damage
+INC-000587,AST-00227,2024-12-09,Low,0.6,Protection trip
+INC-000588,AST-00227,2026-03-29,High,2.7,Physical damage
+INC-000589,AST-00227,2024-06-09,Critical,6.7,Inspection finding
+INC-000590,AST-00228,2026-04-24,Low,1.0,Overheating
+INC-000591,AST-00228,2026-05-12,High,3.6,Physical damage
+INC-000592,AST-00229,2026-08-29,High,2.8,Electrical fault
+INC-000593,AST-00229,2025-12-05,High,1.9,Physical damage
+INC-000594,AST-00230,2026-06-19,High,1.3,Overheating
+INC-000595,AST-00230,2026-04-06,Critical,4.0,Inspection finding
+INC-000596,AST-00230,2024-11-14,Medium,1.8,Overheating
+INC-000597,AST-00231,2026-04-08,High,8.2,Protection trip
+INC-000598,AST-00232,2024-12-27,Medium,4.0,Protection trip
+INC-000599,AST-00234,2026-02-13,Medium,2.9,Electrical fault
+INC-000600,AST-00234,2024-02-06,High,8.2,Protection trip
+INC-000601,AST-00235,2025-04-30,High,4.8,Electrical fault
+INC-000602,AST-00235,2026-02-19,High,1.4,Protection trip
+INC-000603,AST-00235,2024-07-03,Critical,4.0,Inspection finding
+INC-000604,AST-00235,2024-08-29,Low,1.2,Electrical fault
+INC-000605,AST-00235,2024-05-12,Medium,4.9,Overheating
+INC-000606,AST-00235,2025-06-28,Medium,0.6,Electrical fault
+INC-000607,AST-00236,2026-03-29,Medium,2.5,Protection trip
+INC-000608,AST-00236,2024-11-26,High,5.0,Inspection finding
+INC-000609,AST-00236,2025-09-08,Medium,4.2,Overheating
+INC-000610,AST-00237,2024-11-04,High,1.7,Electrical fault
+INC-000611,AST-00237,2026-07-12,Medium,2.4,Overheating
+INC-000612,AST-00237,2025-03-19,Low,0.6,Physical damage
+INC-000613,AST-00238,2025-06-01,Low,2.3,Overheating
+INC-000614,AST-00238,2025-05-01,High,8.0,Overheating
+INC-000615,AST-00238,2026-05-02,High,3.7,Physical damage
+INC-000616,AST-00238,2026-05-31,High,6.2,Inspection finding
+INC-000617,AST-00240,2024-09-15,Medium,2.4,Physical damage
+INC-000618,AST-00240,2024-06-13,Low,1.7,Electrical fault
+INC-000619,AST-00240,2026-05-29,Medium,3.7,Electrical fault
+INC-000620,AST-00240,2026-07-09,Medium,2.0,Inspection finding
+INC-000621,AST-00240,2024-02-11,Low,6.6,Overheating
+INC-000622,AST-00241,2026-07-01,Low,1.5,Physical damage
+INC-000623,AST-00242,2026-04-04,Medium,1.6,Protection trip
+INC-000624,AST-00242,2025-12-30,Low,2.1,Physical damage
+INC-000625,AST-00242,2025-06-06,Critical,4.2,Protection trip
+INC-000626,AST-00242,2025-07-22,Critical,10.1,Electrical fault
+INC-000627,AST-00242,2026-02-03,High,3.3,Electrical fault
+INC-000628,AST-00242,2025-10-28,Low,1.1,Overheating
+INC-000629,AST-00243,2025-11-03,Medium,2.9,Electrical fault
+INC-000630,AST-00243,2025-09-04,Low,1.9,Physical damage
+INC-000631,AST-00244,2025-04-20,Critical,4.8,Protection trip
+INC-000632,AST-00245,2025-04-19,Medium,7.2,Electrical fault
+INC-000633,AST-00246,2024-08-20,Low,0.9,Physical damage
+INC-000634,AST-00246,2025-09-11,Medium,3.4,Overheating
+INC-000635,AST-00246,2024-12-25,High,3.0,Protection trip
+INC-000636,AST-00246,2026-02-02,Low,0.7,Overheating
+INC-000637,AST-00246,2025-01-03,High,5.1,Physical damage
+INC-000638,AST-00247,2024-08-06,Medium,1.5,Inspection finding
+INC-000639,AST-00247,2025-01-01,Medium,1.2,Inspection finding
+INC-000640,AST-00247,2025-05-18,High,9.3,Electrical fault
+INC-000641,AST-00247,2026-01-01,High,3.5,Protection trip
+INC-000642,AST-00249,2024-07-05,Medium,3.6,Physical damage
+INC-000643,AST-00249,2026-01-04,Low,0.7,Overheating
+INC-000644,AST-00249,2024-08-31,Medium,1.6,Physical damage
+INC-000645,AST-00251,2025-07-26,High,4.5,Protection trip
+INC-000646,AST-00258,2026-03-17,Medium,3.2,Electrical fault
+INC-000647,AST-00258,2025-01-16,Low,1.7,Protection trip
+INC-000648,AST-00259,2025-12-05,Medium,1.1,Overheating
+INC-000649,AST-00260,2025-09-22,Medium,1.9,Protection trip
+INC-000650,AST-00260,2024-07-19,Low,1.8,Protection trip
+INC-000651,AST-00261,2025-01-19,Critical,1.2,Protection trip
+INC-000652,AST-00261,2026-05-07,Medium,1.1,Inspection finding
+INC-000653,AST-00262,2024-08-14,Medium,0.6,Inspection finding
+INC-000654,AST-00262,2026-07-29,High,10.1,Inspection finding
+INC-000655,AST-00262,2024-06-26,Low,1.5,Protection trip
+INC-000656,AST-00262,2026-05-06,Low,0.4,Inspection finding
+INC-000657,AST-00262,2026-02-28,High,0.7,Overheating
+INC-000658,AST-00262,2026-08-20,High,3.8,Overheating
+INC-000659,AST-00263,2026-06-30,Medium,3.1,Inspection finding
+INC-000660,AST-00264,2025-07-08,High,2.3,Electrical fault
+INC-000661,AST-00264,2026-04-26,Low,1.3,Overheating
+INC-000662,AST-00264,2024-04-23,High,6.6,Inspection finding
+INC-000663,AST-00265,2024-11-03,High,4.2,Electrical fault
+INC-000664,AST-00265,2024-11-10,Low,2.6,Overheating
+INC-000665,AST-00265,2025-07-20,Critical,15.6,Protection trip
+INC-000666,AST-00266,2026-02-22,Medium,4.7,Physical damage
+INC-000667,AST-00266,2025-10-16,Medium,0.5,Overheating
+INC-000668,AST-00267,2024-12-01,Low,0.5,Inspection finding
+INC-000669,AST-00267,2026-01-22,Medium,0.4,Physical damage
+INC-000670,AST-00268,2024-07-08,Low,1.9,Electrical fault
+INC-000671,AST-00268,2026-01-16,High,5.3,Protection trip
+INC-000672,AST-00268,2024-08-22,Low,1.6,Inspection finding
+INC-000673,AST-00269,2026-01-31,Medium,0.7,Overheating
+INC-000674,AST-00270,2025-10-22,Medium,3.5,Overheating
+INC-000675,AST-00270,2026-06-01,Medium,1.8,Overheating
+INC-000676,AST-00270,2024-06-26,High,15.1,Electrical fault
+INC-000677,AST-00270,2025-10-10,Medium,0.4,Inspection finding
+INC-000678,AST-00271,2025-06-24,Medium,3.2,Physical damage
+INC-000679,AST-00271,2026-03-08,Medium,6.3,Physical damage
+INC-000680,AST-00271,2025-05-15,Medium,1.0,Physical damage
+INC-000681,AST-00272,2026-01-31,High,5.2,Electrical fault
+INC-000682,AST-00272,2025-05-16,Low,1.8,Overheating
+INC-000683,AST-00273,2024-09-21,Medium,3.0,Protection trip
+INC-000684,AST-00274,2025-08-21,High,12.8,Overheating
+INC-000685,AST-00274,2024-05-08,Medium,3.3,Overheating
+INC-000686,AST-00274,2024-12-03,High,0.4,Inspection finding
+INC-000687,AST-00275,2024-11-28,Low,2.4,Overheating
+INC-000688,AST-00275,2025-09-11,High,5.0,Protection trip
+INC-000689,AST-00275,2025-07-01,Medium,0.7,Inspection finding
+INC-000690,AST-00275,2025-12-30,Low,0.9,Overheating
+INC-000691,AST-00275,2024-12-05,Medium,0.9,Protection trip
+INC-000692,AST-00276,2024-09-21,Low,2.3,Inspection finding
+INC-000693,AST-00276,2024-05-02,Critical,2.8,Protection trip
+INC-000694,AST-00276,2025-01-11,Medium,2.9,Electrical fault
+INC-000695,AST-00276,2026-07-20,Low,2.3,Electrical fault
+INC-000696,AST-00277,2025-06-21,High,10.0,Overheating
+INC-000697,AST-00279,2025-05-10,Medium,1.8,Protection trip
+INC-000698,AST-00279,2025-08-29,High,5.2,Inspection finding
+INC-000699,AST-00279,2025-12-12,Critical,15.4,Overheating
+INC-000700,AST-00279,2024-06-20,Low,0.8,Protection trip
+INC-000701,AST-00280,2024-06-15,Low,4.5,Protection trip
+INC-000702,AST-00281,2025-05-22,High,6.0,Protection trip
+INC-000703,AST-00281,2025-08-17,Low,0.9,Physical damage
+INC-000704,AST-00282,2025-09-25,Medium,0.5,Physical damage
+INC-000705,AST-00282,2024-09-14,Low,1.1,Overheating
+INC-000706,AST-00282,2024-10-14,Low,0.7,Protection trip
+INC-000707,AST-00282,2025-09-11,Medium,0.5,Electrical fault
+INC-000708,AST-00283,2026-05-15,Medium,2.8,Electrical fault
+INC-000709,AST-00283,2024-03-27,High,1.5,Inspection finding
+INC-000710,AST-00283,2024-11-29,High,3.7,Electrical fault
+INC-000711,AST-00283,2025-05-28,Low,1.2,Physical damage
+INC-000712,AST-00283,2025-10-21,Low,1.6,Inspection finding
+INC-000713,AST-00284,2026-08-30,Medium,0.8,Inspection finding
+INC-000714,AST-00284,2026-04-13,Critical,3.0,Electrical fault
+INC-000715,AST-00284,2025-04-02,Critical,15.8,Protection trip
+INC-000716,AST-00285,2025-01-02,Medium,3.8,Inspection finding
+INC-000717,AST-00285,2025-01-08,Medium,4.8,Electrical fault
+INC-000718,AST-00285,2026-06-01,Low,1.0,Overheating
+INC-000719,AST-00286,2025-07-29,Medium,4.1,Physical damage
+INC-000720,AST-00286,2024-03-27,High,4.1,Overheating
+INC-000721,AST-00286,2025-01-15,Medium,1.2,Protection trip
+INC-000722,AST-00287,2025-05-19,Low,3.3,Electrical fault
+INC-000723,AST-00287,2024-07-29,Low,1.3,Inspection finding
+INC-000724,AST-00288,2024-07-23,Low,4.6,Physical damage
+INC-000725,AST-00288,2025-01-18,Low,1.4,Protection trip
+INC-000726,AST-00288,2025-10-27,Medium,1.4,Electrical fault
+INC-000727,AST-00289,2024-10-08,Medium,1.7,Inspection finding
+INC-000728,AST-00289,2025-02-04,Medium,0.5,Overheating
+INC-000729,AST-00289,2024-08-17,Low,0.9,Inspection finding
+INC-000730,AST-00289,2026-02-12,Low,3.5,Overheating
+INC-000731,AST-00290,2024-01-02,Medium,0.7,Protection trip
+INC-000732,AST-00291,2026-02-19,Low,1.0,Physical damage
+INC-000733,AST-00291,2025-12-09,Critical,5.3,Inspection finding
+INC-000734,AST-00292,2024-04-26,Medium,1.7,Physical damage
+INC-000735,AST-00293,2024-08-11,Low,0.6,Electrical fault
+INC-000736,AST-00294,2026-01-10,High,2.2,Electrical fault
+INC-000737,AST-00295,2026-01-11,Medium,1.4,Protection trip
+INC-000738,AST-00296,2026-03-22,High,6.1,Inspection finding
+INC-000739,AST-00296,2026-06-06,Medium,0.7,Overheating
+INC-000740,AST-00296,2024-12-03,Medium,3.5,Electrical fault
+INC-000741,AST-00296,2025-05-15,High,3.5,Protection trip
+INC-000742,AST-00296,2026-05-08,Medium,1.9,Physical damage
+INC-000743,AST-00296,2026-04-05,Low,0.4,Overheating
+INC-000744,AST-00296,2025-12-31,Medium,7.8,Protection trip
+INC-000745,AST-00296,2026-08-11,Low,2.5,Inspection finding
+INC-000746,AST-00297,2024-12-02,Low,1.1,Overheating
+INC-000747,AST-00298,2024-11-17,Low,3.1,Inspection finding
+INC-000748,AST-00298,2024-06-10,Medium,0.4,Protection trip
+INC-000749,AST-00298,2026-08-08,Medium,6.1,Overheating
+INC-000750,AST-00298,2026-03-10,Low,0.5,Protection trip
+INC-000751,AST-00298,2026-02-09,Low,0.4,Inspection finding
+INC-000752,AST-00299,2026-07-21,Medium,4.2,Inspection finding
+INC-000753,AST-00299,2025-10-21,Medium,11.4,Overheating
+INC-000754,AST-00300,2024-01-31,Medium,0.4,Protection trip
+INC-000755,AST-00300,2024-08-21,Medium,0.4,Physical damage
+INC-000756,AST-00303,2024-05-21,Low,1.9,Overheating
+INC-000757,AST-00303,2025-11-02,Low,1.0,Physical damage
+INC-000758,AST-00303,2024-11-30,Medium,4.4,Physical damage
+INC-000759,AST-00303,2025-01-29,Critical,4.4,Inspection finding
+INC-000760,AST-00304,2025-09-04,Low,0.7,Physical damage
+INC-000761,AST-00304,2025-10-01,Medium,4.6,Electrical fault
+INC-000762,AST-00305,2025-05-04,Low,1.0,Protection trip
+INC-000763,AST-00305,2026-06-06,Low,4.1,Electrical fault
+INC-000764,AST-00305,2026-05-21,High,8.6,Inspection finding
+INC-000765,AST-00305,2026-04-27,High,4.0,Protection trip
+INC-000766,AST-00305,2025-06-15,Critical,13.6,Protection trip
+INC-000767,AST-00305,2024-10-04,Medium,5.7,Physical damage
+INC-000768,AST-00305,2026-02-14,Low,2.3,Physical damage
+INC-000769,AST-00306,2024-04-10,Low,0.8,Electrical fault
+INC-000770,AST-00306,2026-05-12,Medium,3.7,Overheating
+INC-000771,AST-00306,2026-05-18,High,6.1,Protection trip
+INC-000772,AST-00307,2025-10-14,High,17.3,Protection trip
+INC-000773,AST-00310,2026-08-23,Low,1.6,Physical damage
+INC-000774,AST-00310,2025-09-18,Medium,2.1,Electrical fault
+INC-000775,AST-00310,2024-12-29,Medium,2.9,Protection trip
+INC-000776,AST-00310,2025-10-13,Low,3.2,Inspection finding
+INC-000777,AST-00311,2025-08-26,Low,0.5,Inspection finding
+INC-000778,AST-00312,2025-08-20,Medium,2.3,Physical damage
+INC-000779,AST-00312,2025-09-05,Medium,2.4,Physical damage
+INC-000780,AST-00313,2025-04-02,Medium,0.7,Physical damage
+INC-000781,AST-00313,2024-06-02,Medium,3.7,Overheating
+INC-000782,AST-00313,2026-04-08,High,5.5,Overheating
+INC-000783,AST-00313,2026-07-10,High,3.5,Inspection finding
+INC-000784,AST-00313,2026-01-25,Medium,1.1,Physical damage
+INC-000785,AST-00314,2024-10-31,Low,0.7,Electrical fault
+INC-000786,AST-00315,2024-05-12,Medium,2.4,Overheating
+INC-000787,AST-00315,2025-06-28,Medium,4.5,Inspection finding
+INC-000788,AST-00316,2025-01-06,Low,2.2,Protection trip
+INC-000789,AST-00316,2026-01-07,Low,1.6,Inspection finding
+INC-000790,AST-00317,2025-09-13,Medium,3.0,Electrical fault
+INC-000791,AST-00317,2026-02-06,Medium,2.8,Physical damage
+INC-000792,AST-00318,2025-07-23,High,9.2,Inspection finding
+INC-000793,AST-00318,2026-08-18,Medium,2.6,Physical damage
+INC-000794,AST-00318,2026-02-20,High,1.7,Physical damage
+INC-000795,AST-00319,2024-03-26,Medium,0.8,Inspection finding
+INC-000796,AST-00319,2024-10-01,Medium,4.5,Protection trip
+INC-000797,AST-00319,2026-03-23,Medium,1.9,Inspection finding
+INC-000798,AST-00319,2026-05-13,Low,0.9,Inspection finding
+INC-000799,AST-00320,2025-05-22,Critical,11.2,Electrical fault
+INC-000800,AST-00320,2024-07-16,Medium,0.9,Overheating
+INC-000801,AST-00320,2026-08-29,Medium,1.4,Physical damage
+INC-000802,AST-00320,2025-06-10,Critical,20.2,Inspection finding
+INC-000803,AST-00320,2025-08-14,Medium,7.4,Inspection finding
+INC-000804,AST-00320,2026-04-10,Low,2.5,Overheating
+INC-000805,AST-00320,2024-09-13,High,0.4,Inspection finding
+INC-000806,AST-00320,2024-10-19,Medium,4.5,Electrical fault
+INC-000807,AST-00320,2024-07-09,High,3.7,Overheating
+INC-000808,AST-00321,2026-02-26,Low,2.9,Electrical fault
+INC-000809,AST-00322,2024-10-01,Medium,3.0,Physical damage
+INC-000810,AST-00324,2024-07-22,Medium,5.5,Electrical fault
+INC-000811,AST-00324,2025-07-14,Medium,1.7,Overheating
+INC-000812,AST-00325,2026-04-22,Medium,0.9,Overheating
+INC-000813,AST-00325,2024-04-14,Low,5.3,Protection trip
+INC-000814,AST-00325,2025-10-13,High,2.1,Protection trip
+INC-000815,AST-00326,2025-11-04,Medium,7.1,Protection trip
+INC-000816,AST-00326,2025-10-30,Medium,1.0,Overheating
+INC-000817,AST-00326,2026-04-06,Critical,14.1,Inspection finding
+INC-000818,AST-00326,2025-09-13,Medium,2.6,Electrical fault
+INC-000819,AST-00326,2025-09-16,Low,0.8,Overheating
+INC-000820,AST-00326,2026-02-13,Low,2.1,Inspection finding
+INC-000821,AST-00327,2026-07-21,Low,0.6,Overheating
+INC-000822,AST-00327,2024-01-08,Low,0.9,Electrical fault
+INC-000823,AST-00327,2025-03-12,Medium,1.8,Protection trip
+INC-000824,AST-00330,2026-02-27,Medium,3.7,Electrical fault
+INC-000825,AST-00330,2024-07-23,Medium,1.6,Inspection finding
+INC-000826,AST-00332,2024-06-19,High,6.7,Electrical fault
+INC-000827,AST-00332,2025-01-20,Low,1.9,Protection trip
+INC-000828,AST-00332,2024-08-14,Medium,1.0,Overheating
+INC-000829,AST-00333,2026-04-30,Low,0.7,Physical damage
+INC-000830,AST-00333,2026-06-08,Medium,3.0,Physical damage
+INC-000831,AST-00333,2025-08-11,High,6.5,Inspection finding
+INC-000832,AST-00334,2026-05-24,Medium,2.7,Electrical fault
+INC-000833,AST-00334,2026-05-17,Low,1.9,Physical damage
+INC-000834,AST-00334,2025-09-08,Low,2.2,Overheating
+INC-000835,AST-00335,2026-01-11,Medium,1.4,Inspection finding
+INC-000836,AST-00336,2024-08-01,High,8.7,Protection trip
+INC-000837,AST-00336,2024-12-06,High,5.9,Overheating
+INC-000838,AST-00337,2026-01-24,Medium,1.1,Inspection finding
+INC-000839,AST-00337,2024-04-26,Medium,5.3,Overheating
+INC-000840,AST-00337,2024-09-24,Low,0.4,Physical damage
+INC-000841,AST-00338,2024-05-17,Medium,1.3,Overheating
+INC-000842,AST-00338,2025-11-07,Medium,5.8,Physical damage
+INC-000843,AST-00338,2025-02-01,Medium,1.2,Protection trip
+INC-000844,AST-00339,2025-08-13,Low,2.4,Protection trip
+INC-000845,AST-00339,2024-08-13,Medium,6.2,Protection trip
+INC-000846,AST-00341,2024-10-09,High,5.1,Electrical fault
+INC-000847,AST-00342,2024-10-06,Low,1.4,Physical damage
+INC-000848,AST-00342,2024-09-05,High,4.6,Inspection finding
+INC-000849,AST-00343,2024-03-22,Medium,2.3,Physical damage
+INC-000850,AST-00344,2024-02-25,Low,1.4,Inspection finding
+INC-000851,AST-00344,2025-04-27,High,4.6,Electrical fault
+INC-000852,AST-00344,2025-11-13,Critical,19.2,Overheating
+INC-000853,AST-00345,2025-09-30,Critical,2.9,Protection trip
+INC-000854,AST-00345,2025-02-09,Medium,2.4,Protection trip
+INC-000855,AST-00345,2025-02-20,Low,1.9,Physical damage
+INC-000856,AST-00345,2025-11-09,Medium,4.5,Electrical fault
+INC-000857,AST-00345,2024-11-07,Low,0.6,Physical damage
+INC-000858,AST-00346,2024-05-09,Medium,2.1,Protection trip
+INC-000859,AST-00347,2025-09-25,Low,3.1,Electrical fault
+INC-000860,AST-00348,2025-07-11,High,5.7,Physical damage
+INC-000861,AST-00350,2025-06-20,Medium,0.7,Physical damage
+INC-000862,AST-00350,2026-02-10,Medium,0.9,Protection trip
+INC-000863,AST-00350,2025-09-02,Low,0.4,Electrical fault
+INC-000864,AST-00350,2026-02-16,High,3.9,Physical damage
+INC-000865,AST-00351,2024-06-12,Low,0.4,Protection trip
+INC-000866,AST-00352,2025-01-15,Low,2.0,Protection trip
+INC-000867,AST-00353,2025-07-10,High,8.1,Physical damage
+INC-000868,AST-00353,2025-06-25,Critical,10.5,Protection trip
+INC-000869,AST-00354,2025-11-17,High,5.6,Electrical fault
+INC-000870,AST-00354,2026-03-23,Low,0.9,Protection trip
+INC-000871,AST-00354,2024-01-12,Medium,7.7,Inspection finding
+INC-000872,AST-00355,2026-05-15,Low,0.9,Inspection finding
+INC-000873,AST-00355,2026-07-03,Critical,7.1,Physical damage
+INC-000874,AST-00355,2026-02-21,Critical,5.8,Protection trip
+INC-000875,AST-00356,2025-07-12,High,9.2,Electrical fault
+INC-000876,AST-00356,2025-06-08,Low,0.9,Electrical fault
+INC-000877,AST-00356,2026-08-02,High,2.4,Inspection finding
+INC-000878,AST-00357,2026-04-23,Critical,6.6,Inspection finding
+INC-000879,AST-00357,2025-06-01,Medium,3.5,Physical damage
+INC-000880,AST-00357,2025-10-05,Low,1.7,Protection trip
+INC-000881,AST-00358,2024-12-29,Low,1.7,Overheating
+INC-000882,AST-00358,2024-04-27,Critical,13.1,Protection trip
+INC-000883,AST-00359,2026-01-16,Medium,1.6,Electrical fault
+INC-000884,AST-00359,2024-01-01,Medium,3.2,Inspection finding
+INC-000885,AST-00359,2025-01-13,High,1.8,Physical damage
+INC-000886,AST-00359,2025-08-07,Critical,10.3,Inspection finding
+INC-000887,AST-00359,2024-07-29,Medium,4.2,Protection trip
+INC-000888,AST-00360,2024-12-18,Medium,1.3,Overheating
+INC-000889,AST-00360,2026-04-11,High,3.1,Overheating
+INC-000890,AST-00361,2026-06-22,Low,1.0,Protection trip
+INC-000891,AST-00361,2024-01-31,Low,0.4,Overheating
+INC-000892,AST-00361,2024-03-03,Medium,2.6,Protection trip
+INC-000893,AST-00361,2025-03-06,High,1.2,Overheating
+INC-000894,AST-00362,2025-06-07,High,5.7,Physical damage
+INC-000895,AST-00362,2026-08-09,High,10.8,Protection trip
+INC-000896,AST-00362,2025-01-18,Medium,2.2,Inspection finding
+INC-000897,AST-00363,2025-01-08,Low,1.1,Physical damage
+INC-000898,AST-00363,2025-02-27,Low,3.2,Overheating
+INC-000899,AST-00363,2025-02-02,Low,0.8,Electrical fault
+INC-000900,AST-00363,2024-01-06,High,3.7,Protection trip
+INC-000901,AST-00364,2026-06-29,Medium,1.5,Overheating
+INC-000902,AST-00365,2026-05-21,Medium,1.5,Physical damage
+INC-000903,AST-00365,2025-03-22,Low,4.6,Protection trip
+INC-000904,AST-00365,2024-03-28,High,1.6,Overheating
+INC-000905,AST-00365,2025-01-14,Low,3.0,Inspection finding
+INC-000906,AST-00365,2024-06-29,Medium,4.8,Overheating
+INC-000907,AST-00366,2026-02-09,Medium,2.4,Overheating
+INC-000908,AST-00367,2025-05-09,High,3.8,Inspection finding
+INC-000909,AST-00367,2026-07-03,Low,0.6,Physical damage
+INC-000910,AST-00367,2024-05-13,Medium,4.0,Electrical fault
+INC-000911,AST-00368,2024-04-06,Medium,1.8,Electrical fault
+INC-000912,AST-00368,2025-09-13,Medium,1.7,Inspection finding
+INC-000913,AST-00369,2024-04-01,Low,3.4,Physical damage
+INC-000914,AST-00369,2026-08-08,Low,0.4,Overheating
+INC-000915,AST-00370,2025-02-24,Medium,0.9,Physical damage
+INC-000916,AST-00371,2024-12-29,Low,0.8,Electrical fault
+INC-000917,AST-00371,2024-02-23,Low,1.9,Inspection finding
+INC-000918,AST-00371,2025-05-16,Low,3.9,Physical damage
+INC-000919,AST-00372,2025-09-06,Low,3.0,Physical damage
+INC-000920,AST-00372,2024-03-09,Low,1.1,Electrical fault
+INC-000921,AST-00372,2025-02-11,Low,3.0,Physical damage
+INC-000922,AST-00373,2024-12-14,High,2.1,Protection trip
+INC-000923,AST-00374,2026-07-12,Critical,9.3,Overheating
+INC-000924,AST-00374,2025-01-19,Medium,5.0,Overheating
+INC-000925,AST-00375,2025-10-10,Medium,0.6,Physical damage
+INC-000926,AST-00375,2024-08-07,Medium,10.3,Electrical fault
+INC-000927,AST-00376,2025-08-20,Medium,2.5,Protection trip
+INC-000928,AST-00376,2026-02-17,Medium,2.9,Electrical fault
+INC-000929,AST-00376,2026-08-31,Medium,2.7,Protection trip
+INC-000930,AST-00377,2025-05-04,High,3.0,Electrical fault
+INC-000931,AST-00377,2026-03-16,Low,1.2,Protection trip
+INC-000932,AST-00378,2024-11-13,Medium,3.1,Overheating
+INC-000933,AST-00378,2024-10-14,Low,2.4,Protection trip
+INC-000934,AST-00378,2024-05-10,Medium,3.1,Overheating
+INC-000935,AST-00379,2025-09-03,High,1.1,Protection trip
+INC-000936,AST-00379,2025-11-14,Medium,0.6,Physical damage
+INC-000937,AST-00379,2025-08-28,Medium,0.9,Electrical fault
+INC-000938,AST-00380,2025-08-29,Low,1.7,Inspection finding
+INC-000939,AST-00381,2025-11-06,High,2.8,Physical damage
+INC-000940,AST-00382,2025-05-13,Medium,1.0,Inspection finding
+INC-000941,AST-00382,2026-03-31,Medium,0.9,Electrical fault
+INC-000942,AST-00383,2025-02-10,Medium,0.6,Overheating
+INC-000943,AST-00383,2026-03-01,Medium,0.4,Electrical fault
+INC-000944,AST-00383,2025-12-31,Low,1.6,Physical damage
+INC-000945,AST-00383,2025-09-26,High,1.7,Electrical fault
+INC-000946,AST-00383,2025-03-24,Medium,1.8,Inspection finding
+INC-000947,AST-00383,2024-01-06,Critical,11.9,Overheating
+INC-000948,AST-00383,2026-05-17,Medium,1.1,Overheating
+INC-000949,AST-00383,2024-10-20,Medium,0.9,Inspection finding
+INC-000950,AST-00384,2025-11-10,Medium,2.9,Inspection finding
+INC-000951,AST-00384,2024-07-06,Low,1.1,Protection trip
+INC-000952,AST-00385,2026-03-18,Low,1.1,Inspection finding
+INC-000953,AST-00385,2024-05-17,Critical,4.7,Physical damage
+INC-000954,AST-00386,2025-04-11,Low,3.2,Overheating
+INC-000955,AST-00386,2024-08-19,Medium,3.0,Protection trip
+INC-000956,AST-00387,2024-01-07,Critical,2.1,Overheating
+INC-000957,AST-00387,2025-08-18,Low,0.8,Physical damage
+INC-000958,AST-00387,2024-04-20,Medium,2.8,Electrical fault
+INC-000959,AST-00388,2026-01-22,Low,1.5,Physical damage
+INC-000960,AST-00388,2024-06-13,Medium,1.6,Electrical fault
+INC-000961,AST-00388,2025-02-18,Low,0.6,Inspection finding
+INC-000962,AST-00388,2024-09-17,High,5.1,Overheating
+INC-000963,AST-00389,2024-05-12,Low,0.6,Overheating
+INC-000964,AST-00389,2026-02-10,Low,0.4,Inspection finding
+INC-000965,AST-00389,2024-03-08,Low,0.4,Protection trip
+INC-000966,AST-00389,2025-08-25,High,3.5,Inspection finding
+INC-000967,AST-00390,2025-05-03,Medium,2.5,Electrical fault
+INC-000968,AST-00390,2025-10-17,High,8.0,Electrical fault
+INC-000969,AST-00390,2025-08-30,High,5.1,Inspection finding
+INC-000970,AST-00390,2024-10-24,High,4.2,Physical damage
+INC-000971,AST-00390,2025-08-11,Low,0.7,Electrical fault
+INC-000972,AST-00391,2024-04-28,Medium,5.8,Protection trip
+INC-000973,AST-00392,2026-05-28,Critical,8.5,Inspection finding
+INC-000974,AST-00393,2026-01-04,Medium,2.0,Protection trip
+INC-000975,AST-00393,2025-12-04,Low,0.4,Overheating
+INC-000976,AST-00393,2024-10-03,Low,0.4,Protection trip
+INC-000977,AST-00393,2026-06-12,Medium,1.5,Protection trip
+INC-000978,AST-00393,2024-12-14,Low,0.9,Physical damage
+INC-000979,AST-00393,2025-03-16,High,1.4,Inspection finding
+INC-000980,AST-00394,2026-04-27,High,2.0,Overheating
+INC-000981,AST-00394,2024-02-22,Low,2.7,Electrical fault
+INC-000982,AST-00394,2024-09-25,Medium,1.4,Protection trip
+INC-000983,AST-00395,2024-05-06,Medium,2.2,Inspection finding
+INC-000984,AST-00395,2024-11-03,Low,1.7,Inspection finding
+INC-000985,AST-00395,2026-08-31,Low,1.6,Physical damage
+INC-000986,AST-00396,2024-03-18,Medium,0.5,Physical damage
+INC-000987,AST-00397,2025-03-19,Low,1.7,Physical damage
+INC-000988,AST-00397,2025-07-05,Low,0.6,Inspection finding
+INC-000989,AST-00397,2024-06-28,High,11.2,Physical damage
+INC-000990,AST-00398,2024-01-03,Low,1.8,Overheating
+INC-000991,AST-00399,2024-11-18,High,8.4,Inspection finding
+INC-000992,AST-00399,2026-01-09,Medium,4.9,Physical damage
+INC-000993,AST-00400,2024-06-07,High,0.6,Electrical fault
+INC-000994,AST-00400,2026-01-01,High,8.5,Protection trip
+INC-000995,AST-00400,2026-08-30,Critical,13.2,Overheating
+INC-000996,AST-00400,2024-07-16,Medium,4.1,Electrical fault
+INC-000997,AST-00400,2026-06-24,Low,2.5,Electrical fault
+INC-000998,AST-00403,2025-09-22,Medium,3.0,Overheating
+INC-000999,AST-00403,2024-01-02,High,13.0,Physical damage
+INC-001000,AST-00403,2025-09-02,Medium,1.3,Electrical fault
+INC-001001,AST-00403,2025-03-18,Low,5.2,Overheating
+INC-001002,AST-00403,2024-01-06,Low,2.9,Electrical fault
+INC-001003,AST-00403,2025-11-14,Medium,2.4,Inspection finding
+INC-001004,AST-00406,2026-08-23,Low,0.4,Electrical fault
+INC-001005,AST-00406,2025-10-18,Low,1.2,Physical damage
+INC-001006,AST-00406,2026-01-13,Medium,1.0,Inspection finding
+INC-001007,AST-00406,2024-12-21,High,1.8,Protection trip
+INC-001008,AST-00406,2024-03-06,High,5.2,Protection trip
+INC-001009,AST-00406,2025-06-21,Critical,16.2,Overheating
+INC-001010,AST-00406,2024-06-08,Medium,5.9,Inspection finding
+INC-001011,AST-00406,2025-01-07,Low,0.5,Overheating
+INC-001012,AST-00407,2026-04-17,Medium,8.6,Inspection finding
+INC-001013,AST-00409,2026-07-05,Low,2.5,Electrical fault
+INC-001014,AST-00409,2026-06-06,Critical,13.1,Overheating
+INC-001015,AST-00409,2025-11-21,Low,2.3,Physical damage
+INC-001016,AST-00409,2024-08-11,Medium,2.1,Overheating
+INC-001017,AST-00409,2024-11-02,Low,0.7,Protection trip
+INC-001018,AST-00410,2026-05-12,High,1.4,Protection trip
+INC-001019,AST-00411,2025-12-21,Low,2.2,Overheating
+INC-001020,AST-00411,2025-07-09,Medium,2.6,Protection trip
+INC-001021,AST-00411,2026-06-16,Medium,1.3,Physical damage
+INC-001022,AST-00412,2024-02-18,Medium,2.2,Electrical fault
+INC-001023,AST-00412,2024-07-18,Medium,1.1,Physical damage
+INC-001024,AST-00413,2025-01-22,High,3.7,Physical damage
+INC-001025,AST-00413,2026-02-10,Low,3.8,Overheating
+INC-001026,AST-00413,2026-07-21,Low,0.4,Overheating
+INC-001027,AST-00414,2025-03-07,Medium,3.7,Protection trip
+INC-001028,AST-00414,2025-04-16,Medium,6.2,Protection trip
+INC-001029,AST-00415,2024-10-05,Medium,0.5,Electrical fault
+INC-001030,AST-00417,2024-01-24,High,1.6,Electrical fault
+INC-001031,AST-00417,2024-06-04,Low,2.5,Inspection finding
+INC-001032,AST-00417,2024-08-31,Medium,3.7,Inspection finding
+INC-001033,AST-00418,2024-12-28,High,6.3,Physical damage
+INC-001034,AST-00418,2025-10-10,Medium,0.4,Protection trip
+INC-001035,AST-00418,2025-02-08,Low,2.1,Electrical fault
+INC-001036,AST-00419,2024-05-18,Low,3.1,Electrical fault
+INC-001037,AST-00419,2025-12-01,Low,7.6,Inspection finding
+INC-001038,AST-00419,2025-09-07,Low,0.9,Electrical fault
+INC-001039,AST-00421,2024-01-16,High,9.1,Inspection finding
+INC-001040,AST-00422,2026-08-21,Medium,1.5,Electrical fault
+INC-001041,AST-00422,2024-05-18,Critical,3.6,Overheating
+INC-001042,AST-00423,2024-10-02,Medium,2.0,Physical damage
+INC-001043,AST-00423,2025-12-31,High,6.2,Inspection finding
+INC-001044,AST-00424,2024-05-01,Low,1.5,Physical damage
+INC-001045,AST-00424,2024-12-12,Medium,3.3,Physical damage
+INC-001046,AST-00424,2025-01-28,Critical,15.0,Inspection finding
+INC-001047,AST-00426,2025-12-26,Low,0.4,Inspection finding
+INC-001048,AST-00426,2026-08-22,High,3.3,Overheating
+INC-001049,AST-00428,2024-10-23,Low,4.9,Inspection finding
+INC-001050,AST-00429,2025-06-28,Critical,3.5,Electrical fault
+INC-001051,AST-00429,2025-02-17,Low,0.7,Physical damage
+INC-001052,AST-00430,2024-08-03,Medium,12.4,Inspection finding
+INC-001053,AST-00430,2024-06-16,Low,4.9,Electrical fault
+INC-001054,AST-00430,2024-12-16,Low,0.8,Physical damage
+INC-001055,AST-00430,2025-11-21,Critical,0.4,Electrical fault
+INC-001056,AST-00431,2024-03-20,High,0.4,Inspection finding
+INC-001057,AST-00431,2025-07-24,Medium,0.8,Protection trip
+INC-001058,AST-00431,2025-07-02,Low,0.9,Physical damage
+INC-001059,AST-00432,2024-08-07,Low,0.7,Overheating
+INC-001060,AST-00435,2024-11-29,Low,0.8,Physical damage
+INC-001061,AST-00435,2025-08-08,Medium,4.8,Inspection finding
+INC-001062,AST-00435,2024-12-15,Low,1.9,Inspection finding
+INC-001063,AST-00435,2026-03-29,Low,2.5,Electrical fault
+INC-001064,AST-00436,2025-04-23,Medium,5.0,Physical damage
+INC-001065,AST-00436,2025-12-15,Low,0.4,Electrical fault
+INC-001066,AST-00437,2025-09-06,Low,3.0,Physical damage
+INC-001067,AST-00437,2026-02-06,High,10.1,Electrical fault
+INC-001068,AST-00437,2025-10-19,Medium,3.2,Inspection finding
+INC-001069,AST-00437,2026-01-23,High,7.9,Inspection finding
+INC-001070,AST-00438,2026-03-03,Medium,1.8,Protection trip
+INC-001071,AST-00438,2024-04-16,Medium,3.8,Protection trip
+INC-001072,AST-00438,2024-03-09,Low,0.8,Protection trip
+INC-001073,AST-00439,2025-08-03,Low,2.1,Inspection finding
+INC-001074,AST-00441,2024-07-19,Medium,0.5,Inspection finding
+INC-001075,AST-00442,2025-02-12,High,4.2,Electrical fault
+INC-001076,AST-00442,2025-01-10,Medium,2.0,Physical damage
+INC-001077,AST-00442,2026-06-27,Low,0.8,Electrical fault
+INC-001078,AST-00442,2024-05-28,Low,0.4,Protection trip
+INC-001079,AST-00443,2026-04-26,Critical,21.3,Inspection finding
+INC-001080,AST-00443,2026-02-11,High,6.5,Physical damage
+INC-001081,AST-00443,2024-03-22,Medium,1.2,Overheating
+INC-001082,AST-00443,2026-03-18,Low,1.6,Protection trip
+INC-001083,AST-00445,2024-10-13,Low,1.8,Overheating
+INC-001084,AST-00445,2025-07-30,Medium,1.3,Electrical fault
+INC-001085,AST-00445,2025-06-02,Medium,2.7,Electrical fault
+INC-001086,AST-00445,2025-10-20,Medium,1.1,Electrical fault
+INC-001087,AST-00446,2026-01-10,Medium,4.8,Physical damage
+INC-001088,AST-00446,2026-08-11,Low,1.2,Inspection finding
+INC-001089,AST-00446,2024-02-10,Low,0.7,Overheating
+INC-001090,AST-00446,2026-03-06,Low,0.5,Physical damage
+INC-001091,AST-00446,2025-11-01,Low,2.4,Inspection finding
+INC-001092,AST-00446,2026-07-11,Critical,3.6,Electrical fault
+INC-001093,AST-00447,2024-08-17,Medium,3.2,Protection trip
+INC-001094,AST-00447,2024-03-04,Low,3.9,Overheating
+INC-001095,AST-00447,2024-03-12,Medium,2.3,Physical damage
+INC-001096,AST-00448,2024-05-21,Low,1.0,Protection trip
+INC-001097,AST-00448,2024-09-09,Low,1.2,Electrical fault
+INC-001098,AST-00448,2026-02-26,High,3.7,Physical damage
+INC-001099,AST-00449,2024-05-09,Critical,15.6,Overheating
+INC-001100,AST-00449,2024-08-22,High,2.6,Electrical fault
+INC-001101,AST-00449,2026-06-05,Medium,0.4,Protection trip
+INC-001102,AST-00449,2026-02-18,Medium,2.5,Physical damage
+INC-001103,AST-00449,2024-08-18,Low,0.6,Inspection finding
+INC-001104,AST-00449,2025-02-15,Medium,2.8,Inspection finding
+INC-001105,AST-00450,2025-08-06,Medium,4.9,Protection trip
+INC-001106,AST-00450,2026-03-30,Low,1.4,Inspection finding
+INC-001107,AST-00451,2025-10-12,High,3.5,Overheating
+INC-001108,AST-00451,2026-08-06,Low,0.7,Inspection finding
+INC-001109,AST-00451,2025-05-04,Medium,2.3,Overheating
+INC-001110,AST-00452,2026-04-18,Critical,13.5,Overheating
+INC-001111,AST-00452,2025-04-17,Medium,0.4,Physical damage
+INC-001112,AST-00452,2026-07-13,Low,1.2,Overheating
+INC-001113,AST-00452,2026-07-04,Low,2.5,Physical damage
+INC-001114,AST-00452,2024-05-23,Critical,2.5,Physical damage
+INC-001115,AST-00452,2026-02-17,Critical,4.5,Physical damage
+INC-001116,AST-00453,2026-06-13,Medium,1.7,Physical damage
+INC-001117,AST-00453,2025-09-12,Critical,13.1,Physical damage
+INC-001118,AST-00454,2026-01-03,Low,0.7,Protection trip
+INC-001119,AST-00454,2026-01-27,Medium,3.0,Physical damage
+INC-001120,AST-00454,2024-05-26,Critical,4.1,Inspection finding
+INC-001121,AST-00455,2024-08-21,Medium,2.6,Electrical fault
+INC-001122,AST-00455,2024-06-19,Critical,12.5,Inspection finding
+INC-001123,AST-00455,2024-12-25,Medium,1.8,Inspection finding
+INC-001124,AST-00455,2025-12-31,Low,1.2,Inspection finding
+INC-001125,AST-00455,2026-02-23,Low,0.8,Inspection finding
+INC-001126,AST-00455,2024-12-28,Low,0.4,Electrical fault
+INC-001127,AST-00455,2024-05-26,High,12.3,Protection trip
+INC-001128,AST-00455,2024-01-24,Low,3.4,Electrical fault
+INC-001129,AST-00456,2025-11-17,High,6.1,Protection trip
+INC-001130,AST-00457,2024-06-05,Low,0.4,Protection trip
+INC-001131,AST-00457,2025-04-03,Low,1.0,Protection trip
+INC-001132,AST-00458,2024-09-16,Medium,1.7,Protection trip
+INC-001133,AST-00458,2026-01-30,Medium,0.4,Physical damage
+INC-001134,AST-00458,2024-08-24,Medium,4.2,Electrical fault
+INC-001135,AST-00458,2026-02-21,Medium,2.7,Inspection finding
+INC-001136,AST-00459,2026-07-29,High,1.0,Physical damage
+INC-001137,AST-00459,2026-01-29,Critical,10.2,Overheating
+INC-001138,AST-00459,2025-03-28,Medium,6.4,Overheating
+INC-001139,AST-00459,2024-09-16,Medium,1.6,Physical damage
+INC-001140,AST-00459,2024-03-28,High,1.3,Physical damage
+INC-001141,AST-00460,2025-09-29,Critical,8.6,Inspection finding
+INC-001142,AST-00460,2026-05-31,Medium,3.4,Inspection finding
+INC-001143,AST-00461,2024-08-02,Critical,1.7,Electrical fault
+INC-001144,AST-00461,2024-11-30,Medium,4.2,Overheating
+INC-001145,AST-00462,2026-06-09,High,10.1,Inspection finding
+INC-001146,AST-00463,2026-03-20,Low,2.0,Overheating
+INC-001147,AST-00463,2026-03-26,Low,0.7,Protection trip
+INC-001148,AST-00464,2024-06-02,Low,1.6,Protection trip
+INC-001149,AST-00464,2024-10-28,High,4.4,Inspection finding
+INC-001150,AST-00464,2025-04-22,Critical,2.1,Protection trip
+INC-001151,AST-00464,2026-03-21,Low,0.4,Inspection finding
+INC-001152,AST-00464,2026-02-07,High,3.3,Inspection finding
+INC-001153,AST-00465,2024-07-26,Low,1.9,Protection trip
+INC-001154,AST-00465,2025-11-23,Low,0.9,Overheating
+INC-001155,AST-00465,2025-10-10,Low,1.6,Overheating
+INC-001156,AST-00466,2026-03-07,Low,1.5,Inspection finding
+INC-001157,AST-00467,2024-10-30,Medium,4.1,Inspection finding
+INC-001158,AST-00467,2026-07-24,Low,2.7,Inspection finding
+INC-001159,AST-00467,2024-10-27,Low,2.9,Electrical fault
+INC-001160,AST-00469,2024-06-12,Low,1.3,Overheating
+INC-001161,AST-00470,2024-01-08,Low,1.2,Protection trip
+INC-001162,AST-00470,2024-05-02,Medium,1.1,Inspection finding
+INC-001163,AST-00470,2026-04-25,High,3.2,Overheating
+INC-001164,AST-00471,2024-04-13,Medium,1.9,Physical damage
+INC-001165,AST-00471,2026-02-22,High,2.6,Physical damage
+INC-001166,AST-00472,2026-08-15,Low,1.6,Electrical fault
+INC-001167,AST-00474,2024-01-17,High,1.7,Protection trip
+INC-001168,AST-00474,2024-08-26,Low,1.0,Protection trip
+INC-001169,AST-00475,2025-06-05,High,2.7,Physical damage
+INC-001170,AST-00476,2026-03-16,Low,2.0,Inspection finding
+INC-001171,AST-00477,2024-08-13,High,4.2,Protection trip
+INC-001172,AST-00477,2026-03-15,Low,1.2,Electrical fault
+INC-001173,AST-00477,2026-05-17,Low,1.7,Overheating
+INC-001174,AST-00477,2026-07-18,Medium,5.8,Overheating
+INC-001175,AST-00478,2024-04-22,Critical,1.7,Physical damage
+INC-001176,AST-00480,2025-02-03,High,2.7,Inspection finding
+INC-001177,AST-00480,2024-01-05,High,1.0,Inspection finding
+INC-001178,AST-00481,2024-02-22,Low,4.6,Electrical fault
+INC-001179,AST-00481,2024-08-02,Critical,4.8,Protection trip
+INC-001180,AST-00483,2026-06-08,Low,1.3,Protection trip
+INC-001181,AST-00485,2026-08-22,Medium,0.7,Inspection finding
+INC-001182,AST-00485,2025-03-18,Low,2.3,Inspection finding
+INC-001183,AST-00487,2025-09-11,Low,0.4,Inspection finding
+INC-001184,AST-00487,2026-08-03,High,0.7,Electrical fault
+INC-001185,AST-00488,2024-12-23,Low,1.2,Electrical fault
+INC-001186,AST-00489,2024-11-23,Medium,3.8,Inspection finding
+INC-001187,AST-00489,2024-09-01,High,2.2,Electrical fault
+INC-001188,AST-00489,2025-05-31,Low,1.6,Electrical fault
+INC-001189,AST-00489,2025-09-25,Low,0.4,Physical damage
+INC-001190,AST-00489,2025-09-16,Low,0.4,Physical damage
+INC-001191,AST-00490,2024-01-08,High,4.3,Electrical fault
+INC-001192,AST-00490,2025-11-19,Low,1.9,Protection trip
+INC-001193,AST-00490,2026-02-13,Low,0.7,Overheating
+INC-001194,AST-00491,2024-11-08,Low,2.2,Protection trip
+INC-001195,AST-00491,2025-05-24,High,3.1,Inspection finding
+INC-001196,AST-00491,2024-12-07,Medium,2.6,Protection trip
+INC-001197,AST-00492,2024-10-30,High,3.3,Electrical fault
+INC-001198,AST-00492,2025-02-01,Low,1.3,Electrical fault
+INC-001199,AST-00493,2024-03-02,High,5.4,Overheating
+INC-001200,AST-00493,2025-08-17,High,5.3,Inspection finding
+INC-001201,AST-00494,2025-01-26,High,5.8,Overheating
+INC-001202,AST-00494,2025-03-14,Low,1.0,Overheating
+INC-001203,AST-00494,2024-02-05,High,6.0,Inspection finding
+INC-001204,AST-00495,2024-11-17,Medium,4.3,Protection trip
+INC-001205,AST-00495,2024-07-17,Critical,11.1,Electrical fault
+INC-001206,AST-00495,2025-06-04,Medium,3.6,Inspection finding
+INC-001207,AST-00496,2025-12-22,Low,0.9,Physical damage
+INC-001208,AST-00497,2025-05-31,Medium,2.8,Electrical fault
+INC-001209,AST-00497,2025-01-31,Low,2.6,Electrical fault
+INC-001210,AST-00497,2026-07-29,Medium,5.9,Electrical fault
+INC-001211,AST-00497,2024-03-04,Medium,4.8,Protection trip
+INC-001212,AST-00497,2026-02-18,Low,1.2,Physical damage
+INC-001213,AST-00497,2024-01-09,High,5.9,Overheating
+INC-001214,AST-00497,2024-01-09,Low,2.1,Protection trip
+INC-001215,AST-00498,2025-02-08,High,1.3,Physical damage
+INC-001216,AST-00498,2024-10-07,Low,3.1,Overheating
+INC-001217,AST-00500,2024-06-02,Low,0.5,Overheating
+INC-001218,AST-00501,2024-03-15,Low,1.9,Inspection finding
+INC-001219,AST-00501,2024-12-26,Medium,3.5,Electrical fault
+INC-001220,AST-00501,2025-08-31,Low,0.6,Physical damage
+INC-001221,AST-00502,2025-07-16,High,11.9,Physical damage
+INC-001222,AST-00503,2026-04-05,High,9.1,Physical damage
+INC-001223,AST-00503,2024-10-01,Critical,19.5,Overheating
+INC-001224,AST-00504,2025-03-20,Low,1.2,Electrical fault
+INC-001225,AST-00504,2026-05-08,Low,2.6,Protection trip
+INC-001226,AST-00504,2024-03-24,High,3.5,Inspection finding
+INC-001227,AST-00505,2024-11-09,Low,2.0,Protection trip
+INC-001228,AST-00506,2024-02-05,Medium,1.1,Electrical fault
+INC-001229,AST-00506,2026-04-05,High,13.4,Electrical fault
+INC-001230,AST-00507,2026-04-30,Medium,3.5,Overheating
+INC-001231,AST-00507,2024-12-23,Medium,3.8,Physical damage
+INC-001232,AST-00507,2025-08-25,Medium,3.4,Inspection finding
+INC-001233,AST-00507,2024-02-07,Medium,4.2,Electrical fault
+INC-001234,AST-00508,2024-12-15,Critical,1.8,Inspection finding
+INC-001235,AST-00508,2024-09-15,Medium,3.0,Electrical fault
+INC-001236,AST-00509,2024-08-01,Medium,1.9,Protection trip
+INC-001237,AST-00509,2024-12-24,Medium,3.1,Overheating
+INC-001238,AST-00509,2024-09-19,Medium,4.1,Physical damage
+INC-001239,AST-00509,2024-04-05,Low,1.6,Electrical fault
+INC-001240,AST-00510,2024-08-01,Low,0.5,Physical damage
+INC-001241,AST-00511,2025-05-18,Low,2.1,Inspection finding
+INC-001242,AST-00511,2025-10-08,Low,0.9,Overheating
+INC-001243,AST-00511,2025-11-29,Low,0.4,Electrical fault
+INC-001244,AST-00512,2025-08-20,Low,2.5,Physical damage
+INC-001245,AST-00513,2024-09-29,High,8.4,Physical damage
+INC-001246,AST-00513,2024-07-17,Low,0.4,Electrical fault
+INC-001247,AST-00513,2024-05-18,Low,0.6,Protection trip
+INC-001248,AST-00513,2024-06-11,Low,0.7,Overheating
+INC-001249,AST-00513,2024-01-16,Low,2.7,Physical damage
+INC-001250,AST-00513,2026-07-16,High,4.7,Electrical fault
+INC-001251,AST-00514,2026-07-29,High,0.4,Electrical fault
+INC-001252,AST-00514,2025-01-07,High,2.9,Electrical fault
+INC-001253,AST-00515,2024-04-02,Medium,3.9,Inspection finding
+INC-001254,AST-00515,2024-08-07,High,7.9,Inspection finding
+INC-001255,AST-00516,2024-08-17,Low,3.9,Electrical fault
+INC-001256,AST-00516,2026-04-19,High,3.6,Overheating
+INC-001257,AST-00516,2024-04-05,High,4.2,Physical damage
+INC-001258,AST-00516,2025-09-14,Medium,1.7,Inspection finding
+INC-001259,AST-00517,2025-08-18,Low,3.7,Overheating
+INC-001260,AST-00517,2024-07-04,Low,1.0,Physical damage
+INC-001261,AST-00518,2026-01-26,Low,1.6,Inspection finding
+INC-001262,AST-00518,2025-01-01,Medium,2.8,Physical damage
+INC-001263,AST-00519,2026-06-18,Low,1.1,Physical damage
+INC-001264,AST-00519,2025-12-13,High,6.2,Overheating
+INC-001265,AST-00519,2024-02-16,Medium,1.8,Inspection finding
+INC-001266,AST-00522,2024-01-28,Low,2.7,Physical damage
+INC-001267,AST-00522,2024-06-10,Low,0.9,Inspection finding
+INC-001268,AST-00523,2025-04-21,High,3.6,Electrical fault
+INC-001269,AST-00524,2026-06-12,Low,0.7,Physical damage
+INC-001270,AST-00525,2025-08-31,Low,2.2,Electrical fault
+INC-001271,AST-00525,2024-06-15,Medium,1.2,Inspection finding
+INC-001272,AST-00526,2025-06-10,Medium,5.4,Electrical fault
+INC-001273,AST-00527,2024-01-02,Low,2.6,Electrical fault
+INC-001274,AST-00528,2025-08-15,Low,2.3,Protection trip
+INC-001275,AST-00528,2026-07-11,Medium,1.1,Inspection finding
+INC-001276,AST-00530,2025-10-08,Low,1.9,Overheating
+INC-001277,AST-00530,2026-06-08,Medium,2.9,Protection trip
+INC-001278,AST-00530,2026-03-14,Low,2.1,Protection trip
+INC-001279,AST-00530,2025-09-18,Critical,1.0,Overheating
+INC-001280,AST-00531,2024-05-30,Medium,1.2,Physical damage
+INC-001281,AST-00531,2026-03-23,Medium,2.6,Inspection finding
+INC-001282,AST-00532,2025-12-13,Medium,2.7,Overheating
+INC-001283,AST-00532,2025-09-28,Medium,7.9,Inspection finding
+INC-001284,AST-00532,2025-07-16,Medium,0.5,Electrical fault
+INC-001285,AST-00533,2024-03-21,Low,3.2,Electrical fault
+INC-001286,AST-00533,2024-06-06,High,5.1,Overheating
+INC-001287,AST-00533,2026-05-18,High,5.7,Protection trip
+INC-001288,AST-00533,2025-10-30,Medium,2.3,Physical damage
+INC-001289,AST-00534,2026-02-28,Medium,2.6,Overheating
+INC-001290,AST-00534,2025-05-01,High,6.4,Overheating
+INC-001291,AST-00534,2026-05-12,Low,0.7,Electrical fault
+INC-001292,AST-00535,2024-02-07,High,3.4,Physical damage
+INC-001293,AST-00535,2024-02-07,Low,1.4,Overheating
+INC-001294,AST-00536,2025-03-01,Medium,1.8,Inspection finding
+INC-001295,AST-00536,2025-12-25,Low,1.1,Protection trip
+INC-001296,AST-00536,2026-01-26,Critical,9.6,Protection trip
+INC-001297,AST-00537,2026-04-17,Low,0.5,Overheating
+INC-001298,AST-00537,2026-08-17,Medium,2.4,Overheating
+INC-001299,AST-00537,2025-10-06,Medium,4.4,Overheating
+INC-001300,AST-00539,2026-02-09,Medium,2.7,Physical damage
+INC-001301,AST-00539,2026-05-29,Medium,1.1,Physical damage
+INC-001302,AST-00539,2026-07-17,Medium,1.2,Physical damage
+INC-001303,AST-00539,2026-08-08,Low,3.1,Overheating
+INC-001304,AST-00540,2024-12-09,Medium,2.7,Protection trip
+INC-001305,AST-00540,2025-02-13,Medium,2.4,Overheating
+INC-001306,AST-00540,2025-07-27,Low,0.8,Electrical fault
+INC-001307,AST-00540,2025-01-12,Low,2.5,Electrical fault
+INC-001308,AST-00542,2025-04-29,Low,1.6,Physical damage
+INC-001309,AST-00542,2026-08-21,Medium,1.1,Inspection finding
+INC-001310,AST-00542,2025-05-28,High,8.9,Inspection finding
+INC-001311,AST-00542,2025-12-23,High,3.7,Inspection finding
+INC-001312,AST-00543,2025-05-20,High,3.9,Electrical fault
+INC-001313,AST-00543,2025-10-04,Medium,4.6,Overheating
+INC-001314,AST-00543,2024-04-20,Medium,3.1,Overheating
+INC-001315,AST-00543,2026-08-29,Medium,3.5,Electrical fault
+INC-001316,AST-00543,2024-08-25,Low,0.4,Protection trip
+INC-001317,AST-00543,2024-11-14,High,5.4,Protection trip
+INC-001318,AST-00544,2025-07-21,Medium,1.7,Overheating
+INC-001319,AST-00545,2025-01-11,Low,0.4,Overheating
+INC-001320,AST-00545,2024-07-07,High,2.3,Electrical fault
+INC-001321,AST-00546,2024-06-15,Medium,2.9,Inspection finding
+INC-001322,AST-00546,2024-05-22,Medium,4.6,Inspection finding
+INC-001323,AST-00546,2024-03-28,Medium,3.6,Electrical fault
+INC-001324,AST-00546,2026-06-08,Medium,4.5,Electrical fault
+INC-001325,AST-00547,2024-01-14,Medium,0.9,Protection trip
+INC-001326,AST-00547,2024-10-21,High,1.9,Protection trip
+INC-001327,AST-00547,2025-07-10,High,6.4,Overheating
+INC-001328,AST-00547,2024-04-10,Medium,3.7,Inspection finding
+INC-001329,AST-00547,2025-05-02,Low,0.7,Inspection finding
+INC-001330,AST-00548,2026-07-31,High,7.4,Protection trip
+INC-001331,AST-00549,2024-01-05,High,12.4,Physical damage
+INC-001332,AST-00549,2025-11-05,Low,2.1,Inspection finding
+INC-001333,AST-00550,2026-08-21,Medium,1.9,Overheating
+INC-001334,AST-00550,2025-02-19,Medium,2.1,Overheating
+INC-001335,AST-00551,2026-01-25,High,9.9,Physical damage
+INC-001336,AST-00551,2026-06-06,Low,0.8,Electrical fault
+INC-001337,AST-00551,2024-03-22,High,2.2,Overheating
+INC-001338,AST-00552,2024-06-16,Low,1.7,Overheating
+INC-001339,AST-00553,2026-08-08,Low,1.0,Electrical fault
+INC-001340,AST-00554,2025-11-04,Low,0.6,Inspection finding
+INC-001341,AST-00554,2026-07-10,Low,1.2,Inspection finding
+INC-001342,AST-00554,2025-05-05,Low,0.6,Overheating
+INC-001343,AST-00555,2024-08-04,Low,1.2,Inspection finding
+INC-001344,AST-00555,2026-02-04,High,1.2,Physical damage
+INC-001345,AST-00555,2026-01-18,High,3.5,Physical damage
+INC-001346,AST-00557,2025-10-14,Low,3.0,Overheating
+INC-001347,AST-00557,2026-02-25,Low,0.5,Inspection finding
+INC-001348,AST-00557,2026-03-15,Medium,6.2,Overheating
+INC-001349,AST-00557,2024-11-06,Low,0.4,Protection trip
+INC-001350,AST-00558,2024-07-25,High,9.3,Physical damage
+INC-001351,AST-00558,2025-01-18,Critical,5.5,Electrical fault
+INC-001352,AST-00558,2025-01-03,Medium,4.5,Inspection finding
+INC-001353,AST-00559,2025-07-15,Low,2.9,Physical damage
+INC-001354,AST-00560,2024-09-08,High,5.9,Electrical fault
+INC-001355,AST-00560,2024-03-21,High,1.2,Inspection finding
+INC-001356,AST-00560,2024-02-13,Critical,8.9,Inspection finding
+INC-001357,AST-00561,2026-02-12,Low,1.4,Electrical fault
+INC-001358,AST-00561,2025-01-09,Low,1.2,Overheating
+INC-001359,AST-00561,2026-05-10,Medium,0.8,Protection trip
+INC-001360,AST-00561,2026-07-08,Low,0.4,Physical damage
+INC-001361,AST-00562,2025-05-14,Medium,1.7,Protection trip
+INC-001362,AST-00562,2026-02-17,Medium,6.5,Protection trip
+INC-001363,AST-00562,2024-12-30,Low,1.7,Inspection finding
+INC-001364,AST-00562,2025-06-06,Critical,9.3,Overheating
+INC-001365,AST-00562,2024-12-04,Low,2.0,Overheating
+INC-001366,AST-00562,2024-07-06,High,4.1,Physical damage
+INC-001367,AST-00564,2024-02-20,Low,0.7,Electrical fault
+INC-001368,AST-00565,2026-01-08,Low,0.9,Electrical fault
+INC-001369,AST-00565,2025-12-12,High,4.4,Overheating
+INC-001370,AST-00566,2025-08-04,Critical,6.2,Electrical fault
+INC-001371,AST-00566,2026-02-01,Low,1.3,Electrical fault
+INC-001372,AST-00566,2025-08-09,High,5.3,Protection trip
+INC-001373,AST-00567,2024-07-03,Low,0.8,Inspection finding
+INC-001374,AST-00567,2026-04-08,Low,1.0,Electrical fault
+INC-001375,AST-00567,2025-07-19,Medium,2.3,Physical damage
+INC-001376,AST-00567,2025-02-01,Medium,0.6,Overheating
+INC-001377,AST-00567,2024-08-23,Low,1.7,Protection trip
+INC-001378,AST-00567,2025-01-25,High,5.5,Inspection finding
+INC-001379,AST-00569,2026-08-05,Low,0.5,Physical damage
+INC-001380,AST-00570,2025-04-04,Low,1.6,Electrical fault
+INC-001381,AST-00570,2025-07-26,Low,3.2,Protection trip
+INC-001382,AST-00570,2024-08-09,Low,1.4,Inspection finding
+INC-001383,AST-00570,2025-04-02,Medium,1.5,Protection trip
+INC-001384,AST-00571,2024-01-23,Medium,4.0,Protection trip
+INC-001385,AST-00571,2026-08-22,Low,1.2,Physical damage
+INC-001386,AST-00571,2026-03-09,Low,1.7,Overheating
+INC-001387,AST-00571,2024-10-11,Low,0.7,Inspection finding
+INC-001388,AST-00571,2024-07-30,Medium,2.5,Protection trip
+INC-001389,AST-00572,2025-03-01,Medium,4.1,Electrical fault
+INC-001390,AST-00572,2025-09-17,High,7.8,Protection trip
+INC-001391,AST-00572,2024-02-06,Critical,3.3,Electrical fault
+INC-001392,AST-00572,2026-05-21,High,17.1,Electrical fault
+INC-001393,AST-00573,2025-12-25,Low,0.4,Overheating
+INC-001394,AST-00574,2024-08-04,Medium,0.9,Protection trip
+INC-001395,AST-00575,2025-07-05,Low,0.4,Inspection finding
+INC-001396,AST-00575,2024-04-14,Medium,0.9,Electrical fault
+INC-001397,AST-00575,2025-10-19,High,5.7,Overheating
+INC-001398,AST-00575,2025-06-06,Low,0.4,Physical damage
+INC-001399,AST-00576,2026-03-08,Low,1.1,Physical damage
+INC-001400,AST-00576,2024-03-13,Medium,0.4,Inspection finding
+INC-001401,AST-00576,2024-10-09,Low,0.6,Protection trip
+INC-001402,AST-00577,2026-05-16,Low,0.4,Physical damage
+INC-001403,AST-00577,2025-12-02,Medium,1.9,Physical damage
+INC-001404,AST-00578,2024-11-15,Medium,1.1,Protection trip
+INC-001405,AST-00578,2025-10-26,Medium,0.7,Protection trip
+INC-001406,AST-00579,2024-11-18,Low,0.7,Protection trip
+INC-001407,AST-00579,2025-01-10,Low,2.4,Electrical fault
+INC-001408,AST-00580,2025-02-11,Medium,0.4,Physical damage
+INC-001409,AST-00581,2024-06-07,High,8.1,Physical damage
+INC-001410,AST-00581,2025-05-05,High,6.6,Overheating
+INC-001411,AST-00581,2024-12-13,Low,0.4,Protection trip
+INC-001412,AST-00582,2024-08-17,High,4.9,Electrical fault
+INC-001413,AST-00582,2025-01-12,Low,1.3,Inspection finding
+INC-001414,AST-00582,2025-10-11,Medium,1.9,Physical damage
+INC-001415,AST-00582,2025-01-23,Medium,1.3,Overheating
+INC-001416,AST-00583,2026-01-18,Medium,1.5,Protection trip
+INC-001417,AST-00583,2024-07-04,High,3.7,Overheating
+INC-001418,AST-00583,2026-07-17,Medium,2.8,Inspection finding
+INC-001419,AST-00583,2024-12-31,Low,1.6,Inspection finding
+INC-001420,AST-00584,2025-06-28,Medium,2.0,Protection trip
+INC-001421,AST-00584,2025-11-25,Low,2.8,Protection trip
+INC-001422,AST-00584,2024-12-25,Low,0.4,Electrical fault
+INC-001423,AST-00584,2025-12-18,Critical,19.0,Overheating
+INC-001424,AST-00586,2026-04-30,Medium,1.7,Protection trip
+INC-001425,AST-00587,2025-09-15,Medium,2.1,Protection trip
+INC-001426,AST-00587,2026-05-21,Medium,3.6,Physical damage
+INC-001427,AST-00588,2025-11-26,Medium,2.0,Protection trip
+INC-001428,AST-00588,2026-06-13,Low,1.2,Overheating
+INC-001429,AST-00588,2025-03-30,Low,1.4,Protection trip
+INC-001430,AST-00589,2024-03-10,Low,0.5,Overheating
+INC-001431,AST-00589,2024-04-29,Low,2.7,Overheating
+INC-001432,AST-00589,2024-08-28,Low,5.4,Protection trip
+INC-001433,AST-00589,2025-01-25,Critical,5.1,Inspection finding
+INC-001434,AST-00589,2024-11-18,High,0.4,Physical damage
+INC-001435,AST-00590,2026-01-13,High,0.4,Protection trip
+INC-001436,AST-00591,2026-07-11,Low,0.8,Inspection finding
+INC-001437,AST-00591,2025-12-22,Low,1.8,Protection trip
+INC-001438,AST-00591,2025-10-21,Medium,4.6,Inspection finding
+INC-001439,AST-00592,2024-12-23,High,1.8,Overheating
+INC-001440,AST-00593,2024-02-09,Low,0.4,Electrical fault
+INC-001441,AST-00593,2025-03-24,Medium,5.5,Inspection finding
+INC-001442,AST-00593,2026-02-13,Low,3.1,Overheating
+INC-001443,AST-00593,2025-03-15,Medium,5.2,Inspection finding
+INC-001444,AST-00594,2026-08-26,Medium,8.2,Inspection finding
+INC-001445,AST-00594,2024-09-24,High,1.0,Protection trip
+INC-001446,AST-00595,2024-01-11,Medium,0.8,Protection trip
+INC-001447,AST-00595,2026-07-02,Medium,1.7,Physical damage
+INC-001448,AST-00595,2024-05-24,Medium,1.8,Overheating
+INC-001449,AST-00595,2024-08-09,High,4.9,Physical damage
+INC-001450,AST-00596,2024-11-16,High,2.6,Protection trip
+INC-001451,AST-00597,2025-05-04,Low,4.1,Overheating
+INC-001452,AST-00597,2024-03-08,Low,6.0,Overheating
+INC-001453,AST-00597,2025-05-31,Medium,6.5,Overheating
+INC-001454,AST-00598,2025-03-30,Low,0.5,Inspection finding
+INC-001455,AST-00598,2024-06-17,Low,1.3,Overheating
+INC-001456,AST-00599,2025-05-10,Medium,3.1,Overheating
+INC-001457,AST-00599,2025-09-09,High,0.9,Inspection finding
+INC-001458,AST-00599,2026-04-29,Low,1.6,Overheating
+INC-001459,AST-00599,2025-08-20,High,4.2,Overheating
+INC-001460,AST-00601,2025-10-17,High,2.2,Protection trip
+INC-001461,AST-00601,2024-08-11,Medium,2.2,Protection trip
+INC-001462,AST-00601,2026-03-11,Low,3.3,Inspection finding
+INC-001463,AST-00602,2025-06-05,Medium,1.2,Protection trip
+INC-001464,AST-00603,2025-10-16,Low,0.9,Inspection finding
+INC-001465,AST-00603,2024-05-26,Low,1.8,Electrical fault
+INC-001466,AST-00603,2025-08-30,Critical,1.5,Electrical fault
+INC-001467,AST-00603,2024-08-25,Low,1.3,Protection trip
+INC-001468,AST-00604,2024-10-31,Medium,4.8,Physical damage
+INC-001469,AST-00604,2024-10-12,Low,2.2,Inspection finding
+INC-001470,AST-00604,2024-07-31,Low,0.5,Overheating
+INC-001471,AST-00605,2024-05-30,Low,3.5,Electrical fault
+INC-001472,AST-00605,2025-05-28,Medium,3.9,Electrical fault
+INC-001473,AST-00606,2026-06-17,Low,1.2,Electrical fault
+INC-001474,AST-00606,2025-07-10,High,1.4,Physical damage
+INC-001475,AST-00606,2024-08-26,High,7.8,Physical damage
+INC-001476,AST-00606,2025-03-12,Medium,1.4,Electrical fault
+INC-001477,AST-00607,2025-10-11,High,11.6,Electrical fault
+INC-001478,AST-00607,2024-08-04,High,4.2,Inspection finding
+INC-001479,AST-00607,2026-08-14,Medium,2.3,Electrical fault
+INC-001480,AST-00607,2026-08-15,Low,1.0,Overheating
+INC-001481,AST-00607,2026-08-25,High,6.8,Inspection finding
+INC-001482,AST-00608,2025-06-01,Critical,8.8,Inspection finding
+INC-001483,AST-00609,2025-11-18,Medium,3.0,Overheating
+INC-001484,AST-00609,2025-11-24,Medium,2.2,Inspection finding
+INC-001485,AST-00609,2024-01-11,Low,0.4,Protection trip
+INC-001486,AST-00609,2026-04-22,Low,0.4,Protection trip
+INC-001487,AST-00610,2025-10-17,Low,2.5,Physical damage
+INC-001488,AST-00610,2025-06-11,Low,1.2,Protection trip
+INC-001489,AST-00610,2026-07-01,Medium,7.4,Overheating
+INC-001490,AST-00610,2026-06-27,Low,2.2,Inspection finding
+INC-001491,AST-00611,2025-06-28,Low,1.5,Overheating
+INC-001492,AST-00611,2025-04-01,Medium,3.5,Overheating
+INC-001493,AST-00611,2025-06-13,Low,1.0,Inspection finding
+INC-001494,AST-00611,2026-07-07,Medium,0.8,Overheating
+INC-001495,AST-00611,2025-01-15,Medium,3.9,Electrical fault
+INC-001496,AST-00612,2024-12-16,Medium,3.0,Electrical fault
+INC-001497,AST-00612,2025-10-13,Low,0.8,Overheating
+INC-001498,AST-00612,2024-03-17,Low,1.5,Electrical fault
+INC-001499,AST-00612,2025-03-26,Low,3.7,Protection trip
+INC-001500,AST-00612,2025-05-07,High,6.7,Physical damage
+INC-001501,AST-00613,2026-08-25,Medium,1.1,Physical damage
+INC-001502,AST-00613,2024-02-01,Low,1.1,Electrical fault
+INC-001503,AST-00614,2025-08-12,Low,1.1,Electrical fault
+INC-001504,AST-00614,2024-03-14,High,1.6,Protection trip
+INC-001505,AST-00615,2026-06-16,Low,3.5,Inspection finding
+INC-001506,AST-00615,2026-08-04,Low,0.4,Inspection finding
+INC-001507,AST-00616,2026-03-20,High,2.7,Physical damage
+INC-001508,AST-00616,2026-06-17,Medium,3.4,Physical damage
+INC-001509,AST-00616,2024-09-28,High,2.1,Electrical fault
+INC-001510,AST-00616,2026-03-11,Low,1.8,Inspection finding
+INC-001511,AST-00617,2025-06-10,Critical,6.7,Physical damage
+INC-001512,AST-00617,2024-01-23,High,1.5,Protection trip
+INC-001513,AST-00617,2026-04-27,Low,3.2,Overheating
+INC-001514,AST-00617,2025-10-30,Critical,12.0,Protection trip
+INC-001515,AST-00617,2024-02-17,Medium,1.0,Protection trip
+INC-001516,AST-00617,2024-10-05,Low,0.8,Inspection finding
+INC-001517,AST-00618,2025-04-03,Low,1.8,Physical damage
+INC-001518,AST-00618,2025-01-10,Medium,0.6,Overheating
+INC-001519,AST-00619,2024-06-13,Low,2.1,Inspection finding
+INC-001520,AST-00619,2024-02-29,Low,1.0,Inspection finding
+INC-001521,AST-00619,2024-09-03,High,16.8,Overheating
+INC-001522,AST-00620,2025-12-06,Low,0.6,Protection trip
+INC-001523,AST-00620,2025-12-07,Low,3.2,Protection trip
+INC-001524,AST-00620,2025-02-18,Low,1.8,Electrical fault
+INC-001525,AST-00620,2024-08-25,Medium,1.9,Overheating
+INC-001526,AST-00621,2024-02-05,Medium,1.2,Overheating
+INC-001527,AST-00621,2024-12-22,Low,1.8,Overheating
+INC-001528,AST-00621,2025-06-18,Low,2.3,Protection trip
+INC-001529,AST-00621,2024-02-06,Low,2.2,Protection trip
+INC-001530,AST-00622,2024-11-21,Medium,1.7,Inspection finding
+INC-001531,AST-00622,2025-01-23,Low,0.8,Electrical fault
+INC-001532,AST-00623,2024-01-10,Medium,2.6,Inspection finding
+INC-001533,AST-00624,2025-01-16,Low,0.7,Protection trip
+INC-001534,AST-00624,2024-10-03,High,5.6,Physical damage
+INC-001535,AST-00624,2024-07-04,Low,2.8,Electrical fault
+INC-001536,AST-00624,2025-06-08,High,8.9,Physical damage
+INC-001537,AST-00624,2026-08-09,Medium,1.9,Inspection finding
+INC-001538,AST-00624,2025-02-16,Low,1.0,Inspection finding
+INC-001539,AST-00625,2024-05-06,Medium,3.3,Inspection finding
+INC-001540,AST-00625,2026-07-30,Low,2.7,Inspection finding
+INC-001541,AST-00625,2026-01-04,Low,0.6,Overheating
+INC-001542,AST-00625,2026-05-12,Low,1.3,Inspection finding
+INC-001543,AST-00626,2026-03-28,High,6.1,Electrical fault
+INC-001544,AST-00626,2025-12-27,Low,1.7,Inspection finding
+INC-001545,AST-00626,2025-02-01,Low,1.7,Electrical fault
+INC-001546,AST-00627,2025-11-06,Low,0.8,Protection trip
+INC-001547,AST-00627,2025-11-17,Medium,1.4,Physical damage
+INC-001548,AST-00627,2026-02-12,Medium,7.7,Physical damage
+INC-001549,AST-00628,2026-06-23,Low,2.9,Inspection finding
+INC-001550,AST-00629,2025-09-25,Low,1.1,Inspection finding
+INC-001551,AST-00630,2026-07-25,Medium,1.2,Electrical fault
+INC-001552,AST-00631,2025-08-06,Medium,0.9,Overheating
+INC-001553,AST-00631,2024-01-06,Low,2.7,Inspection finding
+INC-001554,AST-00631,2026-08-31,Medium,0.8,Electrical fault
+INC-001555,AST-00632,2024-06-07,Critical,5.2,Overheating
+INC-001556,AST-00633,2025-01-08,Medium,1.5,Physical damage
+INC-001557,AST-00633,2024-11-16,Low,0.8,Overheating
+INC-001558,AST-00633,2025-09-04,Medium,3.8,Physical damage
+INC-001559,AST-00634,2025-10-08,Medium,0.9,Overheating
+INC-001560,AST-00634,2025-06-15,High,3.8,Electrical fault
+INC-001561,AST-00634,2026-01-24,Low,5.8,Physical damage
+INC-001562,AST-00634,2024-09-05,Low,0.6,Overheating
+INC-001563,AST-00634,2025-12-26,Low,1.8,Physical damage
+INC-001564,AST-00635,2024-05-15,Low,0.9,Physical damage
+INC-001565,AST-00636,2025-10-03,Medium,3.1,Overheating
+INC-001566,AST-00636,2026-01-21,Medium,0.7,Physical damage
+INC-001567,AST-00637,2026-05-20,High,7.2,Physical damage
+INC-001568,AST-00637,2026-02-20,Low,0.6,Electrical fault
+INC-001569,AST-00639,2024-03-04,Low,2.6,Physical damage
+INC-001570,AST-00640,2026-08-04,Medium,0.7,Electrical fault
+INC-001571,AST-00640,2026-05-24,Medium,2.8,Protection trip
+INC-001572,AST-00640,2025-05-09,Low,1.6,Inspection finding
+INC-001573,AST-00640,2024-11-06,Medium,3.2,Electrical fault
+INC-001574,AST-00640,2024-04-25,Medium,1.0,Electrical fault
+INC-001575,AST-00641,2024-09-27,Low,0.5,Protection trip
+INC-001576,AST-00641,2024-04-13,Medium,5.2,Overheating
+INC-001577,AST-00643,2026-08-07,Medium,3.8,Physical damage
+INC-001578,AST-00644,2025-10-04,Medium,1.6,Electrical fault
+INC-001579,AST-00644,2024-08-26,Medium,1.8,Overheating
+INC-001580,AST-00644,2024-05-24,Low,1.5,Physical damage
+INC-001581,AST-00645,2024-01-16,High,6.9,Electrical fault
+INC-001582,AST-00646,2026-03-20,High,1.6,Protection trip
+INC-001583,AST-00647,2026-02-27,Low,5.5,Overheating
+INC-001584,AST-00648,2026-06-07,Medium,1.7,Physical damage
+INC-001585,AST-00649,2024-01-26,High,4.8,Overheating
+INC-001586,AST-00649,2025-09-03,Medium,6.0,Electrical fault
+INC-001587,AST-00650,2025-10-10,High,2.1,Electrical fault
+INC-001588,AST-00650,2025-11-26,High,9.5,Overheating
+INC-001589,AST-00651,2026-06-30,Medium,1.4,Protection trip
+INC-001590,AST-00651,2025-07-09,Medium,1.4,Protection trip
+INC-001591,AST-00651,2024-09-16,Low,2.6,Inspection finding
+INC-001592,AST-00651,2026-01-14,Low,0.4,Physical damage
+INC-001593,AST-00651,2025-04-18,Medium,2.5,Physical damage
+INC-001594,AST-00652,2024-10-07,High,12.1,Physical damage
+INC-001595,AST-00652,2025-08-18,Medium,2.7,Protection trip
+INC-001596,AST-00652,2025-09-25,Low,3.8,Physical damage
+INC-001597,AST-00653,2025-10-16,High,7.2,Inspection finding
+INC-001598,AST-00653,2025-12-19,Low,2.8,Inspection finding
+INC-001599,AST-00653,2024-05-18,Low,2.5,Protection trip
+INC-001600,AST-00653,2025-05-03,Medium,1.8,Protection trip
+INC-001601,AST-00655,2024-12-15,High,2.8,Overheating
+INC-001602,AST-00655,2024-11-11,Low,2.8,Overheating
+INC-001603,AST-00655,2025-01-25,High,3.4,Electrical fault
+INC-001604,AST-00655,2026-08-26,Low,1.3,Electrical fault
+INC-001605,AST-00655,2025-05-11,Low,0.7,Inspection finding
+INC-001606,AST-00655,2024-03-01,Medium,3.8,Physical damage
+INC-001607,AST-00655,2025-06-12,Medium,1.0,Overheating
+INC-001608,AST-00655,2025-12-11,High,6.1,Physical damage
+INC-001609,AST-00656,2025-11-20,Low,1.3,Physical damage
+INC-001610,AST-00657,2024-08-03,High,4.3,Electrical fault
+INC-001611,AST-00657,2024-06-09,High,2.0,Overheating
+INC-001612,AST-00658,2025-03-27,Low,0.9,Protection trip
+INC-001613,AST-00658,2026-01-26,Low,0.6,Electrical fault
+INC-001614,AST-00658,2024-07-04,Critical,12.5,Overheating
+INC-001615,AST-00659,2025-09-29,Low,1.7,Protection trip
+INC-001616,AST-00659,2025-07-04,High,2.7,Inspection finding
+INC-001617,AST-00660,2026-07-22,Low,1.9,Electrical fault
+INC-001618,AST-00660,2024-03-11,Medium,6.1,Electrical fault
+INC-001619,AST-00660,2024-08-24,Medium,1.7,Inspection finding
+INC-001620,AST-00661,2026-04-22,Medium,1.4,Inspection finding
+INC-001621,AST-00661,2024-06-29,Low,1.6,Inspection finding
+INC-001622,AST-00661,2025-08-12,Medium,3.4,Inspection finding
+INC-001623,AST-00662,2025-03-03,Medium,3.3,Physical damage
+INC-001624,AST-00662,2024-03-10,Critical,6.1,Protection trip
+INC-001625,AST-00663,2024-05-29,High,11.3,Protection trip
+INC-001626,AST-00664,2024-03-23,High,3.1,Protection trip
+INC-001627,AST-00666,2025-05-08,Low,5.5,Overheating
+INC-001628,AST-00668,2024-05-17,Low,1.3,Inspection finding
+INC-001629,AST-00668,2024-04-08,High,4.1,Inspection finding
+INC-001630,AST-00669,2025-12-07,High,5.7,Electrical fault
+INC-001631,AST-00669,2026-07-25,Low,2.3,Electrical fault
+INC-001632,AST-00670,2025-08-19,Medium,1.4,Protection trip
+INC-001633,AST-00670,2025-05-02,Low,0.4,Protection trip
+INC-001634,AST-00670,2026-08-09,High,3.3,Protection trip
+INC-001635,AST-00670,2025-03-09,Low,1.6,Electrical fault
+INC-001636,AST-00670,2024-08-09,Medium,2.1,Physical damage
+INC-001637,AST-00670,2025-06-29,Critical,23.7,Electrical fault
+INC-001638,AST-00670,2026-08-24,Low,3.7,Overheating
+INC-001639,AST-00671,2024-03-18,Medium,2.0,Protection trip
+INC-001640,AST-00671,2024-03-02,Critical,5.2,Physical damage
+INC-001641,AST-00671,2025-02-09,Medium,3.9,Inspection finding
+INC-001642,AST-00671,2025-10-16,High,8.0,Inspection finding
+INC-001643,AST-00671,2024-10-07,High,2.5,Electrical fault
+INC-001644,AST-00671,2025-03-26,Medium,1.4,Electrical fault
+INC-001645,AST-00672,2025-06-27,Medium,6.7,Inspection finding
+INC-001646,AST-00672,2024-01-26,Low,0.8,Electrical fault
+INC-001647,AST-00672,2024-05-04,Low,0.6,Physical damage
+INC-001648,AST-00672,2026-04-12,Low,1.6,Inspection finding
+INC-001649,AST-00672,2026-06-24,Critical,3.7,Overheating
+INC-001650,AST-00672,2025-11-16,Medium,3.0,Overheating
+INC-001651,AST-00672,2026-08-05,Low,0.7,Protection trip
+INC-001652,AST-00672,2026-06-01,Medium,1.1,Physical damage
+INC-001653,AST-00672,2025-03-14,Critical,6.7,Inspection finding
+INC-001654,AST-00673,2024-11-07,High,2.1,Protection trip
+INC-001655,AST-00673,2025-09-02,Low,0.7,Electrical fault
+INC-001656,AST-00675,2024-06-12,High,15.2,Physical damage
+INC-001657,AST-00675,2024-04-15,High,6.1,Protection trip
+INC-001658,AST-00676,2024-03-04,High,4.1,Inspection finding
+INC-001659,AST-00676,2024-05-24,Medium,1.7,Electrical fault
+INC-001660,AST-00676,2024-06-22,High,4.5,Inspection finding
+INC-001661,AST-00676,2026-06-28,High,2.1,Inspection finding
+INC-001662,AST-00676,2024-08-06,High,2.1,Physical damage
+INC-001663,AST-00677,2025-03-21,High,2.1,Overheating
+INC-001664,AST-00677,2024-10-10,Medium,0.9,Overheating
+INC-001665,AST-00677,2025-06-12,Low,0.4,Physical damage
+INC-001666,AST-00678,2026-01-15,Medium,1.1,Electrical fault
+INC-001667,AST-00678,2024-04-12,Medium,5.8,Physical damage
+INC-001668,AST-00679,2026-01-19,Low,1.2,Protection trip
+INC-001669,AST-00679,2026-03-21,High,6.2,Overheating
+INC-001670,AST-00680,2026-06-26,Critical,0.8,Physical damage
+INC-001671,AST-00681,2024-09-01,High,7.9,Protection trip
+INC-001672,AST-00681,2025-04-20,Medium,2.9,Electrical fault
+INC-001673,AST-00681,2024-11-15,Medium,4.3,Physical damage
+INC-001674,AST-00682,2025-11-27,High,10.0,Overheating
+INC-001675,AST-00683,2025-03-07,High,3.6,Electrical fault
+INC-001676,AST-00684,2026-05-01,Low,1.2,Protection trip
+INC-001677,AST-00684,2024-02-22,Low,0.8,Electrical fault
+INC-001678,AST-00684,2024-12-26,High,1.8,Physical damage
+INC-001679,AST-00684,2025-02-24,Low,1.6,Electrical fault
+INC-001680,AST-00685,2025-10-29,High,2.3,Overheating
+INC-001681,AST-00685,2025-01-31,Low,0.5,Physical damage
+INC-001682,AST-00685,2025-10-25,Low,0.7,Inspection finding
+INC-001683,AST-00685,2025-06-24,Low,1.6,Physical damage
+INC-001684,AST-00685,2025-02-12,Low,0.6,Inspection finding
+INC-001685,AST-00686,2026-07-10,High,5.6,Electrical fault
+INC-001686,AST-00688,2026-06-30,Low,0.5,Electrical fault
+INC-001687,AST-00689,2025-09-03,Low,0.4,Protection trip
+INC-001688,AST-00689,2025-12-20,Critical,9.9,Electrical fault
+INC-001689,AST-00690,2024-01-27,Medium,2.9,Overheating
+INC-001690,AST-00690,2024-03-25,High,7.7,Electrical fault
+INC-001691,AST-00690,2026-01-25,Low,0.6,Inspection finding
+INC-001692,AST-00691,2024-07-31,Low,0.4,Physical damage
+INC-001693,AST-00691,2024-01-09,Low,1.5,Inspection finding
+INC-001694,AST-00691,2025-07-18,Medium,0.6,Overheating
+INC-001695,AST-00691,2024-10-27,Low,1.6,Inspection finding
+INC-001696,AST-00692,2024-09-23,Low,1.4,Protection trip
+INC-001697,AST-00692,2024-05-22,High,8.0,Overheating
+INC-001698,AST-00692,2024-10-27,Low,2.0,Overheating
+INC-001699,AST-00692,2026-03-08,Medium,0.4,Physical damage
+INC-001700,AST-00692,2026-04-06,Low,0.4,Overheating
+INC-001701,AST-00692,2025-07-25,Low,1.0,Physical damage
+INC-001702,AST-00693,2026-01-27,High,8.8,Physical damage
+INC-001703,AST-00693,2025-05-07,Low,0.6,Electrical fault
+INC-001704,AST-00693,2026-05-23,Critical,15.0,Overheating
+INC-001705,AST-00694,2025-06-25,High,1.9,Overheating
+INC-001706,AST-00694,2026-07-30,Low,2.9,Inspection finding
+INC-001707,AST-00695,2026-07-26,Medium,1.6,Electrical fault
+INC-001708,AST-00695,2025-08-30,Medium,0.4,Physical damage
+INC-001709,AST-00695,2026-08-22,Critical,2.7,Electrical fault
+INC-001710,AST-00695,2024-02-02,Critical,7.1,Electrical fault
+INC-001711,AST-00696,2024-08-14,Low,3.6,Protection trip
+INC-001712,AST-00696,2025-12-29,Medium,3.5,Inspection finding
+INC-001713,AST-00697,2024-09-15,Low,0.7,Overheating
+INC-001714,AST-00697,2024-12-14,Low,1.8,Protection trip
+INC-001715,AST-00697,2024-04-17,Medium,1.3,Inspection finding
+INC-001716,AST-00697,2024-09-20,Low,1.1,Inspection finding
+INC-001717,AST-00697,2025-06-15,Low,3.6,Physical damage
+INC-001718,AST-00698,2025-11-14,Medium,1.1,Overheating
+INC-001719,AST-00698,2026-03-04,High,2.8,Inspection finding
+INC-001720,AST-00698,2024-10-12,High,3.3,Electrical fault
+INC-001721,AST-00698,2026-03-27,High,9.9,Physical damage
+INC-001722,AST-00698,2025-06-05,Low,0.7,Protection trip
+INC-001723,AST-00699,2024-12-30,High,3.2,Inspection finding
+INC-001724,AST-00701,2026-06-23,Low,1.4,Protection trip
+INC-001725,AST-00703,2026-06-24,Medium,2.3,Electrical fault
+INC-001726,AST-00703,2024-10-23,Low,1.6,Overheating
+INC-001727,AST-00704,2026-06-16,High,3.1,Protection trip
+INC-001728,AST-00704,2024-11-02,Medium,1.6,Electrical fault
+INC-001729,AST-00705,2025-04-27,Medium,3.3,Inspection finding
+INC-001730,AST-00705,2025-07-29,Low,1.5,Physical damage
+INC-001731,AST-00705,2024-10-04,High,1.8,Overheating
+INC-001732,AST-00705,2024-03-08,Medium,2.6,Inspection finding
+INC-001733,AST-00706,2024-03-03,Low,3.5,Overheating
+INC-001734,AST-00707,2024-02-14,Low,1.5,Physical damage
+INC-001735,AST-00707,2026-07-01,Medium,1.6,Inspection finding
+INC-001736,AST-00707,2024-07-13,Medium,1.3,Physical damage
+INC-001737,AST-00707,2026-03-09,Low,1.1,Electrical fault
+INC-001738,AST-00707,2026-08-30,Low,1.2,Electrical fault
+INC-001739,AST-00707,2026-03-25,Low,1.2,Protection trip
+INC-001740,AST-00707,2024-01-22,High,3.6,Overheating
+INC-001741,AST-00708,2025-04-04,Low,4.0,Electrical fault
+INC-001742,AST-00709,2024-04-06,High,10.5,Protection trip
+INC-001743,AST-00709,2026-06-17,High,3.9,Physical damage
+INC-001744,AST-00709,2024-10-29,Medium,2.4,Inspection finding
+INC-001745,AST-00710,2026-02-25,High,3.7,Inspection finding
+INC-001746,AST-00710,2024-10-30,Critical,0.8,Protection trip
+INC-001747,AST-00710,2026-08-17,Medium,5.7,Inspection finding
+INC-001748,AST-00710,2025-06-19,Medium,6.0,Inspection finding
+INC-001749,AST-00710,2025-09-21,High,3.5,Physical damage
+INC-001750,AST-00710,2025-03-13,Medium,3.0,Electrical fault
+INC-001751,AST-00713,2025-09-17,Low,0.5,Electrical fault
+INC-001752,AST-00713,2025-10-31,Medium,0.4,Protection trip
+INC-001753,AST-00713,2025-06-28,Low,2.1,Overheating
+INC-001754,AST-00714,2025-04-14,Medium,5.4,Electrical fault
+INC-001755,AST-00714,2025-01-09,Low,1.7,Inspection finding
+INC-001756,AST-00714,2026-02-05,Medium,3.4,Physical damage
+INC-001757,AST-00715,2024-10-14,Low,0.4,Physical damage
+INC-001758,AST-00715,2025-01-28,Medium,2.7,Electrical fault
+INC-001759,AST-00715,2026-06-01,High,5.3,Inspection finding
+INC-001760,AST-00715,2024-08-08,Medium,3.3,Inspection finding
+INC-001761,AST-00716,2024-08-14,Medium,1.5,Inspection finding
+INC-001762,AST-00717,2024-07-17,High,6.5,Overheating
+INC-001763,AST-00717,2024-05-06,Medium,4.7,Protection trip
+INC-001764,AST-00717,2024-01-24,Critical,18.6,Physical damage
+INC-001765,AST-00717,2025-09-22,High,10.7,Protection trip
+INC-001766,AST-00718,2026-05-12,High,1.3,Overheating
+INC-001767,AST-00718,2026-07-22,Low,1.3,Overheating
+INC-001768,AST-00718,2025-01-23,High,4.0,Electrical fault
+INC-001769,AST-00719,2024-01-05,Low,0.5,Overheating
+INC-001770,AST-00720,2025-07-31,High,9.0,Protection trip
+INC-001771,AST-00720,2024-09-14,Low,1.1,Inspection finding
+INC-001772,AST-00720,2026-07-24,High,5.6,Physical damage
+INC-001773,AST-00720,2026-02-17,Low,0.8,Electrical fault
+INC-001774,AST-00720,2025-10-03,Low,0.7,Electrical fault
+INC-001775,AST-00721,2026-05-25,Low,0.4,Inspection finding
+INC-001776,AST-00722,2024-01-17,Medium,3.7,Inspection finding
+INC-001777,AST-00722,2024-04-29,Low,1.6,Inspection finding
+INC-001778,AST-00722,2026-06-12,Low,1.6,Protection trip
+INC-001779,AST-00724,2025-06-23,Medium,0.8,Electrical fault
+INC-001780,AST-00725,2025-11-29,Medium,4.3,Protection trip
+INC-001781,AST-00725,2026-04-24,Low,2.3,Physical damage
+INC-001782,AST-00725,2025-09-01,Medium,1.9,Physical damage
+INC-001783,AST-00726,2025-06-15,Medium,0.4,Overheating
+INC-001784,AST-00726,2026-06-20,Medium,2.0,Inspection finding
+INC-001785,AST-00727,2025-07-25,Medium,3.0,Overheating
+INC-001786,AST-00727,2025-11-15,Medium,5.3,Overheating
+INC-001787,AST-00728,2025-12-13,Medium,2.6,Overheating
+INC-001788,AST-00729,2024-07-14,Low,3.9,Physical damage
+INC-001789,AST-00730,2024-01-12,Medium,0.9,Protection trip
+INC-001790,AST-00731,2024-03-01,High,2.5,Inspection finding
+INC-001791,AST-00731,2025-11-21,Medium,2.5,Electrical fault
+INC-001792,AST-00731,2025-12-28,Low,0.5,Overheating
+INC-001793,AST-00731,2024-05-31,Critical,5.8,Inspection finding
+INC-001794,AST-00731,2024-11-13,Medium,1.1,Overheating
+INC-001795,AST-00731,2024-03-17,Critical,8.2,Protection trip
+INC-001796,AST-00732,2024-11-20,Medium,1.0,Physical damage
+INC-001797,AST-00732,2025-11-15,Medium,4.3,Electrical fault
+INC-001798,AST-00732,2026-02-24,Low,0.6,Electrical fault
+INC-001799,AST-00733,2025-08-10,Low,0.5,Inspection finding
+INC-001800,AST-00733,2026-05-19,Medium,1.0,Protection trip
+INC-001801,AST-00733,2025-11-18,Critical,6.0,Physical damage
+INC-001802,AST-00733,2025-01-21,Low,0.9,Inspection finding
+INC-001803,AST-00733,2026-06-28,Medium,0.8,Inspection finding
+INC-001804,AST-00734,2025-02-05,Low,0.4,Protection trip
+INC-001805,AST-00734,2025-10-01,Medium,0.8,Physical damage
+INC-001806,AST-00734,2026-02-21,High,2.3,Physical damage
+INC-001807,AST-00735,2025-08-11,Medium,0.6,Protection trip
+INC-001808,AST-00735,2025-12-08,High,6.1,Overheating
+INC-001809,AST-00735,2026-07-02,High,7.5,Physical damage
+INC-001810,AST-00737,2025-07-19,High,1.2,Protection trip
+INC-001811,AST-00737,2026-01-10,Medium,3.8,Overheating
+INC-001812,AST-00738,2024-11-23,Medium,5.4,Inspection finding
+INC-001813,AST-00739,2024-04-27,High,5.2,Overheating
+INC-001814,AST-00740,2024-06-23,High,7.4,Electrical fault
+INC-001815,AST-00740,2025-07-01,Medium,4.2,Electrical fault
+INC-001816,AST-00743,2024-10-13,Critical,14.3,Overheating
+INC-001817,AST-00743,2025-03-22,Critical,14.4,Protection trip
+INC-001818,AST-00743,2024-09-12,Medium,5.4,Overheating
+INC-001819,AST-00744,2024-09-04,Low,3.2,Protection trip
+INC-001820,AST-00744,2025-06-02,Low,0.4,Physical damage
+INC-001821,AST-00744,2024-08-21,Medium,4.1,Inspection finding
+INC-001822,AST-00745,2026-01-17,Medium,3.8,Protection trip
+INC-001823,AST-00746,2024-06-01,High,6.9,Physical damage
+INC-001824,AST-00747,2025-04-17,High,0.5,Overheating
+INC-001825,AST-00747,2024-11-29,High,6.1,Physical damage
+INC-001826,AST-00748,2026-04-26,High,8.5,Physical damage
+INC-001827,AST-00748,2025-03-26,Low,1.3,Overheating
+INC-001828,AST-00748,2024-11-08,High,6.1,Inspection finding
+INC-001829,AST-00749,2026-03-13,Critical,0.4,Electrical fault
+INC-001830,AST-00749,2025-12-02,High,12.1,Electrical fault
+INC-001831,AST-00749,2025-11-29,Medium,3.1,Physical damage
+INC-001832,AST-00751,2026-02-18,High,6.8,Electrical fault
+INC-001833,AST-00751,2024-10-27,High,3.4,Electrical fault
+INC-001834,AST-00753,2026-02-05,High,2.8,Electrical fault
+INC-001835,AST-00753,2025-10-09,Low,3.5,Physical damage
+INC-001836,AST-00754,2024-06-10,Medium,1.9,Overheating
+INC-001837,AST-00754,2024-11-06,Medium,3.4,Inspection finding
+INC-001838,AST-00754,2026-01-19,Low,0.8,Physical damage
+INC-001839,AST-00755,2024-01-29,Medium,1.7,Inspection finding
+INC-001840,AST-00755,2026-01-22,Low,1.0,Protection trip
+INC-001841,AST-00755,2026-08-15,Low,1.0,Protection trip
+INC-001842,AST-00755,2024-11-21,Low,2.3,Physical damage
+INC-001843,AST-00755,2025-06-25,Low,0.8,Overheating
+INC-001844,AST-00755,2025-02-18,Low,0.4,Inspection finding
+INC-001845,AST-00756,2025-01-16,High,2.5,Overheating
+INC-001846,AST-00756,2025-02-23,Medium,3.8,Inspection finding
+INC-001847,AST-00757,2025-03-09,Critical,10.5,Inspection finding
+INC-001848,AST-00757,2024-11-17,Medium,0.9,Physical damage
+INC-001849,AST-00757,2025-07-21,Medium,1.9,Physical damage
+INC-001850,AST-00757,2024-03-04,High,5.6,Electrical fault
+INC-001851,AST-00757,2024-02-20,Low,0.8,Protection trip
+INC-001852,AST-00757,2024-06-03,Medium,0.4,Electrical fault
+INC-001853,AST-00758,2026-02-23,High,11.0,Protection trip
+INC-001854,AST-00758,2026-04-06,High,5.6,Physical damage
+INC-001855,AST-00758,2026-01-11,Medium,1.4,Overheating
+INC-001856,AST-00759,2024-05-28,Medium,4.1,Electrical fault
+INC-001857,AST-00761,2026-01-27,High,2.0,Inspection finding
+INC-001858,AST-00762,2024-12-09,Medium,4.4,Overheating
+INC-001859,AST-00763,2026-05-01,Low,1.6,Overheating
+INC-001860,AST-00764,2025-04-17,High,8.8,Protection trip
+INC-001861,AST-00764,2026-01-12,Medium,0.4,Electrical fault
+INC-001862,AST-00764,2024-08-20,Medium,0.4,Protection trip
+INC-001863,AST-00765,2026-01-23,Low,2.2,Inspection finding
+INC-001864,AST-00765,2026-05-15,Low,3.1,Electrical fault
+INC-001865,AST-00766,2026-07-02,Low,1.3,Inspection finding
+INC-001866,AST-00767,2024-01-15,Medium,3.9,Inspection finding
+INC-001867,AST-00767,2024-07-01,Low,6.2,Physical damage
+INC-001868,AST-00767,2024-11-16,Low,3.1,Inspection finding
+INC-001869,AST-00767,2024-10-20,High,3.9,Electrical fault
+INC-001870,AST-00767,2024-01-20,Low,0.4,Electrical fault
+INC-001871,AST-00768,2025-06-27,Low,0.8,Protection trip
+INC-001872,AST-00768,2024-12-22,Medium,4.4,Inspection finding
+INC-001873,AST-00768,2025-10-10,Critical,5.1,Protection trip
+INC-001874,AST-00768,2024-04-27,Low,2.3,Protection trip
+INC-001875,AST-00768,2025-10-12,High,2.0,Protection trip
+INC-001876,AST-00769,2026-05-25,Medium,3.6,Overheating
+INC-001877,AST-00769,2025-01-06,Medium,2.6,Inspection finding
+INC-001878,AST-00769,2025-12-21,Low,6.2,Inspection finding
+INC-001879,AST-00769,2025-10-17,High,3.0,Physical damage
+INC-001880,AST-00769,2024-05-16,Critical,12.7,Physical damage
+INC-001881,AST-00770,2024-11-20,High,1.9,Protection trip
+INC-001882,AST-00770,2024-01-10,Medium,3.7,Inspection finding
+INC-001883,AST-00770,2026-04-28,Critical,9.7,Physical damage
+INC-001884,AST-00770,2026-06-28,Medium,2.4,Electrical fault
+INC-001885,AST-00770,2025-12-01,High,0.7,Electrical fault
+INC-001886,AST-00770,2024-06-21,Medium,3.4,Overheating
+INC-001887,AST-00770,2026-04-25,High,12.7,Physical damage
+INC-001888,AST-00771,2026-01-30,Medium,2.0,Protection trip
+INC-001889,AST-00771,2024-06-21,Low,1.7,Inspection finding
+INC-001890,AST-00772,2024-03-13,Medium,2.9,Electrical fault
+INC-001891,AST-00773,2025-01-25,Low,1.1,Physical damage
+INC-001892,AST-00774,2024-11-21,Medium,3.8,Electrical fault
+INC-001893,AST-00774,2026-08-13,High,3.3,Overheating
+INC-001894,AST-00774,2024-02-02,Medium,1.3,Electrical fault
+INC-001895,AST-00774,2024-02-23,Critical,1.7,Protection trip
+INC-001896,AST-00774,2026-03-31,Low,2.0,Inspection finding
+INC-001897,AST-00775,2024-09-03,Medium,3.1,Inspection finding
+INC-001898,AST-00775,2025-06-29,Medium,2.1,Physical damage
+INC-001899,AST-00776,2025-09-26,High,7.0,Protection trip
+INC-001900,AST-00778,2024-07-26,Low,1.5,Protection trip
+INC-001901,AST-00778,2024-12-22,Medium,2.2,Inspection finding
+INC-001902,AST-00779,2026-07-03,Low,1.7,Protection trip
+INC-001903,AST-00780,2024-06-28,High,2.3,Electrical fault
+INC-001904,AST-00780,2024-08-26,Critical,23.0,Physical damage
+INC-001905,AST-00781,2024-01-01,Medium,0.8,Protection trip
+INC-001906,AST-00782,2026-06-22,Low,1.7,Protection trip
+INC-001907,AST-00782,2024-08-15,Low,1.0,Protection trip
+INC-001908,AST-00782,2024-01-16,High,2.7,Inspection finding
+INC-001909,AST-00782,2026-04-22,Low,1.4,Physical damage
+INC-001910,AST-00783,2026-06-21,Low,1.4,Physical damage
+INC-001911,AST-00783,2026-07-18,Medium,2.8,Electrical fault
+INC-001912,AST-00783,2024-09-09,Low,1.6,Electrical fault
+INC-001913,AST-00783,2026-06-09,Low,0.7,Electrical fault
+INC-001914,AST-00783,2025-10-04,High,9.0,Overheating
+INC-001915,AST-00784,2025-04-11,High,5.4,Overheating
+INC-001916,AST-00785,2025-05-01,Medium,3.4,Inspection finding
+INC-001917,AST-00785,2026-05-27,Medium,2.7,Physical damage
+INC-001918,AST-00785,2024-11-07,Low,2.9,Overheating
+INC-001919,AST-00785,2024-09-11,Low,1.2,Protection trip
+INC-001920,AST-00785,2024-07-16,Medium,2.6,Electrical fault
+INC-001921,AST-00785,2025-11-30,Medium,1.9,Protection trip
+INC-001922,AST-00785,2024-05-11,Low,1.1,Inspection finding
+INC-001923,AST-00786,2025-02-28,Medium,0.9,Protection trip
+INC-001924,AST-00788,2026-05-06,High,8.0,Electrical fault
+INC-001925,AST-00789,2024-12-25,Critical,2.2,Protection trip
+INC-001926,AST-00789,2025-03-19,Medium,1.8,Physical damage
+INC-001927,AST-00790,2024-10-20,Medium,1.5,Electrical fault
+INC-001928,AST-00791,2025-01-26,Medium,4.0,Protection trip
+INC-001929,AST-00791,2026-03-20,Medium,4.9,Physical damage
+INC-001930,AST-00791,2025-09-17,Low,1.2,Protection trip
+INC-001931,AST-00791,2025-05-02,Medium,1.8,Physical damage
+INC-001932,AST-00792,2025-06-03,Low,1.5,Overheating
+INC-001933,AST-00793,2025-11-11,Medium,1.3,Protection trip
+INC-001934,AST-00793,2026-01-15,Low,1.7,Physical damage
+INC-001935,AST-00793,2026-03-24,High,7.9,Inspection finding
+INC-001936,AST-00793,2025-08-20,Medium,0.7,Physical damage
+INC-001937,AST-00793,2025-06-15,Medium,1.5,Protection trip
+INC-001938,AST-00793,2026-03-12,Medium,2.1,Overheating
+INC-001939,AST-00793,2025-10-13,Medium,3.3,Inspection finding
+INC-001940,AST-00793,2025-10-07,High,7.6,Overheating
+INC-001941,AST-00793,2025-05-18,Medium,6.5,Protection trip
+INC-001942,AST-00794,2025-12-03,High,7.8,Electrical fault
+INC-001943,AST-00794,2025-04-06,Low,2.3,Inspection finding
+INC-001944,AST-00794,2024-10-06,Low,2.0,Inspection finding
+INC-001945,AST-00795,2026-03-03,Medium,6.4,Physical damage
+INC-001946,AST-00796,2025-04-11,Low,2.9,Overheating
+INC-001947,AST-00796,2024-04-03,Low,0.8,Physical damage
+INC-001948,AST-00797,2025-05-11,Low,2.9,Overheating
+INC-001949,AST-00797,2025-12-01,Medium,2.2,Physical damage
+INC-001950,AST-00797,2026-08-17,High,8.2,Electrical fault
+INC-001951,AST-00797,2025-01-22,High,3.7,Inspection finding
+INC-001952,AST-00797,2024-02-27,Low,0.7,Inspection finding
+INC-001953,AST-00797,2026-06-06,Low,0.6,Inspection finding
+INC-001954,AST-00798,2024-09-17,Low,4.0,Physical damage
+INC-001955,AST-00798,2025-02-25,Low,6.1,Overheating
+INC-001956,AST-00798,2026-07-01,High,11.4,Protection trip
+INC-001957,AST-00799,2026-07-05,High,3.6,Overheating
+INC-001958,AST-00799,2024-05-17,High,3.1,Physical damage
+INC-001959,AST-00799,2025-06-09,Low,3.8,Overheating
+INC-001960,AST-00799,2026-04-03,Medium,1.5,Physical damage
+INC-001961,AST-00799,2024-03-22,Critical,6.4,Electrical fault
+INC-001962,AST-00801,2024-01-22,Medium,2.6,Overheating
+INC-001963,AST-00801,2025-02-16,Medium,0.6,Electrical fault
+INC-001964,AST-00802,2025-04-28,Low,1.9,Physical damage
+INC-001965,AST-00802,2025-06-25,High,5.9,Protection trip
+INC-001966,AST-00803,2026-08-08,High,2.6,Physical damage
+INC-001967,AST-00806,2024-10-10,Medium,1.6,Overheating
+INC-001968,AST-00806,2025-07-10,Low,1.8,Inspection finding
+INC-001969,AST-00806,2025-03-08,Low,1.3,Electrical fault
+INC-001970,AST-00807,2025-10-19,Low,1.2,Protection trip
+INC-001971,AST-00807,2024-08-04,High,2.2,Physical damage
+INC-001972,AST-00808,2024-03-25,Medium,4.1,Electrical fault
+INC-001973,AST-00808,2025-05-09,Medium,7.5,Protection trip
+INC-001974,AST-00809,2024-08-31,Low,0.5,Protection trip
+INC-001975,AST-00809,2025-01-24,High,9.7,Overheating
+INC-001976,AST-00809,2024-10-30,Low,0.4,Physical damage
+INC-001977,AST-00809,2024-03-06,Low,0.7,Overheating
+INC-001978,AST-00809,2025-09-21,Medium,6.4,Inspection finding
+INC-001979,AST-00810,2025-05-10,Medium,2.5,Electrical fault
+INC-001980,AST-00811,2025-05-28,High,17.1,Electrical fault
+INC-001981,AST-00811,2025-10-30,Critical,16.6,Overheating
+INC-001982,AST-00811,2025-07-06,Low,1.8,Electrical fault
+INC-001983,AST-00812,2025-11-28,Low,2.5,Protection trip
+INC-001984,AST-00812,2026-01-13,High,3.9,Protection trip
+INC-001985,AST-00812,2024-06-02,Medium,1.6,Physical damage
+INC-001986,AST-00813,2026-01-01,Critical,6.0,Physical damage
+INC-001987,AST-00814,2026-04-15,Medium,3.5,Inspection finding
+INC-001988,AST-00814,2024-10-17,Low,0.8,Physical damage
+INC-001989,AST-00814,2025-02-10,Medium,4.9,Electrical fault
+INC-001990,AST-00814,2024-07-15,Low,0.7,Inspection finding
+INC-001991,AST-00814,2024-10-05,High,10.4,Physical damage
+INC-001992,AST-00815,2025-10-26,High,3.1,Physical damage
+INC-001993,AST-00815,2026-07-28,Medium,2.0,Inspection finding
+INC-001994,AST-00815,2025-05-03,High,5.7,Physical damage
+INC-001995,AST-00816,2025-03-23,Low,1.5,Physical damage
+INC-001996,AST-00818,2024-07-19,Low,2.0,Inspection finding
+INC-001997,AST-00818,2025-09-27,Low,1.3,Electrical fault
+INC-001998,AST-00818,2024-09-11,Low,0.4,Protection trip
+INC-001999,AST-00818,2025-12-26,Medium,2.9,Electrical fault
+INC-002000,AST-00818,2025-04-03,Medium,2.0,Physical damage
+INC-002001,AST-00818,2025-06-03,Medium,1.9,Inspection finding
+INC-002002,AST-00818,2024-07-27,Medium,0.8,Physical damage
+INC-002003,AST-00819,2025-01-23,Medium,1.9,Physical damage
+INC-002004,AST-00820,2026-07-16,Low,0.4,Physical damage
+INC-002005,AST-00821,2025-02-04,Medium,2.5,Protection trip
+INC-002006,AST-00821,2026-03-25,High,8.4,Overheating
+INC-002007,AST-00821,2025-10-23,Low,0.6,Physical damage
+INC-002008,AST-00821,2025-10-17,Medium,1.1,Inspection finding
+INC-002009,AST-00821,2025-11-13,Low,1.2,Inspection finding
+INC-002010,AST-00822,2026-05-15,Medium,2.2,Protection trip
+INC-002011,AST-00822,2026-04-04,High,3.4,Overheating
+INC-002012,AST-00822,2025-05-09,Low,1.6,Protection trip
+INC-002013,AST-00822,2026-03-24,Medium,7.4,Inspection finding
+INC-002014,AST-00822,2026-08-26,Medium,2.5,Protection trip
+INC-002015,AST-00822,2026-05-18,Critical,2.1,Physical damage
+INC-002016,AST-00822,2025-05-29,Low,0.8,Protection trip
+INC-002017,AST-00823,2024-12-30,Medium,3.0,Electrical fault
+INC-002018,AST-00824,2025-10-13,High,5.4,Inspection finding
+INC-002019,AST-00824,2024-06-09,Low,0.6,Physical damage
+INC-002020,AST-00825,2026-04-08,Medium,7.3,Electrical fault
+INC-002021,AST-00825,2024-12-14,High,3.3,Overheating
+INC-002022,AST-00825,2024-10-11,High,0.7,Electrical fault
+INC-002023,AST-00825,2025-03-01,High,8.2,Protection trip
+INC-002024,AST-00825,2026-02-15,Medium,3.0,Protection trip
+INC-002025,AST-00825,2024-05-18,High,6.5,Physical damage
+INC-002026,AST-00825,2024-08-23,High,1.7,Inspection finding
+INC-002027,AST-00825,2024-04-10,Medium,6.1,Physical damage
+INC-002028,AST-00826,2025-02-19,Medium,1.3,Protection trip
+INC-002029,AST-00827,2024-02-20,Low,3.2,Electrical fault
+INC-002030,AST-00827,2026-05-10,High,1.8,Overheating
+INC-002031,AST-00827,2025-03-10,High,2.7,Inspection finding
+INC-002032,AST-00827,2024-05-05,Low,1.2,Physical damage
+INC-002033,AST-00827,2024-07-20,Low,2.5,Physical damage
+INC-002034,AST-00827,2024-10-04,Medium,3.1,Protection trip
+INC-002035,AST-00828,2025-04-04,Medium,2.4,Overheating
+INC-002036,AST-00828,2025-07-30,High,3.2,Overheating
+INC-002037,AST-00828,2024-07-29,High,7.3,Overheating
+INC-002038,AST-00829,2024-02-06,Medium,2.1,Physical damage
+INC-002039,AST-00829,2025-01-02,Low,1.3,Overheating
+INC-002040,AST-00829,2025-05-06,Low,0.4,Inspection finding
+INC-002041,AST-00830,2026-01-16,Low,1.7,Overheating
+INC-002042,AST-00831,2024-10-07,Medium,0.9,Electrical fault
+INC-002043,AST-00831,2025-03-16,Low,1.7,Electrical fault
+INC-002044,AST-00831,2026-01-30,Critical,1.3,Inspection finding
+INC-002045,AST-00831,2025-09-30,Low,0.6,Overheating
+INC-002046,AST-00831,2025-12-04,Low,0.9,Protection trip
+INC-002047,AST-00831,2024-11-02,High,5.2,Physical damage
+INC-002048,AST-00831,2025-01-06,Low,2.4,Protection trip
+INC-002049,AST-00832,2024-10-05,Low,1.9,Electrical fault
+INC-002050,AST-00832,2026-03-20,Medium,1.6,Overheating
+INC-002051,AST-00832,2026-06-19,Critical,13.2,Physical damage
+INC-002052,AST-00832,2025-09-28,Low,0.4,Protection trip
+INC-002053,AST-00832,2025-01-07,Critical,3.9,Overheating
+INC-002054,AST-00833,2025-12-31,High,1.3,Inspection finding
+INC-002055,AST-00833,2026-01-18,Medium,1.4,Inspection finding
+INC-002056,AST-00833,2025-11-05,Low,0.4,Overheating
+INC-002057,AST-00834,2025-10-13,Low,1.7,Inspection finding
+INC-002058,AST-00835,2026-01-13,Low,0.4,Overheating
+INC-002059,AST-00835,2026-05-12,Low,4.3,Physical damage
+INC-002060,AST-00835,2024-06-09,Low,4.3,Inspection finding
+INC-002061,AST-00835,2026-06-27,Medium,1.1,Electrical fault
+INC-002062,AST-00836,2026-08-21,Medium,2.2,Protection trip
+INC-002063,AST-00836,2024-06-18,Low,1.9,Electrical fault
+INC-002064,AST-00836,2025-10-23,Medium,4.9,Inspection finding
+INC-002065,AST-00836,2024-07-07,High,3.8,Electrical fault
+INC-002066,AST-00836,2025-09-11,Low,1.7,Protection trip
+INC-002067,AST-00837,2026-01-13,Low,1.1,Electrical fault
+INC-002068,AST-00837,2024-11-23,Medium,1.0,Electrical fault
+INC-002069,AST-00837,2025-06-01,Medium,0.8,Inspection finding
+INC-002070,AST-00838,2025-08-02,Critical,1.7,Electrical fault
+INC-002071,AST-00838,2024-03-02,Medium,5.4,Protection trip
+INC-002072,AST-00838,2024-05-16,Low,2.2,Electrical fault
+INC-002073,AST-00839,2024-03-15,High,8.3,Inspection finding
+INC-002074,AST-00839,2025-10-23,Low,1.6,Overheating
+INC-002075,AST-00839,2024-03-24,High,3.9,Physical damage
+INC-002076,AST-00839,2025-03-26,Low,3.5,Inspection finding
+INC-002077,AST-00839,2024-07-18,Medium,4.3,Overheating
+INC-002078,AST-00840,2025-12-02,Low,0.4,Electrical fault
+INC-002079,AST-00840,2025-11-10,High,0.4,Overheating
+INC-002080,AST-00840,2024-07-10,Critical,4.3,Overheating
+INC-002081,AST-00840,2025-11-09,High,2.0,Overheating
+INC-002082,AST-00840,2026-01-23,Low,1.7,Electrical fault
+INC-002083,AST-00840,2026-06-11,Medium,6.8,Overheating
+INC-002084,AST-00841,2025-07-26,Low,1.2,Physical damage
+INC-002085,AST-00841,2026-02-20,Medium,1.6,Physical damage
+INC-002086,AST-00842,2025-02-03,High,10.3,Overheating
+INC-002087,AST-00842,2024-09-26,High,1.7,Physical damage
+INC-002088,AST-00842,2025-10-03,High,4.1,Protection trip
+INC-002089,AST-00843,2025-11-30,Medium,3.9,Inspection finding
+INC-002090,AST-00843,2024-03-01,High,4.5,Inspection finding
+INC-002091,AST-00843,2024-03-01,Medium,3.7,Inspection finding
+INC-002092,AST-00844,2025-04-14,Low,3.7,Protection trip
+INC-002093,AST-00844,2026-01-31,Low,1.2,Inspection finding
+INC-002094,AST-00845,2026-08-11,Low,0.9,Protection trip
+INC-002095,AST-00845,2025-12-20,Critical,12.3,Protection trip
+INC-002096,AST-00845,2024-03-23,Medium,1.3,Protection trip
+INC-002097,AST-00845,2026-03-17,Medium,2.2,Physical damage
+INC-002098,AST-00846,2026-04-30,Critical,5.9,Physical damage
+INC-002099,AST-00846,2025-05-26,Medium,5.6,Electrical fault
+INC-002100,AST-00847,2024-06-27,Medium,2.4,Electrical fault
+INC-002101,AST-00847,2025-06-21,High,2.1,Protection trip
+INC-002102,AST-00847,2025-01-15,Medium,2.1,Protection trip
+INC-002103,AST-00847,2024-12-15,Medium,2.7,Inspection finding
+INC-002104,AST-00847,2026-04-12,High,5.9,Physical damage
+INC-002105,AST-00848,2024-05-19,High,0.9,Overheating
+INC-002106,AST-00848,2025-07-04,Critical,16.8,Electrical fault
+INC-002107,AST-00848,2026-03-01,Low,0.7,Inspection finding
+INC-002108,AST-00849,2024-01-20,Medium,3.9,Electrical fault
+INC-002109,AST-00849,2024-06-29,Critical,2.4,Physical damage
+INC-002110,AST-00850,2025-10-04,High,6.0,Overheating
+INC-002111,AST-00850,2026-08-01,Medium,1.0,Electrical fault
+INC-002112,AST-00851,2025-04-22,Medium,1.8,Inspection finding
+INC-002113,AST-00852,2024-10-01,Low,2.6,Inspection finding
+INC-002114,AST-00852,2024-02-09,Medium,10.3,Overheating
+INC-002115,AST-00853,2024-11-21,High,2.0,Inspection finding
+INC-002116,AST-00853,2026-07-13,Low,1.4,Inspection finding
+INC-002117,AST-00853,2024-05-30,High,1.0,Overheating
+INC-002118,AST-00854,2025-01-20,Medium,4.4,Physical damage
+INC-002119,AST-00855,2024-04-27,Low,2.6,Electrical fault
+INC-002120,AST-00855,2026-04-02,Medium,1.9,Electrical fault
+INC-002121,AST-00857,2025-05-29,Medium,3.9,Physical damage
+INC-002122,AST-00858,2024-10-20,Low,3.4,Overheating
+INC-002123,AST-00858,2024-12-20,High,2.4,Protection trip
+INC-002124,AST-00859,2026-06-04,Critical,4.3,Overheating
+INC-002125,AST-00860,2026-07-02,Low,0.4,Physical damage
+INC-002126,AST-00860,2024-08-04,Medium,2.4,Electrical fault
+INC-002127,AST-00860,2025-04-06,Low,4.3,Overheating
+INC-002128,AST-00861,2025-09-02,High,2.8,Inspection finding
+INC-002129,AST-00862,2025-03-25,Medium,4.9,Physical damage
+INC-002130,AST-00862,2024-07-29,High,4.7,Inspection finding
+INC-002131,AST-00862,2026-03-12,High,4.5,Inspection finding
+INC-002132,AST-00862,2024-08-23,Low,3.9,Physical damage
+INC-002133,AST-00862,2026-08-27,Low,2.5,Overheating
+INC-002134,AST-00862,2025-06-20,Medium,1.4,Overheating
+INC-002135,AST-00862,2025-05-15,Low,2.4,Electrical fault
+INC-002136,AST-00862,2025-05-13,High,3.4,Electrical fault
+INC-002137,AST-00862,2025-07-17,Low,0.5,Inspection finding
+INC-002138,AST-00862,2024-01-03,Low,0.8,Overheating
+INC-002139,AST-00863,2026-06-11,Low,3.4,Overheating
+INC-002140,AST-00863,2025-03-10,Low,0.6,Overheating
+INC-002141,AST-00864,2025-06-09,Medium,1.3,Protection trip
+INC-002142,AST-00864,2025-05-28,High,9.1,Overheating
+INC-002143,AST-00866,2024-05-15,High,4.4,Physical damage
+INC-002144,AST-00866,2024-11-05,Medium,3.4,Inspection finding
+INC-002145,AST-00866,2026-07-30,High,3.1,Protection trip
+INC-002146,AST-00866,2025-09-09,Low,0.9,Overheating
+INC-002147,AST-00866,2024-01-19,Low,2.5,Protection trip
+INC-002148,AST-00866,2026-01-28,Medium,3.4,Overheating
+INC-002149,AST-00867,2024-09-12,Critical,1.4,Electrical fault
+INC-002150,AST-00868,2024-02-10,Low,1.1,Inspection finding
+INC-002151,AST-00868,2026-05-07,Medium,1.5,Electrical fault
+INC-002152,AST-00869,2025-02-07,Medium,4.2,Physical damage
+INC-002153,AST-00869,2026-03-05,Low,3.7,Overheating
+INC-002154,AST-00869,2024-07-10,High,0.6,Inspection finding
+INC-002155,AST-00869,2026-08-21,High,3.4,Physical damage
+INC-002156,AST-00870,2025-07-27,Low,0.4,Electrical fault
+INC-002157,AST-00870,2025-12-18,Medium,6.2,Protection trip
+INC-002158,AST-00871,2025-04-24,Low,1.1,Overheating
+INC-002159,AST-00871,2026-01-31,Medium,3.8,Overheating
+INC-002160,AST-00871,2024-06-13,High,4.8,Physical damage
+INC-002161,AST-00871,2025-10-20,Low,0.7,Physical damage
+INC-002162,AST-00872,2026-03-15,Critical,2.4,Overheating
+INC-002163,AST-00872,2024-11-24,High,7.6,Electrical fault
+INC-002164,AST-00872,2024-02-14,Low,0.4,Inspection finding
+INC-002165,AST-00872,2024-04-28,Medium,1.7,Overheating
+INC-002166,AST-00873,2025-03-28,High,7.3,Electrical fault
+INC-002167,AST-00873,2025-07-16,Medium,2.4,Inspection finding
+INC-002168,AST-00873,2026-04-21,Medium,2.4,Inspection finding
+INC-002169,AST-00873,2026-08-12,Low,1.4,Physical damage
+INC-002170,AST-00874,2026-01-24,Low,4.0,Overheating
+INC-002171,AST-00874,2025-09-19,Low,0.6,Overheating
+INC-002172,AST-00875,2025-06-24,Medium,2.4,Protection trip
+INC-002173,AST-00876,2026-01-30,Medium,1.2,Inspection finding
+INC-002174,AST-00876,2024-06-13,Low,1.5,Physical damage
+INC-002175,AST-00877,2024-06-02,Low,4.8,Electrical fault
+INC-002176,AST-00877,2024-09-25,Low,2.7,Physical damage
+INC-002177,AST-00877,2025-07-19,High,7.5,Overheating
+INC-002178,AST-00877,2025-08-31,Low,1.0,Protection trip
+INC-002179,AST-00878,2025-04-22,Medium,0.5,Inspection finding
+INC-002180,AST-00878,2024-06-02,High,11.0,Overheating
+INC-002181,AST-00878,2024-09-01,Low,1.7,Overheating
+INC-002182,AST-00878,2026-07-21,Medium,0.7,Electrical fault
+INC-002183,AST-00878,2024-05-30,High,12.8,Physical damage
+INC-002184,AST-00879,2026-01-01,High,1.0,Inspection finding
+INC-002185,AST-00879,2026-05-23,Medium,2.6,Protection trip
+INC-002186,AST-00879,2026-04-03,High,2.3,Protection trip
+INC-002187,AST-00880,2025-11-06,Low,1.3,Inspection finding
+INC-002188,AST-00880,2024-08-16,Low,3.0,Electrical fault
+INC-002189,AST-00880,2026-06-23,Medium,3.0,Inspection finding
+INC-002190,AST-00880,2024-10-22,Medium,2.3,Inspection finding
+INC-002191,AST-00880,2026-07-09,Medium,0.4,Physical damage
+INC-002192,AST-00880,2026-08-06,Low,0.9,Inspection finding
+INC-002193,AST-00880,2024-02-16,Medium,3.6,Inspection finding
+INC-002194,AST-00881,2025-04-08,High,1.7,Protection trip
+INC-002195,AST-00881,2025-09-17,Low,3.6,Overheating
+INC-002196,AST-00882,2024-04-19,Medium,7.1,Protection trip
+INC-002197,AST-00883,2024-04-21,Medium,3.7,Electrical fault
+INC-002198,AST-00883,2025-01-16,Critical,13.9,Inspection finding
+INC-002199,AST-00884,2025-02-03,High,4.1,Physical damage
+INC-002200,AST-00885,2024-03-20,Medium,1.5,Physical damage
+INC-002201,AST-00885,2024-07-25,Medium,3.9,Protection trip
+INC-002202,AST-00886,2025-07-22,Low,2.2,Electrical fault
+INC-002203,AST-00886,2024-02-07,Low,1.5,Overheating
+INC-002204,AST-00887,2024-06-01,Medium,7.7,Electrical fault
+INC-002205,AST-00887,2025-08-12,Low,0.5,Protection trip
+INC-002206,AST-00887,2026-04-21,High,1.5,Protection trip
+INC-002207,AST-00888,2025-06-28,High,1.9,Protection trip
+INC-002208,AST-00889,2024-06-17,Low,6.1,Physical damage
+INC-002209,AST-00889,2024-03-11,Medium,3.3,Overheating
+INC-002210,AST-00889,2025-01-24,Critical,14.6,Overheating
+INC-002211,AST-00890,2025-02-27,Medium,3.9,Overheating
+INC-002212,AST-00890,2025-07-12,Medium,0.6,Inspection finding
+INC-002213,AST-00890,2024-02-15,High,4.7,Electrical fault
+INC-002214,AST-00890,2024-03-19,Medium,3.1,Physical damage
+INC-002215,AST-00891,2026-08-14,Low,0.8,Electrical fault
+INC-002216,AST-00891,2026-07-16,Low,0.7,Physical damage
+INC-002217,AST-00892,2025-02-13,Medium,3.9,Electrical fault
+INC-002218,AST-00892,2025-05-13,Critical,19.4,Overheating
+INC-002219,AST-00893,2025-12-09,High,1.8,Inspection finding
+INC-002220,AST-00893,2024-11-29,Low,0.8,Overheating
+INC-002221,AST-00893,2024-11-24,Medium,4.9,Electrical fault
+INC-002222,AST-00894,2025-11-07,Medium,5.2,Overheating
+INC-002223,AST-00894,2024-03-02,Low,0.8,Overheating
+INC-002224,AST-00894,2024-05-24,Medium,1.8,Physical damage
+INC-002225,AST-00894,2024-01-07,Low,1.4,Physical damage
+INC-002226,AST-00896,2024-07-12,Low,0.8,Electrical fault
+INC-002227,AST-00896,2025-07-07,Low,0.6,Inspection finding
+INC-002228,AST-00896,2026-03-28,Low,2.0,Overheating
+INC-002229,AST-00896,2026-02-20,Low,3.0,Electrical fault
+INC-002230,AST-00896,2025-08-16,Low,1.2,Protection trip
+INC-002231,AST-00897,2024-07-21,Low,3.8,Overheating
+INC-002232,AST-00898,2024-12-15,Medium,4.6,Inspection finding
+INC-002233,AST-00898,2026-01-03,Medium,0.8,Inspection finding
+INC-002234,AST-00898,2024-04-05,Low,0.9,Inspection finding
+INC-002235,AST-00899,2026-06-14,Medium,1.0,Protection trip
+INC-002236,AST-00899,2026-04-18,Medium,1.4,Electrical fault
+INC-002237,AST-00900,2024-09-03,Low,1.4,Electrical fault
+INC-002238,AST-00900,2024-09-06,Medium,2.3,Inspection finding
+INC-002239,AST-00900,2025-05-19,Low,1.7,Physical damage
+INC-002240,AST-00900,2025-06-29,Medium,5.7,Inspection finding
+INC-002241,AST-00901,2026-05-30,Critical,13.0,Overheating
+INC-002242,AST-00901,2025-02-07,Medium,3.1,Overheating
+INC-002243,AST-00902,2025-02-24,Low,0.6,Inspection finding
+INC-002244,AST-00902,2026-07-23,Low,2.3,Physical damage
+INC-002245,AST-00902,2025-05-20,High,2.1,Protection trip
+INC-002246,AST-00902,2024-11-09,Medium,4.0,Protection trip
+INC-002247,AST-00903,2025-05-05,High,4.3,Physical damage
+INC-002248,AST-00903,2025-08-29,Medium,2.2,Inspection finding
+INC-002249,AST-00904,2026-02-01,Medium,1.2,Electrical fault
+INC-002250,AST-00905,2024-01-20,High,0.4,Physical damage
+INC-002251,AST-00905,2024-08-24,Medium,1.4,Protection trip
+INC-002252,AST-00905,2024-05-07,Low,1.5,Overheating
+INC-002253,AST-00905,2026-02-24,Low,0.8,Inspection finding
+INC-002254,AST-00906,2025-01-31,High,7.6,Overheating
+INC-002255,AST-00906,2024-04-02,Medium,2.3,Overheating
+INC-002256,AST-00906,2025-03-26,Low,1.3,Electrical fault
+INC-002257,AST-00906,2025-09-27,Medium,8.8,Protection trip
+INC-002258,AST-00906,2025-10-22,Medium,3.4,Physical damage
+INC-002259,AST-00906,2026-05-18,High,2.2,Overheating
+INC-002260,AST-00906,2025-10-23,Medium,1.6,Protection trip
+INC-002261,AST-00907,2025-03-18,Low,1.6,Overheating
+INC-002262,AST-00907,2025-01-26,Medium,1.1,Inspection finding
+INC-002263,AST-00908,2025-10-23,Low,1.1,Overheating
+INC-002264,AST-00908,2024-03-25,Low,1.0,Physical damage
+INC-002265,AST-00908,2024-10-12,Low,3.3,Physical damage
+INC-002266,AST-00908,2024-03-10,Low,0.8,Physical damage
+INC-002267,AST-00909,2025-05-07,Low,1.0,Physical damage
+INC-002268,AST-00909,2026-04-26,Low,2.8,Overheating
+INC-002269,AST-00910,2024-06-16,Critical,22.1,Physical damage
+INC-002270,AST-00910,2024-06-13,Medium,2.6,Protection trip
+INC-002271,AST-00910,2025-08-29,Low,1.0,Physical damage
+INC-002272,AST-00911,2025-03-07,Critical,20.4,Inspection finding
+INC-002273,AST-00913,2026-02-22,Medium,2.1,Overheating
+INC-002274,AST-00913,2025-09-05,Low,0.5,Protection trip
+INC-002275,AST-00914,2025-09-07,Medium,0.8,Electrical fault
+INC-002276,AST-00914,2024-11-14,Medium,0.5,Electrical fault
+INC-002277,AST-00914,2026-08-09,Medium,0.4,Inspection finding
+INC-002278,AST-00915,2025-12-17,High,8.7,Overheating
+INC-002279,AST-00917,2024-10-06,High,8.2,Overheating
+INC-002280,AST-00917,2024-04-26,High,3.3,Electrical fault
+INC-002281,AST-00917,2025-09-19,High,5.5,Inspection finding
+INC-002282,AST-00917,2025-07-06,High,5.1,Electrical fault
+INC-002283,AST-00918,2024-09-28,High,3.9,Physical damage
+INC-002284,AST-00918,2025-05-02,Low,2.6,Protection trip
+INC-002285,AST-00919,2025-07-12,High,6.2,Protection trip
+INC-002286,AST-00919,2024-11-30,Medium,0.7,Protection trip
+INC-002287,AST-00919,2025-03-13,High,1.5,Electrical fault
+INC-002288,AST-00919,2024-01-17,Medium,0.4,Physical damage
+INC-002289,AST-00920,2025-07-15,Low,0.9,Electrical fault
+INC-002290,AST-00920,2026-02-20,High,6.4,Overheating
+INC-002291,AST-00920,2024-07-21,Medium,2.1,Protection trip
+INC-002292,AST-00920,2025-10-22,Low,1.5,Electrical fault
+INC-002293,AST-00921,2025-08-21,High,7.6,Protection trip
+INC-002294,AST-00921,2025-04-25,Medium,3.8,Protection trip
+INC-002295,AST-00921,2025-06-23,High,3.0,Physical damage
+INC-002296,AST-00922,2025-01-13,Medium,0.5,Overheating
+INC-002297,AST-00922,2024-09-09,Medium,2.6,Protection trip
+INC-002298,AST-00922,2026-03-25,High,6.0,Physical damage
+INC-002299,AST-00922,2026-05-05,Low,1.6,Physical damage
+INC-002300,AST-00922,2025-12-03,Medium,1.3,Protection trip
+INC-002301,AST-00922,2024-04-30,Critical,12.4,Overheating
+INC-002302,AST-00924,2026-06-19,Medium,4.1,Electrical fault
+INC-002303,AST-00924,2025-09-30,Medium,1.7,Overheating
+INC-002304,AST-00924,2024-08-13,High,9.3,Overheating
+INC-002305,AST-00924,2025-01-01,Medium,3.2,Electrical fault
+INC-002306,AST-00925,2024-07-02,High,1.3,Electrical fault
+INC-002307,AST-00925,2025-10-19,Low,2.8,Physical damage
+INC-002308,AST-00925,2025-05-03,High,12.4,Protection trip
+INC-002309,AST-00926,2026-03-23,Low,2.0,Inspection finding
+INC-002310,AST-00926,2024-09-18,Medium,1.3,Electrical fault
+INC-002311,AST-00927,2025-07-14,Medium,1.1,Electrical fault
+INC-002312,AST-00927,2025-11-04,Low,0.7,Inspection finding
+INC-002313,AST-00929,2026-03-31,Low,0.8,Overheating
+INC-002314,AST-00929,2026-03-31,Low,0.4,Overheating
+INC-002315,AST-00929,2026-07-19,Low,0.8,Overheating
+INC-002316,AST-00929,2024-08-25,High,4.8,Protection trip
+INC-002317,AST-00930,2025-08-13,Medium,2.3,Protection trip
+INC-002318,AST-00930,2026-07-14,High,2.8,Physical damage
+INC-002319,AST-00930,2024-02-01,High,1.5,Electrical fault
+INC-002320,AST-00930,2025-10-08,Medium,1.4,Protection trip
+INC-002321,AST-00931,2024-10-18,Medium,1.1,Physical damage
+INC-002322,AST-00932,2024-07-16,Low,0.5,Physical damage
+INC-002323,AST-00932,2025-10-16,Low,0.5,Inspection finding
+INC-002324,AST-00932,2026-06-04,Low,1.5,Electrical fault
+INC-002325,AST-00932,2024-03-28,Low,0.9,Protection trip
+INC-002326,AST-00932,2025-09-02,Medium,2.5,Electrical fault
+INC-002327,AST-00932,2025-08-15,Low,2.0,Inspection finding
+INC-002328,AST-00934,2024-03-15,Low,0.4,Electrical fault
+INC-002329,AST-00934,2025-03-06,Medium,1.4,Inspection finding
+INC-002330,AST-00934,2025-02-07,Low,0.9,Physical damage
+INC-002331,AST-00934,2024-07-29,High,4.4,Inspection finding
+INC-002332,AST-00935,2024-06-22,Critical,9.2,Electrical fault
+INC-002333,AST-00937,2026-07-24,Critical,14.6,Physical damage
+INC-002334,AST-00937,2026-03-04,Critical,22.4,Inspection finding
+INC-002335,AST-00937,2025-08-18,Critical,12.7,Overheating
+INC-002336,AST-00937,2025-02-25,Low,1.4,Inspection finding
+INC-002337,AST-00937,2025-01-13,Medium,0.5,Protection trip
+INC-002338,AST-00937,2025-06-03,High,2.1,Physical damage
+INC-002339,AST-00937,2025-12-15,Medium,1.9,Electrical fault
+INC-002340,AST-00938,2024-09-05,High,1.8,Physical damage
+INC-002341,AST-00938,2025-12-05,Medium,1.6,Inspection finding
+INC-002342,AST-00939,2024-03-05,Medium,3.9,Physical damage
+INC-002343,AST-00939,2026-01-19,High,9.5,Protection trip
+INC-002344,AST-00939,2025-11-21,Medium,0.4,Overheating
+INC-002345,AST-00939,2025-05-19,Medium,2.5,Physical damage
+INC-002346,AST-00939,2024-09-05,Critical,4.3,Physical damage
+INC-002347,AST-00939,2025-11-17,Low,0.8,Overheating
+INC-002348,AST-00939,2026-03-23,Low,1.1,Electrical fault
+INC-002349,AST-00939,2024-01-12,Medium,1.7,Electrical fault
+INC-002350,AST-00940,2025-01-31,Medium,2.0,Physical damage
+INC-002351,AST-00941,2024-04-17,Medium,4.8,Electrical fault
+INC-002352,AST-00941,2026-08-05,Medium,2.1,Overheating
+INC-002353,AST-00942,2025-07-07,High,6.0,Electrical fault
+INC-002354,AST-00942,2025-09-26,Medium,0.4,Inspection finding
+INC-002355,AST-00942,2024-03-04,Low,3.8,Overheating
+INC-002356,AST-00942,2026-01-04,Medium,5.1,Electrical fault
+INC-002357,AST-00942,2025-11-12,Low,0.4,Physical damage
+INC-002358,AST-00942,2025-01-07,Low,0.9,Physical damage
+INC-002359,AST-00942,2025-12-15,Medium,1.5,Physical damage
+INC-002360,AST-00942,2026-01-08,Medium,4.9,Electrical fault
+INC-002361,AST-00942,2026-07-28,Medium,4.9,Physical damage
+INC-002362,AST-00943,2024-07-26,Low,1.3,Protection trip
+INC-002363,AST-00943,2024-08-05,Low,1.4,Overheating
+INC-002364,AST-00943,2025-03-22,Medium,3.5,Protection trip
+INC-002365,AST-00943,2026-07-14,Low,2.5,Protection trip
+INC-002366,AST-00945,2026-05-02,Medium,4.3,Electrical fault
+INC-002367,AST-00945,2025-07-25,Medium,1.8,Physical damage
+INC-002368,AST-00945,2026-06-12,Low,1.9,Overheating
+INC-002369,AST-00946,2026-02-27,Medium,2.1,Physical damage
+INC-002370,AST-00947,2025-06-15,Medium,0.6,Inspection finding
+INC-002371,AST-00948,2024-08-06,Low,2.2,Inspection finding
+INC-002372,AST-00948,2025-01-04,Critical,1.8,Protection trip
+INC-002373,AST-00949,2026-08-12,High,2.7,Physical damage
+INC-002374,AST-00950,2025-09-26,Medium,1.8,Electrical fault
+INC-002375,AST-00950,2024-09-15,Low,0.5,Electrical fault
+INC-002376,AST-00951,2026-02-12,Critical,8.4,Physical damage
+INC-002377,AST-00952,2025-05-02,Low,0.6,Overheating
+INC-002378,AST-00952,2025-02-11,Low,2.6,Physical damage
+INC-002379,AST-00954,2025-11-21,Low,2.5,Inspection finding
+INC-002380,AST-00954,2026-05-22,High,8.3,Inspection finding
+INC-002381,AST-00954,2025-06-27,Low,0.4,Overheating
+INC-002382,AST-00954,2024-08-30,Medium,9.9,Physical damage
+INC-002383,AST-00955,2025-03-16,Low,2.8,Protection trip
+INC-002384,AST-00955,2025-10-08,High,1.0,Inspection finding
+INC-002385,AST-00956,2025-05-13,Medium,6.5,Physical damage
+INC-002386,AST-00956,2026-08-02,Medium,5.0,Inspection finding
+INC-002387,AST-00956,2024-02-17,Low,2.3,Protection trip
+INC-002388,AST-00956,2024-09-12,Medium,2.8,Inspection finding
+INC-002389,AST-00956,2026-01-26,Low,1.3,Overheating
+INC-002390,AST-00958,2024-03-03,Medium,3.1,Protection trip
+INC-002391,AST-00958,2025-12-11,Critical,4.8,Electrical fault
+INC-002392,AST-00959,2026-02-22,Low,1.5,Electrical fault
+INC-002393,AST-00959,2024-05-22,Low,1.6,Overheating
+INC-002394,AST-00959,2024-07-12,Low,0.9,Electrical fault
+INC-002395,AST-00959,2024-04-05,High,4.4,Protection trip
+INC-002396,AST-00959,2025-01-10,Medium,1.9,Overheating
+INC-002397,AST-00959,2025-12-12,High,3.0,Overheating
+INC-002398,AST-00961,2024-04-25,Low,1.3,Electrical fault
+INC-002399,AST-00961,2024-05-30,Low,1.2,Physical damage
+INC-002400,AST-00961,2024-08-19,Medium,4.8,Overheating
+INC-002401,AST-00962,2026-02-11,Low,1.0,Overheating
+INC-002402,AST-00962,2024-02-23,Critical,4.9,Physical damage
+INC-002403,AST-00963,2026-04-06,Medium,1.8,Overheating
+INC-002404,AST-00963,2024-03-30,Low,1.4,Physical damage
+INC-002405,AST-00963,2025-01-24,Medium,3.7,Protection trip
+INC-002406,AST-00964,2026-02-22,Low,1.2,Electrical fault
+INC-002407,AST-00965,2025-08-10,Critical,7.3,Physical damage
+INC-002408,AST-00966,2024-03-16,High,6.1,Overheating
+INC-002409,AST-00966,2026-05-11,High,2.8,Inspection finding
+INC-002410,AST-00966,2024-05-06,Critical,2.2,Inspection finding
+INC-002411,AST-00967,2026-07-22,Low,1.4,Electrical fault
+INC-002412,AST-00967,2025-12-13,Medium,2.0,Electrical fault
+INC-002413,AST-00968,2026-06-07,Low,4.8,Electrical fault
+INC-002414,AST-00968,2024-01-05,Low,4.6,Physical damage
+INC-002415,AST-00968,2024-02-03,Low,0.4,Electrical fault
+INC-002416,AST-00969,2024-10-25,Medium,1.0,Electrical fault
+INC-002417,AST-00969,2024-05-09,High,5.7,Physical damage
+INC-002418,AST-00970,2025-09-16,Medium,1.0,Physical damage
+INC-002419,AST-00970,2024-07-28,Medium,2.2,Physical damage
+INC-002420,AST-00970,2025-07-19,High,3.4,Electrical fault
+INC-002421,AST-00971,2026-04-29,Medium,1.3,Overheating
+INC-002422,AST-00971,2024-05-04,Medium,1.4,Electrical fault
+INC-002423,AST-00973,2025-08-23,Medium,0.9,Electrical fault
+INC-002424,AST-00973,2026-07-18,Low,0.7,Inspection finding
+INC-002425,AST-00974,2024-09-21,Low,1.1,Inspection finding
+INC-002426,AST-00974,2026-03-22,Medium,1.2,Overheating
+INC-002427,AST-00974,2026-05-23,High,6.8,Physical damage
+INC-002428,AST-00974,2024-05-15,Medium,1.0,Physical damage
+INC-002429,AST-00974,2026-08-11,High,1.1,Physical damage
+INC-002430,AST-00974,2026-06-09,Low,2.5,Protection trip
+INC-002431,AST-00974,2025-01-02,Medium,2.0,Protection trip
+INC-002432,AST-00974,2025-08-11,Low,1.4,Physical damage
+INC-002433,AST-00976,2024-03-25,Medium,3.0,Inspection finding
+INC-002434,AST-00978,2025-09-21,Low,3.0,Overheating
+INC-002435,AST-00979,2024-08-01,High,4.0,Overheating
+INC-002436,AST-00979,2024-12-30,Low,1.2,Physical damage
+INC-002437,AST-00980,2025-10-12,Medium,2.9,Physical damage
+INC-002438,AST-00981,2024-09-12,High,4.9,Physical damage
+INC-002439,AST-00981,2024-07-10,Low,0.9,Overheating
+INC-002440,AST-00982,2026-02-12,High,1.9,Protection trip
+INC-002441,AST-00983,2025-02-05,Low,1.0,Physical damage
+INC-002442,AST-00983,2026-03-21,Low,0.8,Physical damage
+INC-002443,AST-00983,2026-01-30,Low,3.2,Physical damage
+INC-002444,AST-00983,2024-10-13,High,3.0,Overheating
+INC-002445,AST-00983,2024-08-27,Low,2.6,Inspection finding
+INC-002446,AST-00984,2026-03-07,Low,3.0,Protection trip
+INC-002447,AST-00984,2025-03-20,Low,1.3,Protection trip
+INC-002448,AST-00984,2026-02-02,Medium,0.4,Electrical fault
+INC-002449,AST-00984,2025-05-13,Low,1.8,Overheating
+INC-002450,AST-00985,2024-12-31,Medium,2.8,Physical damage
+INC-002451,AST-00986,2025-11-14,Low,3.2,Physical damage
+INC-002452,AST-00986,2025-11-23,Low,1.0,Inspection finding
+INC-002453,AST-00986,2024-05-14,Medium,4.4,Physical damage
+INC-002454,AST-00986,2024-01-07,Medium,4.0,Overheating
+INC-002455,AST-00987,2024-05-05,Medium,5.1,Protection trip
+INC-002456,AST-00987,2025-08-07,High,3.4,Inspection finding
+INC-002457,AST-00987,2024-06-28,Medium,4.4,Physical damage
+INC-002458,AST-00987,2024-09-09,Low,0.4,Protection trip
+INC-002459,AST-00988,2024-07-09,Critical,10.4,Inspection finding
+INC-002460,AST-00988,2025-01-14,Medium,0.4,Protection trip
+INC-002461,AST-00989,2024-02-16,Medium,1.1,Physical damage
+INC-002462,AST-00989,2024-01-04,Low,1.3,Protection trip
+INC-002463,AST-00990,2025-10-14,Low,1.2,Protection trip
+INC-002464,AST-00990,2026-07-09,High,4.4,Electrical fault
+INC-002465,AST-00991,2026-01-17,Low,0.9,Physical damage
+INC-002466,AST-00991,2024-03-07,Low,0.8,Protection trip
+INC-002467,AST-00992,2024-01-22,Medium,2.9,Physical damage
+INC-002468,AST-00992,2024-11-02,Low,1.6,Protection trip
+INC-002469,AST-00992,2024-07-11,Medium,1.6,Physical damage
+INC-002470,AST-00993,2025-01-22,High,5.5,Overheating
+INC-002471,AST-00993,2025-02-07,Low,3.5,Inspection finding
+INC-002472,AST-00994,2024-11-01,High,3.4,Protection trip
+INC-002473,AST-00994,2026-03-02,Low,1.0,Protection trip
+INC-002474,AST-00994,2026-01-08,Medium,2.2,Inspection finding
+INC-002475,AST-00994,2025-08-14,Medium,1.3,Overheating
+INC-002476,AST-00994,2026-06-30,Low,1.5,Overheating
+INC-002477,AST-00995,2026-06-26,Medium,1.6,Overheating
+INC-002478,AST-00995,2025-08-20,Medium,1.4,Protection trip
+INC-002479,AST-00996,2025-08-13,Medium,3.3,Protection trip
+INC-002480,AST-00996,2026-08-05,Medium,4.1,Protection trip
+INC-002481,AST-00996,2025-06-14,Medium,7.9,Overheating
+INC-002482,AST-00997,2026-05-04,Medium,0.4,Physical damage
+INC-002483,AST-00999,2024-10-06,Medium,0.9,Protection trip
+INC-002484,AST-00999,2025-08-16,Medium,0.7,Electrical fault
+INC-002485,AST-01000,2024-07-06,Medium,2.7,Protection trip
+INC-002486,AST-01000,2025-11-15,Low,0.6,Physical damage

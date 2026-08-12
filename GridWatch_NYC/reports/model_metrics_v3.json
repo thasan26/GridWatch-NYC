@@ -1,0 +1,157 @@
+{
+  "split": {
+    "train_end": "2025-12-31",
+    "validation_end": "2026-04-30",
+    "test_start": "2026-05-01",
+    "method": "chronological holdout"
+  },
+  "train": {
+    "rows": 24000,
+    "positives": 1440,
+    "prevalence": 0.06
+  },
+  "validation": {
+    "rows": 4000,
+    "positives": 266,
+    "prevalence": 0.0665
+  },
+  "test": {
+    "rows": 3000,
+    "positives": 215,
+    "prevalence": 0.07166666666666667
+  },
+  "baseline_test": {
+    "roc_auc": 0.5,
+    "pr_auc": 0.07166666666666667,
+    "precision": 0.0,
+    "recall": 0.0,
+    "f1": 0.0,
+    "brier": 0.06666666666666668,
+    "threshold": 0.5,
+    "positives": 215,
+    "rows": 3000,
+    "confusion_matrix": [
+      [
+        2785,
+        0
+      ],
+      [
+        215,
+        0
+      ]
+    ]
+  },
+  "logistic_regression": {
+    "validation": {
+      "roc_auc": 0.6927119620153759,
+      "pr_auc": 0.13213993298021176,
+      "precision": 0.12894961571306576,
+      "recall": 0.5676691729323309,
+      "f1": 0.21016005567153792,
+      "brier": 0.060156873325644095,
+      "threshold": 0.08607619477095399,
+      "positives": 266,
+      "rows": 4000,
+      "confusion_matrix": [
+        [
+          2714,
+          1020
+        ],
+        [
+          115,
+          151
+        ]
+      ]
+    },
+    "test": {
+      "roc_auc": 0.6907870235063254,
+      "pr_auc": 0.1317905037953273,
+      "precision": 0.13789473684210526,
+      "recall": 0.6093023255813953,
+      "f1": 0.22489270386266094,
+      "brier": 0.06455114457021863,
+      "threshold": 0.08607619477095399,
+      "positives": 215,
+      "rows": 3000,
+      "confusion_matrix": [
+        [
+          1966,
+          819
+        ],
+        [
+          84,
+          131
+        ]
+      ]
+    }
+  },
+  "hist_gradient_boosting": {
+    "validation": {
+      "roc_auc": 0.7042030961173689,
+      "pr_auc": 0.1568946965143027,
+      "precision": 0.1307829181494662,
+      "recall": 0.5526315789473685,
+      "f1": 0.21151079136690648,
+      "brier": 0.060206470301712806,
+      "threshold": 0.07204974657798574,
+      "positives": 266,
+      "rows": 4000,
+      "confusion_matrix": [
+        [
+          2757,
+          977
+        ],
+        [
+          119,
+          147
+        ]
+      ]
+    },
+    "test": {
+      "roc_auc": 0.7107903636591374,
+      "pr_auc": 0.17829434267719468,
+      "precision": 0.14399092970521543,
+      "recall": 0.5906976744186047,
+      "f1": 0.2315405651777575,
+      "brier": 0.06414599993160228,
+      "threshold": 0.07204974657798574,
+      "positives": 215,
+      "rows": 3000,
+      "confusion_matrix": [
+        [
+          2030,
+          755
+        ],
+        [
+          88,
+          127
+        ]
+      ]
+    }
+  },
+  "selected_model": "hist_gradient_boosting",
+  "selected_threshold": 0.07204974657798574,
+  "selected_test": {
+    "roc_auc": 0.7107903636591374,
+    "pr_auc": 0.17829434267719468,
+    "precision": 0.14399092970521543,
+    "recall": 0.5906976744186047,
+    "f1": 0.2315405651777575,
+    "brier": 0.06414599993160228,
+    "threshold": 0.07204974657798574,
+    "positives": 215,
+    "rows": 3000,
+    "confusion_matrix": [
+      [
+        2030,
+        755
+      ],
+      [
+        88,
+        127
+      ]
+    ]
+  },
+  "calibration_method": "logistic/Platt calibration on validation period",
+  "target_definition": "corrective work order created within the next 30 days"
+}

@@ -1,0 +1,117 @@
+{
+  "overall_status": "PASS",
+  "checks_passed": 15,
+  "checks_total": 15,
+  "as_of": "2026-07-31",
+  "records": {
+    "assets": 1000,
+    "inspections": 11000,
+    "incidents": 2486,
+    "work_orders": 6102,
+    "technicians": 24,
+    "asset_month_snapshots": 31000,
+    "current_open_work_orders": 195,
+    "current_overdue_work_orders": 145
+  },
+  "freshness": {
+    "latest_inspection": "2026-06-19",
+    "latest_incident_raw_horizon": "2026-08-31",
+    "latest_work_order_raw_horizon": "2026-08-31",
+    "latest_model_snapshot": "2026-07-31"
+  },
+  "checks": [
+    {
+      "check": "Unique asset IDs",
+      "passed": true,
+      "value": 1000,
+      "expectation": "All asset IDs unique"
+    },
+    {
+      "check": "Unique incident IDs",
+      "passed": true,
+      "value": 2486,
+      "expectation": "All incident IDs unique"
+    },
+    {
+      "check": "Unique work-order IDs",
+      "passed": true,
+      "value": 6102,
+      "expectation": "All work-order IDs unique"
+    },
+    {
+      "check": "Inspection referential integrity",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 orphan rows"
+    },
+    {
+      "check": "Incident referential integrity",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 orphan rows"
+    },
+    {
+      "check": "Work-order referential integrity",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 orphan rows"
+    },
+    {
+      "check": "Condition-score range",
+      "passed": true,
+      "value": "28.7\u2013100.0",
+      "expectation": "0\u2013100"
+    },
+    {
+      "check": "Criticality range",
+      "passed": true,
+      "value": "1\u20135",
+      "expectation": "1\u20135"
+    },
+    {
+      "check": "Positive job durations",
+      "passed": true,
+      "value": 1.5,
+      "expectation": "> 0"
+    },
+    {
+      "check": "SLA dates valid",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 invalid"
+    },
+    {
+      "check": "Completion dates valid",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 invalid"
+    },
+    {
+      "check": "Snapshot null control",
+      "passed": true,
+      "value": 0,
+      "expectation": "0 null feature values"
+    },
+    {
+      "check": "Snapshot target binary",
+      "passed": true,
+      "value": [
+        0,
+        1
+      ],
+      "expectation": "Only 0/1"
+    },
+    {
+      "check": "Technician capacity positive",
+      "passed": true,
+      "value": 7.5,
+      "expectation": "> 0"
+    },
+    {
+      "check": "Aged-backlog realism",
+      "passed": true,
+      "value": 8,
+      "expectation": "\u226412% or \u22645 open jobs older than 90 days"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+feature,importance
+num__condition_score,0.0734413049017608
+num__days_since_maintenance,0.04281657392321928
+num__age_years,0.0070880861055675
+num__criticality,0.003376819492029226
+num__incidents_30d,0.0026921068402832454
+num__open_work_orders,0.0011789708580816557
+num__inspection_trend,0.0006640932567246113
+cat__borough_Bronx,0.0003100943149578206
+cat__asset_type_Feeder Cable,0.0001492200093879681
+cat__borough_Brooklyn,0.00013828873879226378
+cat__borough_Queens,1.303327241011093e-05
+num__open_critical_work_orders,0.0
+num__overdue_work_orders,0.0
+num__repeat_failure_flag,0.0
+num__incidents_90d,-6.300395481846632e-05
+cat__asset_type_Third Rail Segment,-0.00039037646448059765
+cat__asset_type_Circuit Breaker House,-0.0005138998841832318
+num__incidents_365d,-0.00078444748551567
+cat__borough_Manhattan,-0.0015375283433161496
+cat__asset_type_Substation,-0.0016695420900064983
+num__downtime_90d,-0.0017175424163492006

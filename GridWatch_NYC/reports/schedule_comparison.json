@@ -1,0 +1,24 @@
+{
+  "baseline": {
+    "jobs_assigned": 34,
+    "labor_hours": 174.79999999999998,
+    "priority_points": 1388.777228011885,
+    "critical_jobs": 4,
+    "overdue_jobs": 33,
+    "unresolved_risk": 1429.1961328371528
+  },
+  "optimized": {
+    "jobs_assigned": 40,
+    "labor_hours": 198.5,
+    "priority_points": 1678.375036968211,
+    "critical_jobs": 2,
+    "overdue_jobs": 39,
+    "unresolved_risk": 1139.5983238808267
+  },
+  "solver_success": true,
+  "solver_status": "Optimization terminated successfully. (HiGHS Status 7: Optimal)",
+  "improvement": {
+    "priority_points_pct": 20.852718716514524,
+    "unresolved_risk_reduction_pct": 20.262985765392067
+  }
+}
