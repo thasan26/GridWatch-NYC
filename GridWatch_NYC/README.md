@@ -1,123 +1,185 @@
 # GridWatch NYC
-### Predictive Maintenance • Reliability Analytics • Optimization • Scenario Planning
 
-**GridWatch NYC** is an end-to-end operations analytics and decision-support system for a synthetic urban rail power-asset portfolio. It goes beyond descriptive BI by connecting **longitudinal feature engineering, rare-event predictive modeling, probability calibration, advanced SQL, constrained maintenance optimization, capacity stress testing, and automated data-quality controls** in one reproducible workflow.
+### Reliability Engineering, Predictive Maintenance & Decision Analytics Platform
 
-> **Portfolio disclosure:** All operational records are synthetic and generated for demonstration. This project is not affiliated with the MTA and contains no confidential or internal agency information.
+**Python · SQL · Machine Learning · Optimization · Streamlit · Power BI · Excel**
 
-![GridWatch NYC verified analytical results](reports/figures/executive_results.png)
+GridWatch NYC is an end-to-end analytics portfolio project that transforms synthetic urban rail power-infrastructure data into **risk intelligence, maintenance priorities, workforce optimization, scenario planning, and management-ready decision support**.
 
-## Executive snapshot
+> **Portfolio disclaimer:** All operational data in this project is synthetic. No confidential, proprietary, or internal MTA data is used. This project is not affiliated with or endorsed by the MTA or New York City Transit.
 
-| Verified result | Final run |
+---
+
+## Executive Command Center
+
+The Command Center brings asset risk, maintenance backlog, predictive signals, and recommended actions into a single operational view.
+
+![GridWatch NYC Command Center](screenshots/command-center.png)
+
+### Executive KPIs
+
+| Metric | Current View |
 |---|---:|
-| Asset-month modeling observations | **31,000** |
-| Training / validation / holdout | **24,000 / 4,000 / 3,000** |
-| Selected model | **HistGradientBoosting** |
-| Holdout PR-AUC | **0.188** |
-| Prevalence baseline PR-AUC | **0.072** |
-| PR-AUC lift over baseline | **2.6×** |
-| Holdout ROC-AUC | **0.712** |
-| Recall at frozen threshold | **57.2%** |
-| Precision at frozen threshold | **14.5%** |
-| Optimizer status | **Optimal** |
-| Unresolved weighted-priority reduction vs heuristic | **17.9%** |
-| Automated tests | **12 passed** |
-| Data-quality controls | **15/15 passed** |
+| Assets monitored | 1,000 |
+| Critical-risk assets | 5 |
+| Model-flagged assets | 286 |
+| Open work orders | 195 |
+| Overdue work orders | 145 |
+| Operational snapshot | 2026-07-31 |
 
-*These are synthetic scenario results, not claims about real MTA assets or production performance.*
+The goal is to move beyond static reporting and answer a more useful management question: **what requires attention next, and why?**
 
-## The management problem
+---
 
-A maintenance organization does not only need to know **what happened**. It must decide **what to do next**:
+## Business Problem
 
-- Which assets deserve attention before they generate corrective work?
-- How should rare-event risk be evaluated without relying on misleading accuracy?
-- Which work orders should be scheduled when labor hours and technician skills are constrained?
-- How much residual operational risk remains if staffing capacity changes?
-- Can the analytical pipeline be explained, reproduced, and audited?
+Infrastructure maintenance teams must balance asset condition, incident history, overdue work, limited technician capacity, and competing operational priorities. GridWatch NYC demonstrates an analytical workflow for turning those signals into a structured decision process.
 
-GridWatch was designed around those questions.
+**Decision flow:**
 
-## Decision architecture
+`Operational Data → Quality Controls → Feature Engineering → Predictive Risk → Prioritization → Optimization → Scenario Testing → Management Decision Support`
+
+---
+
+## Asset Intelligence
+
+The Asset Intelligence view provides asset-level drill-down analysis using the same operational history that feeds the predictive model.
+
+![Asset Intelligence](screenshots/asset-intelligence.png)
+
+It combines **30-day modeled risk, condition score, incident history, criticality, inspections, and work-order history** to provide an interpretable operational profile and recommended action.
+
+### Condition Trend Analysis
+
+![Inspection History](screenshots/inspection-history.png)
+
+Historical inspection scores help identify deterioration patterns and provide context for model-generated risk signals.
+
+---
+
+## Maintenance Optimizer
+
+Predictive analytics becomes more valuable when it can support resource-allocation decisions. The Maintenance Optimizer evaluates technician skills, labor capacity, work-order priority, SLA deadlines, job duration, and modeled asset risk.
+
+![Maintenance Optimizer](screenshots/maintenance-optimizer.png)
+
+### Optimization Snapshot
+
+| Metric | Result |
+|---|---:|
+| Priority points scheduled | 1,678 |
+| Unresolved weighted priority | 1,140 |
+| Jobs assigned | 40 |
+| Improvement vs. rule-based baseline | **20.3%** |
+| Solver status | **Optimal** |
+
+### Technician Utilization
+
+![Technician Utilization](screenshots/technician-utilization.png)
+
+This layer connects predictive insights to an operational question: **given limited labor capacity, which work should be scheduled first?**
+
+---
+
+## Scenario Planning
+
+Scenario Planning compares alternative maintenance strategies under the same resource constraints.
+
+![Scenario Planning](screenshots/scenario-planning.png)
+
+The platform compares **risk-first**, **SLA/backlog-first**, and **optimized** allocation strategies. In the displayed synthetic scenario, the optimized plan schedules 40 jobs, reaches 97.0% labor utilization, and achieves a 59.4% weighted-risk reduction.
+
+### Capacity Stress Test
+
+![Capacity Stress Test](screenshots/capacity-stress-test.png)
+
+Capacity stress testing measures how residual weighted risk changes as maintenance capacity increases or decreases, helping identify where additional resources produce the strongest modeled benefit.
+
+---
+
+## Predictive Modeling & Validation
+
+GridWatch NYC includes a chronological machine-learning validation workflow for predicting future corrective-maintenance events.
+
+![Model Validation](screenshots/model-validation.png)
+
+### Selected Model — Histogram Gradient Boosting
+
+| Holdout Metric | Result |
+|---|---:|
+| PR-AUC | **0.178** |
+| ROC-AUC | **0.711** |
+| Precision | **14.4%** |
+| Recall | **59.1%** |
+| Brier score | **0.064** |
+| Operating threshold | **7.2%** |
+
+Validation includes **chronological holdout testing, precision-recall analysis, probability calibration, confusion-matrix evaluation, feature-importance analysis, and threshold selection**.
+
+The model is designed for **prioritization and decision support**, not autonomous maintenance decisions.
+
+---
+
+## Data Quality & Controls
+
+Analytics outputs are only useful when the underlying data is trustworthy. GridWatch NYC includes automated controls for identifiers, referential integrity, valid ranges, dates, nulls, targets, technician capacity, and backlog realism.
+
+![Data Quality and Controls](screenshots/data-quality.png)
+
+**15 / 15 automated validation checks pass** in the current project snapshot.
+
+---
+
+## Data Lineage, Freshness & Governance
+
+The project separates raw synthetic operational history from leakage-controlled modeling snapshots and manager-facing current-state views.
+
+![Data Governance](screenshots/data-governance.png)
+
+The workflow explicitly accounts for **temporal leakage, backtesting horizons, snapshot freshness, holdout evaluation, and production-governance limitations**.
+
+---
+
+## Analytics Architecture
 
 ```text
-Assets + Inspections + Incidents + Work Orders + Technicians
-                            │
-                            ▼
-                   Data-Quality Controls
-                            │
-                            ▼
-            Leakage-Controlled Asset-Month Snapshots
-                            │
-                            ▼
-             30-Day Corrective-Maintenance Risk
-       Logistic Regression ↔ HistGradientBoosting
-             temporal validation + calibration
-                            │
-             ┌──────────────┴──────────────┐
-             ▼                             ▼
-      Asset Intelligence             Priority Engine
-   condition / incidents /       risk / SLA / criticality /
-    maintenance history           condition deterioration
-             │                             │
-             └──────────────┬──────────────┘
-                            ▼
-                Constrained Optimization
-              skills + labor-hour capacity
-                            │
-                            ▼
-                  Scenario Planning Lab
-               50%–120% capacity stress test
-                            │
-                            ▼
-                 Streamlit Command Center
+Synthetic Asset Registry
+        │
+        ├── Inspection History
+        ├── Incident History
+        └── Maintenance Work Orders
+                    │
+                    ▼
+          Data Quality Controls
+                    │
+                    ▼
+        Monthly Asset Snapshots
+                    │
+                    ▼
+           Feature Engineering
+                    │
+                    ▼
+      30-Day Maintenance-Risk Model
+                    │
+          ┌─────────┴─────────┐
+          ▼                   ▼
+ Risk Prioritization   Model Validation
+          │
+          ▼
+ Maintenance Optimization
+          │
+          ▼
+   Scenario / Capacity Testing
+          │
+          ▼
+ Management Decision Support
 ```
 
-## Why this is more than a dashboard
+---
 
-### 1. Longitudinal, leakage-controlled feature engineering
-The model uses **31,000 monthly asset snapshots**, not one static row per asset. Every feature is constructed only from information available on or before the snapshot date. The target asks whether a **corrective work order is created in the following 30 days**.
+## Technology Stack
 
-This demonstrates rolling-window analysis, maintenance-history features, inspection trends, incident/downtime aggregation, and explicit prevention of future-information leakage.
-
-### 2. Temporal validation instead of a random split
-The workflow uses chronological partitions:
-
-- **Training:** through 2025-12-31
-- **Validation / calibration:** 2026-01-01 through 2026-04-30
-- **Untouched holdout:** beginning 2026-05-01
-
-The operating threshold is selected on validation data and frozen before holdout evaluation.
-
-![Precision–recall curve](reports/figures/precision_recall.png)
-
-### 3. Rare-event evaluation + probability calibration
-Corrective maintenance is a relatively rare event, so the project emphasizes **PR-AUC, recall, precision, ROC-AUC, F1, Brier score, calibration, and confusion-matrix behavior** instead of headline accuracy.
-
-![Probability calibration](reports/figures/calibration.png)
-
-### 4. Explainable asset intelligence
-The application combines modeled risk with transparent operational contributors: condition deterioration, inspection decline, recent incidents, repeat failures, maintenance interval, open critical work, and asset criticality.
-
-These are labeled **decision-support contributors**, not causal explanations or fabricated SHAP values.
-
-![Asset risk by type](reports/figures/asset_risk_by_type.png)
-
-### 5. Mathematical maintenance optimization
-Open work is not merely sorted by a score. Technician scheduling is formulated as a **mixed-integer optimization problem** with skill compatibility, labor-hour capacity, estimated job duration, operational priority, and one-assignment-per-job constraints.
-
-The optimized plan is evaluated against a transparent priority/SLA heuristic under the **same capacity constraints**.
-
-### 6. Scenario + resource planning
-The Scenario Planning Lab lets a manager change modeled-risk weight, SLA/backlog urgency, asset criticality, condition deterioration, total maintenance capacity, and jobs considered. It compares **risk-first, SLA-first, and optimized strategies** and stress-tests capacity from **50% to 120%**.
-
-### 7. Production-minded analytical controls
-Automated validation checks cover uniqueness, referential integrity, valid ranges, work-order date logic, null feature control, binary targets, technician capacity, and aged-backlog realism. The final pipeline passed **15/15 data-quality checks** and **12 automated tests**.
-
-## Professional data-analysis skills demonstrated
-
-| Skill area | Evidence |
+| Area | Technologies |
 |---|---|
 | **Python / pandas / NumPy** | reproducible pipeline, time-aware transformations, longitudinal feature engineering |
 | **Advanced SQL** | normalized schema, CTEs, joins, window functions, rolling analysis, SLA aging, DQ queries |
@@ -177,6 +239,10 @@ python -m pip install -r requirements.txt
 python run_pipeline_final.py
 python -m streamlit run app/app.py
 ```
+
+## 30-second interview explanation
+
+> I built GridWatch as an operations decision-support system rather than a reporting dashboard. I modeled asset behavior longitudinally, prevented future-data leakage, evaluated rare-event predictions on a chronological holdout, calibrated probabilities, converted reliability signals into an auditable maintenance-priority framework, optimized technician assignments under skill and labor constraints, and stress-tested how staffing capacity changes residual operational risk. I also added automated data-quality controls and model documentation so the analytical outputs are reproducible and reviewable.
 
 ## Technical documentation
 
