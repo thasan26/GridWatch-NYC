@@ -181,70 +181,78 @@ Synthetic Asset Registry
 
 | Area | Technologies |
 |---|---|
-| Data analysis | Python, Pandas, NumPy |
-| Querying / data work | SQL |
-| Machine learning | scikit-learn |
-| Visualization | Plotly, Matplotlib |
-| Interactive application | Streamlit |
-| Business intelligence | Power BI |
-| Operational reporting | Excel |
-| Version control | Git, GitHub |
+| **Python / pandas / NumPy** | reproducible pipeline, time-aware transformations, longitudinal feature engineering |
+| **Advanced SQL** | normalized schema, CTEs, joins, window functions, rolling analysis, SLA aging, DQ queries |
+| **Predictive analytics** | logistic benchmark + gradient-boosting challenger for rare-event classification |
+| **Model validation** | temporal holdout, calibration, frozen threshold, PR-AUC/ROC-AUC/Brier/precision/recall |
+| **Operations research** | mixed-integer scheduling under technician-skill and labor constraints |
+| **Scenario analysis** | strategy comparison + 50%–120% staffing-capacity stress test |
+| **Data quality** | referential integrity, range/date controls, freshness and backtesting boundaries |
+| **Visualization** | Streamlit + Plotly manager-facing decision application |
+| **Business analysis** | risk queue, SLA exposure, maintenance prioritization, residual-risk trade-offs |
+| **Governance / documentation** | architecture, methodology, data dictionary, model card, explicit limitations |
 
----
+## Dashboard modules
 
-## What This Project Demonstrates
+**Command Center** — Executive action brief, risk queue, backlog exposure, and portfolio-level decision signals.
 
-### Data Analytics
-- KPI design and operational reporting
-- Asset-condition and incident analysis
-- Maintenance backlog and SLA analysis
-- Trend analysis and decision-oriented visualization
+**Asset Intelligence** — Asset risk, transparent contributors, inspection history, incidents, and work-order history.
 
-### Machine Learning
-- Feature engineering
-- Predictive maintenance classification
-- Chronological train/validation/holdout design
-- Precision-recall and ROC evaluation
-- Probability calibration
-- Threshold selection and model interpretation
+**Maintenance Optimizer** — Baseline-vs-optimized scheduling, technician assignments, utilization, and solver status.
 
-### Optimization & Operations Analytics
-- Resource-constrained maintenance scheduling
-- Technician skill/capacity allocation
-- Priority-based optimization
-- Strategy comparison
-- Capacity stress testing
+**Scenario Planning** — Interactive resource assumptions, strategy comparison, residual-risk analysis, and capacity stress testing.
 
-### Data Quality & Governance
-- Referential-integrity controls
-- Range and null validation
-- Leakage-aware analytical snapshots
-- Backtesting controls
-- Data lineage and freshness checks
+**Model Validation** — Temporal split design, model comparison, precision–recall analysis, calibration, confusion matrix, and predictive signals.
 
-### Business Intelligence
-- Executive KPI design
-- Interactive decision dashboards
-- Risk prioritization
-- Management-facing recommendations
-- Translating technical outputs into operational actions
+**Data Quality** — Automated controls, lineage, freshness, backtesting boundaries, and production-governance limitations.
 
----
+## Repository structure
 
-## Business Value
+```text
+GridWatch_NYC/
+├── app/                         # Streamlit decision-support application
+├── data/
+│   ├── raw/                     # synthetic operational histories
+│   └── processed/               # snapshots, risk scores, schedules, drivers
+├── docs/                        # architecture, methodology, model card, dictionary
+├── reports/
+│   ├── figures/                 # portfolio / README visuals
+│   ├── model_metrics_v3.json
+│   ├── data_quality_report.json
+│   └── schedule_comparison.json
+├── sql/                         # schema + analytical + data-quality SQL
+├── src/
+│   ├── data_generation/
+│   ├── features/
+│   ├── modeling/
+│   ├── optimization/
+│   └── validation/
+├── tests/
+├── requirements.txt
+└── run_pipeline_final.py
+```
 
-GridWatch NYC demonstrates the progression from traditional descriptive reporting to decision analytics:
+## Reproduce the full pipeline
 
-**What happened?** → operational KPIs and historical analysis  
-**What is likely to happen?** → predictive maintenance risk  
-**What deserves attention?** → risk-based prioritization  
-**What should we do with limited resources?** → maintenance optimization  
-**What happens if capacity changes?** → scenario and stress testing
+```bash
+python -m pip install -r requirements.txt
+python run_pipeline_final.py
+python -m streamlit run app/app.py
+```
 
-The result is a portfolio case study that connects **data analysis, machine learning, optimization, visualization, and business decision support** in one coherent workflow.
+## 30-second interview explanation
 
----
+> I built GridWatch as an operations decision-support system rather than a reporting dashboard. I modeled asset behavior longitudinally, prevented future-data leakage, evaluated rare-event predictions on a chronological holdout, calibrated probabilities, converted reliability signals into an auditable maintenance-priority framework, optimized technician assignments under skill and labor constraints, and stress-tested how staffing capacity changes residual operational risk. I also added automated data-quality controls and model documentation so the analytical outputs are reproducible and reviewable.
 
-## Disclaimer
+## Technical documentation
 
-GridWatch NYC is an independent educational and professional portfolio project. **All data is synthetic.** It is not affiliated with, endorsed by, or developed for the Metropolitan Transportation Authority (MTA) or New York City Transit, and it contains no confidential or internal agency information.
+- [Architecture](docs/architecture.md)
+- [Methodology](docs/methodology.md)
+- [Data dictionary](docs/data_dictionary.md)
+- [Model card](docs/model_card.md)
+- [Advanced SQL analysis](sql/analytics.sql)
+- [SQL data-quality checks](sql/data_quality.sql)
+
+## Limitations and responsible use
+
+GridWatch uses synthetic data to demonstrate analytical design and engineering depth. The reported model metrics and optimization impact **must not be interpreted as real MTA performance**. A production implementation would require validated internal data, domain-engineer review, safety governance, access controls, model monitoring, audit logging, change management, and approved operating thresholds.
